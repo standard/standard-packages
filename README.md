@@ -1,6 +1,6 @@
-# List of Packages that Use JavaScript Standard Style
+# standard-packages
 
-### List of repos that depend on [`standard`](https://github.com/feross/standard)
+### List of packages that use [`standard`](https://github.com/feross/standard)
 
 [![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
 
