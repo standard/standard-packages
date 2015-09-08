@@ -45,6 +45,6 @@
     "url": "git://github.com/feross/standard-packages.git"
   },
   "scripts": {
-    "test": "standard"
+    "test": "standard && node -e \"require('.'); require('./test')\""
   }
 }
