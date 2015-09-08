@@ -1,0 +1,547 @@
+[
+  {
+    "name": "echint",
+    "repo": "https://github.com/ahmadnassri/echint"
+  },
+  {
+    "name": "forwarded-http",
+    "repo": "https://github.com/ahmadnassri/forwarded-http"
+  },
+  {
+    "name": "har-convert",
+    "repo": "https://github.com/ahmadnassri/har-convert"
+  },
+  {
+    "name": "har-expander",
+    "repo": "https://github.com/ahmadnassri/har-expander"
+  },
+  {
+    "name": "har-validator",
+    "repo": "https://github.com/ahmadnassri/har-validator"
+  },
+  {
+    "name": "har",
+    "repo": "https://github.com/ahmadnassri/har"
+  },
+  {
+    "name": "metalsmith-imagemin",
+    "repo": "https://github.com/ahmadnassri/metalsmith-imagemin"
+  },
+  {
+    "name": "metalsmith-jade",
+    "repo": "https://github.com/ahmadnassri/metalsmith-jade"
+  },
+  {
+    "name": "metalsmith-paths",
+    "repo": "https://github.com/ahmadnassri/metalsmith-paths"
+  },
+  {
+    "name": "metalsmith-request",
+    "repo": "https://github.com/ahmadnassri/metalsmith-request"
+  },
+  {
+    "name": "node-clone-benchmark",
+    "repo": "https://github.com/ahmadnassri/node-clone-benchmark"
+  },
+  {
+    "name": "pkg-config",
+    "repo": "https://github.com/ahmadnassri/pkg-config"
+  },
+  {
+    "name": "stringify-clone",
+    "repo": "https://github.com/ahmadnassri/stringify-clone"
+  },
+  {
+    "name": "winston-tcp",
+    "repo": "https://github.com/ahmadnassri/winston-tcp"
+  },
+  {
+    "name": "base64-js",
+    "repo": "https://github.com/beatgammit/base64-js"
+  },
+  {
+    "name": "coverage-test",
+    "repo": "https://github.com/brandonhorst/coverage-test"
+  },
+  {
+    "name": "GitTorrent",
+    "repo": "https://github.com/cjb/GitTorrent"
+  },
+  {
+    "name": "available",
+    "repo": "https://github.com/feross/available"
+  },
+  {
+    "name": "bittorrent-dht",
+    "repo": "https://github.com/feross/bittorrent-dht"
+  },
+  {
+    "name": "bittorrent-protocol",
+    "repo": "https://github.com/feross/bittorrent-protocol"
+  },
+  {
+    "name": "bittorrent-swarm",
+    "repo": "https://github.com/feross/bittorrent-swarm"
+  },
+  {
+    "name": "bittorrent-tracker",
+    "repo": "https://github.com/feross/bittorrent-tracker"
+  },
+  {
+    "name": "blob-to-buffer",
+    "repo": "https://github.com/feross/blob-to-buffer"
+  },
+  {
+    "name": "buffer",
+    "repo": "https://github.com/feross/buffer"
+  },
+  {
+    "name": "create-torrent",
+    "repo": "https://github.com/feross/create-torrent"
+  },
+  {
+    "name": "downgrade",
+    "repo": "https://github.com/feross/downgrade"
+  },
+  {
+    "name": "drag-drop",
+    "repo": "https://github.com/feross/drag-drop"
+  },
+  {
+    "name": "ieee754",
+    "repo": "https://github.com/feross/ieee754"
+  },
+  {
+    "name": "instant.io",
+    "repo": "https://github.com/feross/instant.io"
+  },
+  {
+    "name": "is-buffer",
+    "repo": "https://github.com/feross/is-buffer"
+  },
+  {
+    "name": "load-ip-set",
+    "repo": "https://github.com/feross/load-ip-set"
+  },
+  {
+    "name": "magnet-uri",
+    "repo": "https://github.com/feross/magnet-uri"
+  },
+  {
+    "name": "multistream",
+    "repo": "https://github.com/feross/multistream"
+  },
+  {
+    "name": "parse-torrent-file",
+    "repo": "https://github.com/feross/parse-torrent-file"
+  },
+  {
+    "name": "parse-torrent",
+    "repo": "https://github.com/feross/parse-torrent"
+  },
+  {
+    "name": "run-auto",
+    "repo": "https://github.com/feross/run-auto"
+  },
+  {
+    "name": "run-parallel-limit",
+    "repo": "https://github.com/feross/run-parallel-limit"
+  },
+  {
+    "name": "run-parallel",
+    "repo": "https://github.com/feross/run-parallel"
+  },
+  {
+    "name": "run-series",
+    "repo": "https://github.com/feross/run-series"
+  },
+  {
+    "name": "run-waterfall",
+    "repo": "https://github.com/feross/run-waterfall"
+  },
+  {
+    "name": "simple-peer",
+    "repo": "https://github.com/feross/simple-peer"
+  },
+  {
+    "name": "simple-websocket",
+    "repo": "https://github.com/feross/simple-websocket"
+  },
+  {
+    "name": "snazzy",
+    "repo": "https://github.com/feross/snazzy"
+  },
+  {
+    "name": "standard-www",
+    "repo": "https://github.com/feross/standard-www"
+  },
+  {
+    "name": "studynotes",
+    "repo": "https://github.com/feross/studynotes"
+  },
+  {
+    "name": "torrent-discovery",
+    "repo": "https://github.com/feross/torrent-discovery"
+  },
+  {
+    "name": "typedarray-to-buffer",
+    "repo": "https://github.com/feross/typedarray-to-buffer"
+  },
+  {
+    "name": "unlimited",
+    "repo": "https://github.com/feross/unlimited"
+  },
+  {
+    "name": "webtorrent-hybrid",
+    "repo": "https://github.com/feross/webtorrent-hybrid"
+  },
+  {
+    "name": "webtorrent-www",
+    "repo": "https://github.com/feross/webtorrent-www"
+  },
+  {
+    "name": "webtorrent",
+    "repo": "https://github.com/feross/webtorrent"
+  },
+  {
+    "name": "whiteboard",
+    "repo": "https://github.com/feross/whiteboard"
+  },
+  {
+    "name": "battery",
+    "repo": "https://github.com/Flet/battery"
+  },
+  {
+    "name": "clockmoji",
+    "repo": "https://github.com/Flet/clockmoji"
+  },
+  {
+    "name": "dailyconnect",
+    "repo": "https://github.com/Flet/dailyconnect"
+  },
+  {
+    "name": "exitzero",
+    "repo": "https://github.com/Flet/exitzero"
+  },
+  {
+    "name": "standard-engine",
+    "repo": "https://github.com/Flet/standard-engine"
+  },
+  {
+    "name": "airpaste",
+    "repo": "https://github.com/mafintosh/airpaste"
+  },
+  {
+    "name": "chromecasts",
+    "repo": "https://github.com/mafintosh/chromecasts"
+  },
+  {
+    "name": "cyclist",
+    "repo": "https://github.com/mafintosh/cyclist"
+  },
+  {
+    "name": "difffs",
+    "repo": "https://github.com/mafintosh/difffs"
+  },
+  {
+    "name": "fuse-bindings",
+    "repo": "https://github.com/mafintosh/fuse-bindings"
+  },
+  {
+    "name": "hms-protocol",
+    "repo": "https://github.com/mafintosh/hms-protocol"
+  },
+  {
+    "name": "hms",
+    "repo": "https://github.com/mafintosh/hms",
+    "disable": "broke since v5.0.0"
+  },
+  {
+    "name": "hyperlog",
+    "repo": "https://github.com/mafintosh/hyperlog",
+    "disable": "broke since v5.0.0"
+  },
+  {
+    "name": "idlecast",
+    "repo": "https://github.com/mafintosh/idlecast"
+  },
+  {
+    "name": "json-format-stream",
+    "repo": "https://github.com/mafintosh/json-format-stream"
+  },
+  {
+    "name": "level-enumerate",
+    "repo": "https://github.com/mafintosh/level-enumerate"
+  },
+  {
+    "name": "level-logs",
+    "repo": "https://github.com/mafintosh/level-logs"
+  },
+  {
+    "name": "level-temp",
+    "repo": "https://github.com/mafintosh/level-temp"
+  },
+  {
+    "name": "multileveldown",
+    "repo": "https://github.com/mafintosh/multileveldown",
+    "disable": "broke since v5.0.0"
+  },
+  {
+    "name": "node-gyp-install",
+    "repo": "https://github.com/mafintosh/node-gyp-install",
+    "disable": "broke since v5.0.0"
+  },
+  {
+    "name": "pbs",
+    "repo": "https://github.com/mafintosh/pbs",
+    "disable": "broke since v5.0.0"
+  },
+  {
+    "name": "random-iterate",
+    "repo": "https://github.com/mafintosh/random-iterate"
+  },
+  {
+    "name": "sorted-intersect-stream",
+    "repo": "https://github.com/mafintosh/sorted-intersect-stream"
+  },
+  {
+    "name": "ssh-exec",
+    "repo": "https://github.com/mafintosh/ssh-exec"
+  },
+  {
+    "name": "swap-to-level",
+    "repo": "https://github.com/mafintosh/swap-to-level"
+  },
+  {
+    "name": "telephone",
+    "repo": "https://github.com/mafintosh/telephone"
+  },
+  {
+    "name": "transport-stream",
+    "repo": "https://github.com/mafintosh/transport-stream"
+  },
+  {
+    "name": "what-line-is-this",
+    "repo": "https://github.com/mafintosh/what-line-is-this"
+  },
+  {
+    "name": "alf-validator",
+    "repo": "https://github.com/Mashape/alf-validator"
+  },
+  {
+    "name": "httpsnippet",
+    "repo": "https://github.com/Mashape/httpsnippet"
+  },
+  {
+    "name": "atomic-queue",
+    "repo": "https://github.com/maxogden/atomic-queue"
+  },
+  {
+    "name": "dat-core",
+    "repo": "https://github.com/maxogden/dat-core",
+    "disable": "broke since v5.2.0"
+  },
+  {
+    "name": "dat",
+    "repo": "https://github.com/maxogden/dat"
+  },
+  {
+    "name": "dependency-check",
+    "repo": "https://github.com/maxogden/dependency-check"
+  },
+  {
+    "name": "electron-packager",
+    "repo": "https://github.com/maxogden/electron-packager"
+  },
+  {
+    "name": "requirebin",
+    "repo": "https://github.com/maxogden/requirebin"
+  },
+  {
+    "name": "screencat",
+    "repo": "https://github.com/maxogden/screencat"
+  },
+  {
+    "name": "standard-format",
+    "repo": "https://github.com/maxogden/standard-format"
+  },
+  {
+    "name": "tape-spawn",
+    "repo": "https://github.com/maxogden/tape-spawn"
+  },
+  {
+    "name": "temporary-directory",
+    "repo": "https://github.com/maxogden/temporary-directory"
+  },
+  {
+    "name": "torrent",
+    "repo": "https://github.com/maxogden/torrent"
+  },
+  {
+    "name": "fastfall",
+    "repo": "https://github.com/mcollina/fastfall"
+  },
+  {
+    "name": "fastparallel",
+    "repo": "https://github.com/mcollina/fastparallel"
+  },
+  {
+    "name": "fastq",
+    "repo": "https://github.com/mcollina/fastq"
+  },
+  {
+    "name": "fastseries",
+    "repo": "https://github.com/mcollina/fastseries"
+  },
+  {
+    "name": "hyperemitter",
+    "repo": "https://github.com/mcollina/hyperemitter"
+  },
+  {
+    "name": "mqemitter-mongodb",
+    "repo": "https://github.com/mcollina/mqemitter-mongodb"
+  },
+  {
+    "name": "mqemitter-p2p",
+    "repo": "https://github.com/mcollina/mqemitter-p2p"
+  },
+  {
+    "name": "mqemitter-redis",
+    "repo": "https://github.com/mcollina/mqemitter-redis"
+  },
+  {
+    "name": "mqemitter",
+    "repo": "https://github.com/mcollina/mqemitter"
+  },
+  {
+    "name": "pruneold",
+    "repo": "https://github.com/mcollina/pruneold"
+  },
+  {
+    "name": "friends-swarm",
+    "repo": "https://github.com/moose-team/friends-swarm"
+  },
+  {
+    "name": "friends",
+    "repo": "https://github.com/moose-team/friends"
+  },
+  {
+    "name": "peerbot",
+    "repo": "https://github.com/moose-team/peerbot"
+  },
+  {
+    "name": "dotenv",
+    "repo": "https://github.com/motdotla/dotenv"
+  },
+  {
+    "name": "changelog-parser",
+    "repo": "https://github.com/ngoldman/changelog-parser"
+  },
+  {
+    "name": "gh-release",
+    "repo": "https://github.com/ngoldman/gh-release"
+  },
+  {
+    "name": "magnet-link",
+    "repo": "https://github.com/ngoldman/magnet-link"
+  },
+  {
+    "name": "module-init",
+    "repo": "https://github.com/ngoldman/module-init"
+  },
+  {
+    "name": "wireframe.css",
+    "repo": "https://github.com/ngoldman/wireframe.css"
+  },
+  {
+    "name": "fstream",
+    "repo": "https://github.com/npm/fstream"
+  },
+  {
+    "name": "npm",
+    "repo": "https://github.com/npm/npm",
+    "disable": "broke since v5.0.0"
+  },
+  {
+    "name": "docs",
+    "repo": "https://github.com/npm/docs",
+    "disable": "broke since v5.2.0"
+  },
+  {
+    "name": "fstream-npm",
+    "repo": "https://github.com/npm/fstream-npm"
+  },
+  {
+    "name": "nothingness-level",
+    "repo": "https://github.com/othiym23/nothingness-level"
+  },
+  {
+    "name": "nothingness",
+    "repo": "https://github.com/othiym23/nothingness"
+  },
+  {
+    "name": "assert-npm-version",
+    "repo": "https://github.com/yoshuawuyts/assert-npm-version"
+  },
+  {
+    "name": "brick-router",
+    "repo": "https://github.com/yoshuawuyts/brick-router"
+  },
+  {
+    "name": "brick-server",
+    "repo": "https://github.com/yoshuawuyts/brick-server"
+  },
+  {
+    "name": "event-bulk-attach",
+    "repo": "https://github.com/yoshuawuyts/event-bulk-attach",
+    "disable": "broke since v5.2.0"
+  },
+  {
+    "name": "fat-arrow",
+    "repo": "https://github.com/yoshuawuyts/fat-arrow"
+  },
+  {
+    "name": "from2-string",
+    "repo": "https://github.com/yoshuawuyts/from2-string"
+  },
+  {
+    "name": "fsm-event",
+    "repo": "https://github.com/yoshuawuyts/fsm-event"
+  },
+  {
+    "name": "koa-logger-ndjson",
+    "repo": "https://github.com/yoshuawuyts/koa-logger-ndjson"
+  },
+  {
+    "name": "mdjson",
+    "repo": "https://github.com/yoshuawuyts/mdjson"
+  },
+  {
+    "name": "promise-assert",
+    "repo": "https://github.com/yoshuawuyts/promise-assert"
+  },
+  {
+    "name": "simple-store",
+    "repo": "https://github.com/yoshuawuyts/simple-store"
+  },
+  {
+    "name": "urit",
+    "repo": "https://github.com/yoshuawuyts/urit"
+  },
+  {
+    "name": "virtual-raf",
+    "repo": "https://github.com/yoshuawuyts/virtual-raf"
+  },
+  {
+    "name": "vmd",
+    "repo": "https://github.com/yoshuawuyts/vmd"
+  },
+  {
+    "name": "wayfarer",
+    "repo": "https://github.com/yoshuawuyts/wayfarer"
+  },
+  {
+    "name": "year-of-code",
+    "repo": "https://github.com/yoshuawuyts/year-of-code"
+  }
+]
