@@ -433,8 +433,7 @@
   },
   {
     "name": "dotenv",
-    "repo": "https://github.com/motdotla/dotenv",
-    "disable": "broke since v5.3.0"
+    "repo": "https://github.com/motdotla/dotenv"
   },
   {
     "name": "changelog-parser",
