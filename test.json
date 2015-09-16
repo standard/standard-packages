@@ -45,7 +45,8 @@
   },
   {
     "name": "pkg-config",
-    "repo": "https://github.com/ahmadnassri/pkg-config"
+    "repo": "https://github.com/ahmadnassri/pkg-config",
+    "disable": "broke since v5.3.0"
   },
   {
     "name": "stringify-clone",
@@ -330,7 +331,8 @@
   },
   {
     "name": "httpsnippet",
-    "repo": "https://github.com/Mashape/httpsnippet"
+    "repo": "https://github.com/Mashape/httpsnippet",
+    "disable": "broke since v5.3.0"
   },
   {
     "name": "atomic-queue",
@@ -431,7 +433,8 @@
   },
   {
     "name": "dotenv",
-    "repo": "https://github.com/motdotla/dotenv"
+    "repo": "https://github.com/motdotla/dotenv",
+    "disable": "broke since v5.3.0"
   },
   {
     "name": "changelog-parser",
@@ -542,6 +545,7 @@
   },
   {
     "name": "year-of-code",
-    "repo": "https://github.com/yoshuawuyts/year-of-code"
+    "repo": "https://github.com/yoshuawuyts/year-of-code",
+    "disable": "broke since v5.3.0"
   }
 ]
