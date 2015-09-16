@@ -45,8 +45,7 @@
   },
   {
     "name": "pkg-config",
-    "repo": "https://github.com/ahmadnassri/pkg-config",
-    "disable": "broke since v5.3.0"
+    "repo": "https://github.com/ahmadnassri/pkg-config"
   },
   {
     "name": "stringify-clone",
