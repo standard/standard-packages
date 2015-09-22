@@ -330,8 +330,7 @@
   },
   {
     "name": "httpsnippet",
-    "repo": "https://github.com/Mashape/httpsnippet",
-    "disable": "broke since v5.3.0"
+    "repo": "https://github.com/Mashape/httpsnippet"
   },
   {
     "name": "atomic-queue",
@@ -543,7 +542,6 @@
   },
   {
     "name": "year-of-code",
-    "repo": "https://github.com/yoshuawuyts/year-of-code",
-    "disable": "broke since v5.3.0"
+    "repo": "https://github.com/yoshuawuyts/year-of-code"
   }
 ]
