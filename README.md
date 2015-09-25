@@ -14,6 +14,15 @@ packages.forEach(function (pkg) {
 })
 ```
 
+## Contribute
+
+To update the data in `standard.json` run:
+
+```bash
+npm run fetch
+npm start
+```
+
 ## License
 
 MIT. Copyright (c) [Feross Aboukhadijeh](http://feross.org).
