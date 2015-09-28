@@ -76,6 +76,15 @@ fs.createReadStream(path.join(__dirname, '..', 'alldata.json'))
           arr.push({ name: dep[0], repo: dep[1], description: dep[2], dependents: allFreqs[dep[0]] })
         })
     })
+
+    // Special case -- add `standard` to the list
+    arr.push({
+      name: 'standard',
+      repo: 'https://github.com/feross/standard',
+      description: 'JavaScript Standard Style — One Style to Rule Them All',
+      dependents: arr.length
+    })
+
     arr = arr.sort(function (a, b) {
       return (b.dependents || 0) - (a.dependents || 0)
     })
@@ -93,7 +102,7 @@ fs.createReadStream(path.join(__dirname, '..', 'alldata.json'))
       // highlight standard style packages
       modules.forEach(function (module) {
         freqs[module].deps.some(function (val) {
-          if (key === val[0]) {
+          if (key === val[0] || key === 'standard') {
             key = chalk.green(key + ' (using standard)')
             return true
           }
