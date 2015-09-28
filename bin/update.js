@@ -72,12 +72,12 @@ fs.createReadStream(path.join(__dirname, '..', 'alldata.json'))
       var padding = longest - key.length
       console.log(key, padLeft(freqs[key].count || 0, padding + 1))
       freqs[key].deps
-        .sort(function (a, b) {
-          return (allFreqs[b[0]] || 0) - (allFreqs[a[0]] || 0)
-        })
         .forEach(function (dep) {
-          arr.push({ name: dep[0], repo: dep[1], description: dep[2], dependents: allFreqs[dep[0]]})
+          arr.push({ name: dep[0], repo: dep[1], description: dep[2], dependents: allFreqs[dep[0]] })
         })
+    })
+    arr = arr.sort(function (a, b) {
+      return (b.dependents || 0) - (a.dependents || 0)
     })
     fs.writeFileSync(path.join(__dirname, '..', 'standard.json'), JSON.stringify(arr, undefined, 2))
 
