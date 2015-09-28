@@ -94,7 +94,7 @@ fs.createReadStream(path.join(__dirname, '..', 'alldata.json'))
       modules.forEach(function (module) {
         freqs[module].deps.some(function (val) {
           if (key === val[0]) {
-            key = chalk.green(key)
+            key = chalk.green(key + ' (using standard)')
             return true
           }
           return false
