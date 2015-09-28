@@ -1,3 +1,4 @@
+var chalk = require('chalk')
 var es = require('event-stream')
 var fs = require('fs')
 var gh = require('github-url-to-object')
@@ -85,6 +86,15 @@ fs.createReadStream(path.join(__dirname, '..', 'alldata.json'))
       var key = x.value
       var count = x.frequency
       var padding = longest - key.length
+
+      // highlight standard style packages
+      modules.forEach(function (module) {
+        freqs[module].deps.some(function (val) {
+          if(key === val[0]) return key = chalk.green(key)
+          return false
+        })
+      })
+
       console.log((i + 1) + '. ' + key, padLeft(count || 0, padding + 1))
     })
   })
