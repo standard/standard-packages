@@ -10,7 +10,7 @@ var freqs = {}
 
 // search some modules specifically
 var modules = [
-  'standard', 'snazzy'
+  'standard', 'snazzy', 'eslint-config-standard'
 ]
 
 var allFreqs = {}
@@ -77,13 +77,11 @@ fs.createReadStream(path.join(__dirname, '..', 'alldata.json'))
         })
     })
 
-    // Special case -- add `standard` to the list
-    arr.push({
-      name: 'standard',
-      repo: 'https://github.com/feross/standard',
-      description: 'JavaScript Standard Style — One Style to Rule Them All',
-      dependents: arr.length
-    })
+    // `standard` count should include `snazzy` and `eslint-config-standard` users
+    var standard = arr.filter(function (pkg) {
+      if (pkg.name === 'standard') return true
+    })[0]
+    standard.dependents = arr.length
 
     arr = arr.sort(function (a, b) {
       return (b.dependents || 0) - (a.dependents || 0)
