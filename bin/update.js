@@ -93,7 +93,10 @@ fs.createReadStream(path.join(__dirname, '..', 'alldata.json'))
       // highlight standard style packages
       modules.forEach(function (module) {
         freqs[module].deps.some(function (val) {
-          if(key === val[0]) return key = chalk.green(key)
+          if (key === val[0]) {
+            key = chalk.green(key)
+            return true
+          }
           return false
         })
       })
