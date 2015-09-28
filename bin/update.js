@@ -23,6 +23,9 @@ fs.createReadStream(path.join(__dirname, '..', 'alldata.json'))
     if (repo) repo = repo.https_url
     if (repo === '') repo = null
 
+    var description = data.description
+    if (description === '') description = null
+
     var name = data.name
     var deps = []
     if (data.dependencies) deps = deps.concat(Object.keys(data.dependencies))
@@ -34,7 +37,7 @@ fs.createReadStream(path.join(__dirname, '..', 'alldata.json'))
         } else {
           freqs[key].count++
         }
-        if (name && repo) freqs[key].deps.push([ name, repo ])
+        if (name && repo) freqs[key].deps.push([ name, repo, description ])
       }
 
       if (!(key in allFreqs)) {
@@ -73,7 +76,7 @@ fs.createReadStream(path.join(__dirname, '..', 'alldata.json'))
           return (allFreqs[b[0]] || 0) - (allFreqs[a[0]] || 0)
         })
         .forEach(function (dep) {
-          arr.push({ name: dep[0], repo: dep[1] })
+          arr.push({ name: dep[0], repo: dep[1], description: dep[2], dependents: allFreqs[dep[0]]})
         })
     })
     fs.writeFileSync(path.join(__dirname, '..', 'standard.json'), JSON.stringify(arr, undefined, 2))
