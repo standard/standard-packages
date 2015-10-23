@@ -169,7 +169,8 @@
   },
   {
     "name": "snazzy",
-    "repo": "https://github.com/feross/snazzy"
+    "repo": "https://github.com/feross/snazzy",
+    "disable": "PR to fix: https://github.com/feross/snazzy/pull/5"
   },
   {
     "name": "standard-www",
@@ -197,7 +198,8 @@
   },
   {
     "name": "webtorrent-www",
-    "repo": "https://github.com/feross/webtorrent-www"
+    "repo": "https://github.com/feross/webtorrent-www",
+    "disable": "PR to fix: https://github.com/feross/webtorrent-www/pull/29"
   },
   {
     "name": "webtorrent",
@@ -473,7 +475,8 @@
   },
   {
     "name": "nothingness-level",
-    "repo": "https://github.com/othiym23/nothingness-level"
+    "repo": "https://github.com/othiym23/nothingness-level",
+    "disable": "PR to fix: https://github.com/othiym23/nothingness-level/pull/1"
   },
   {
     "name": "nothingness",
@@ -514,7 +517,8 @@
   },
   {
     "name": "mdjson",
-    "repo": "https://github.com/yoshuawuyts/mdjson"
+    "repo": "https://github.com/yoshuawuyts/mdjson",
+    "disable": "PR to fix: https://github.com/yoshuawuyts/mdjson/pull/6"
   },
   {
     "name": "promise-assert",
