@@ -169,8 +169,7 @@
   },
   {
     "name": "snazzy",
-    "repo": "https://github.com/feross/snazzy",
-    "disable": "PR to fix: https://github.com/feross/snazzy/pull/5"
+    "repo": "https://github.com/feross/snazzy"
   },
   {
     "name": "standard-www",
@@ -198,8 +197,7 @@
   },
   {
     "name": "webtorrent-www",
-    "repo": "https://github.com/feross/webtorrent-www",
-    "disable": "PR to fix: https://github.com/feross/webtorrent-www/pull/29"
+    "repo": "https://github.com/feross/webtorrent-www"
   },
   {
     "name": "webtorrent",
