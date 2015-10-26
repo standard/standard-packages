@@ -545,5 +545,13 @@
   {
     "name": "year-of-code",
     "repo": "https://github.com/yoshuawuyts/year-of-code"
+  },
+  {
+    "name": "aedes",
+    "repo": "https://github.com/mcollina/aedes"
+  },
+  {
+    "name": "bloomrun",
+    "repo": "https://github.com/mcollina/bloomrun"
   }
 ]
