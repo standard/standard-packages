@@ -469,7 +469,8 @@
   },
   {
     "name": "fstream-npm",
-    "repo": "https://github.com/npm/fstream-npm"
+    "repo": "https://github.com/npm/fstream-npm",
+    "disable": "Broke due to eslint change. Explanation: https://github.com/Flet/standard-engine/pull/43#issue-121402235"
   },
   {
     "name": "nothingness-level",
