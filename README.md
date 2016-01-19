@@ -1,8 +1,8 @@
 # standard-packages [![travis][travis-image]][travis-url] [![npm][npm-image]][npm-url]
 
-[travis-image]: https://img.shields.io/travis/feross/standard-packages.svg?style=flat
+[travis-image]: https://img.shields.io/travis/feross/standard-packages/master.svg
 [travis-url]: https://travis-ci.org/feross/standard-packages
-[npm-image]: https://img.shields.io/npm/v/standard-packages.svg?style=flat
+[npm-image]: https://img.shields.io/npm/v/standard-packages.svg
 [npm-url]: https://npmjs.org/package/standard-packages
 
 ### List of packages that use [`standard`](https://github.com/feross/standard)
