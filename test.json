@@ -463,11 +463,6 @@
     "repo": "https://github.com/yoshuawuyts/brick-server"
   },
   {
-    "name": "event-bulk-attach",
-    "repo": "https://github.com/yoshuawuyts/event-bulk-attach",
-    "disable": "broke since v5.2.0"
-  },
-  {
     "name": "fat-arrow",
     "repo": "https://github.com/yoshuawuyts/fat-arrow"
   },
