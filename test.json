@@ -338,8 +338,7 @@
   },
   {
     "name": "dat-core",
-    "repo": "https://github.com/maxogden/dat-core",
-    "disable": "broke since v5.2.0"
+    "repo": "https://github.com/maxogden/dat-core"
   },
   {
     "name": "dat",
@@ -474,8 +473,7 @@
   },
   {
     "name": "nothingness-level",
-    "repo": "https://github.com/othiym23/nothingness-level",
-    "disable": "PR to fix: https://github.com/othiym23/nothingness-level/pull/1"
+    "repo": "https://github.com/othiym23/nothingness-level"
   },
   {
     "name": "nothingness",
@@ -516,8 +514,7 @@
   },
   {
     "name": "mdjson",
-    "repo": "https://github.com/yoshuawuyts/mdjson",
-    "disable": "PR to fix: https://github.com/yoshuawuyts/mdjson/pull/6"
+    "repo": "https://github.com/yoshuawuyts/mdjson"
   },
   {
     "name": "promise-assert",
