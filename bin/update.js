@@ -68,12 +68,15 @@ fs.createReadStream(path.join(__dirname, '..', 'alldata.json'))
     console.log('--------\n')
 
     var arr = []
+    var included = {}
     modules.forEach(function (key) {
       var padding = longest - key.length
       console.log(key, padLeft(freqs[key].count || 0, padding + 1))
       freqs[key].deps
         .forEach(function (dep) {
+          if (included[dep[0]]) return
           arr.push({ name: dep[0], repo: dep[1], description: dep[2], dependents: allFreqs[dep[0]] })
+          included[dep[0]] = true
         })
     })
 
