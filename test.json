@@ -208,10 +208,6 @@
     "repo": "https://github.com/feross/whiteboard"
   },
   {
-    "name": "battery",
-    "repo": "https://github.com/Flet/battery"
-  },
-  {
     "name": "clockmoji",
     "repo": "https://github.com/Flet/clockmoji"
   },
@@ -252,16 +248,6 @@
     "repo": "https://github.com/mafintosh/hms-protocol"
   },
   {
-    "name": "hms",
-    "repo": "https://github.com/mafintosh/hms",
-    "disable": "broke since v5.0.0"
-  },
-  {
-    "name": "hyperlog",
-    "repo": "https://github.com/mafintosh/hyperlog",
-    "disable": "broke since v5.0.0"
-  },
-  {
     "name": "idlecast",
     "repo": "https://github.com/mafintosh/idlecast"
   },
@@ -280,21 +266,6 @@
   {
     "name": "level-temp",
     "repo": "https://github.com/mafintosh/level-temp"
-  },
-  {
-    "name": "multileveldown",
-    "repo": "https://github.com/mafintosh/multileveldown",
-    "disable": "broke since v5.0.0"
-  },
-  {
-    "name": "node-gyp-install",
-    "repo": "https://github.com/mafintosh/node-gyp-install",
-    "disable": "broke since v5.0.0"
-  },
-  {
-    "name": "pbs",
-    "repo": "https://github.com/mafintosh/pbs",
-    "disable": "broke since v5.0.0"
   },
   {
     "name": "random-iterate",
