@@ -50,8 +50,8 @@
     "url": "git://github.com/feross/standard-packages.git"
   },
   "scripts": {
-    "fetch": "curl https://skimdb.npmjs.com/registry/_design/scratch/_view/byField > alldata.json",
+    "fetch": "curl https://skimdb.npmjs.com/registry/_design/scratch/_view/byField > rawdata.json",
     "start": "node bin/update.js",
-    "test": "standard && node -e \"require('.'); require('./test')\""
+    "test": "standard && node -e \"require('.')\""
   }
 }

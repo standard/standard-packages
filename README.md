@@ -9,7 +9,7 @@
 
 [![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
 
-### [View the list (standard.json)](standard.json)
+### [View the list (all.json)](all.json)
 
 ## Usage
 
@@ -23,13 +23,13 @@ packages.forEach(function (pkg) {
 
 ## Contribute
 
-To update the data in `standard.json` run:
+To update the data in `all.json` run:
 
 ```bash
 npm run fetch
 npm start
 ```
-:warning: `npm run fetch` will download and save a ~300MB file named `alldata.json` to the package directory.
+:warning: `npm run fetch` will download and save a ~300MB file named `rawdata.json` to the package directory.
 
 ## License
 

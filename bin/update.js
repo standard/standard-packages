@@ -15,7 +15,7 @@ var modules = [
 
 var allFreqs = {}
 
-fs.createReadStream(path.join(__dirname, '..', 'alldata.json'))
+fs.createReadStream(path.join(__dirname, '..', 'rawdata.json'))
   .pipe(json.parse('rows.*.value'))
   .pipe(es.mapSync(function (data) {
     var repo = data.repository && data.repository.url
@@ -89,7 +89,7 @@ fs.createReadStream(path.join(__dirname, '..', 'alldata.json'))
     arr = arr.sort(function (a, b) {
       return (b.dependents || 0) - (a.dependents || 0)
     })
-    fs.writeFileSync(path.join(__dirname, '..', 'standard.json'), JSON.stringify(arr, undefined, 2))
+    fs.writeFileSync(path.join(__dirname, '..', 'all.json'), JSON.stringify(arr, undefined, 2))
 
     console.log('\n--------')
     console.log('TOP ' + values.length)
