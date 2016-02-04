@@ -14,7 +14,7 @@
     "JSONStream": "^1.0.6",
     "chalk": "^1.1.1",
     "event-stream": "^3.3.1",
-    "github-url-to-object": "^1.6.0",
+    "github-url-to-object": "^2.1.0",
     "pad-left": "^2.0.0",
     "standard": "^5.0.2"
   },
