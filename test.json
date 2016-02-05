@@ -398,7 +398,8 @@
     "name": "thunks",
     "repo": "https://github.com/thunks/thunks",
     "description": "A small and magical tool that compose all the asynchronous.",
-    "dependents": 26
+    "dependents": 26,
+    "disable": "standard 6.0.0"
   },
   {
     "name": "param-case",
@@ -635,7 +636,8 @@
     "name": "glob-promise",
     "repo": "https://github.com/ahmadnassri/glob-promise",
     "description": "Promise version of glob",
-    "dependents": 15
+    "dependents": 15,
+    "disable": "standard 6.0.0"
   },
   {
     "name": "jsreport-templates",
@@ -714,7 +716,8 @@
     "name": "mkdirp-promise",
     "repo": "https://github.com/ahmadnassri/mkdirp-promise",
     "description": "Promise version of mkdirp",
-    "dependents": 14
+    "dependents": 14,
+    "disable": "standard 6.0.0"
   },
   {
     "name": "electron-mocha",
@@ -1392,7 +1395,8 @@
     "name": "fs-writefile-promise",
     "repo": "https://github.com/ahmadnassri/fs-writefile-promise",
     "description": "Promise version of fs.writefile",
-    "dependents": 5
+    "dependents": 5,
+    "disable": "standard 6.0.0"
   },
   {
     "name": "builtin-status-codes",
@@ -2486,7 +2490,8 @@
     "name": "pouchdb-hoodie-sync",
     "repo": "https://github.com/hoodiehq/pouchdb-hoodie-sync",
     "description": "Hoodie-like sync API for PouchDB",
-    "dependents": 3
+    "dependents": 3,
+    "disable": "standard 6.0.0"
   },
   {
     "name": "ip-packet",
