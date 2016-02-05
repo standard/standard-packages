@@ -621,7 +621,8 @@
     "name": "koa-convert",
     "repo": "https://github.com/gyson/koa-convert",
     "description": "convert koa legacy generator-based middleware to promise-based middleware",
-    "dependents": 16
+    "dependents": 16,
+    "disable": "standard 6.0.0"
   },
   {
     "name": "thunk-mocha",
@@ -1761,7 +1762,8 @@
     "name": "hjs-webpack",
     "repo": "https://github.com/henrikjoreteg/hjs-webpack",
     "description": "Presets for setting up webpack with hotloading react and ES6(2015) using Babel.",
-    "dependents": 4
+    "dependents": 4,
+    "disable": "standard 6.0.0"
   },
   {
     "name": "cyclist",
