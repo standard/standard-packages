@@ -88,7 +88,8 @@
     "name": "babel-tape-runner",
     "repo": "https://github.com/wavded/babel-tape-runner",
     "description": "Babel + Tape for running your ES Next tests",
-    "dependents": 233
+    "dependents": 233,
+    "disable": "standard 6.0.0"
   },
   {
     "name": "merge2",
@@ -670,7 +671,8 @@
     "name": "base-element",
     "repo": "https://github.com/shama/base-element",
     "description": "An element authoring library for creating standalone and performant elements.",
-    "dependents": 15
+    "dependents": 15,
+    "disable": "standard 6.0.0"
   },
   {
     "name": "sonos",
@@ -767,13 +769,15 @@
     "name": "markdown-it-anchor",
     "repo": "https://github.com/valeriangalliat/markdown-it-anchor",
     "description": "Header anchors for markdown-it.",
-    "dependents": 13
+    "dependents": 13,
+    "disable": "standard 6.0.0"
   },
   {
     "name": "markdown-it-highlightjs",
     "repo": "https://github.com/valeriangalliat/markdown-it-highlightjs",
     "description": "Preset to use highlight.js with markdown-it.",
-    "dependents": 12
+    "dependents": 12,
+    "disable": "standard 6.0.0"
   },
   {
     "name": "fastparallel",
@@ -895,7 +899,8 @@
     "repo": "https://github.com/bahmutov/rocha",
     "description": "Runs Mocha unit tests but randomizes their order",
     "dependents": 10,
-    "args": ["bin/*.js", "*.js", "spec/*.js"]
+    "args": ["bin/*.js", "*.js", "spec/*.js"],
+    "disable": "standard 6.0.0"
   },
   {
     "name": "inject-then",
@@ -1034,7 +1039,8 @@
     "name": "condition-node-version",
     "repo": "https://github.com/bahmutov/condition-node-version",
     "description": "Plugin for semantic-release that only allows publishing from a specific NodeJS version",
-    "dependents": 8
+    "dependents": 8,
+    "disable": "standard 6.0.0"
   },
   {
     "name": "opbeat",
@@ -1246,7 +1252,8 @@
     "name": "wayfarer",
     "repo": "https://github.com/yoshuawuyts/wayfarer",
     "description": "Composable trie based router",
-    "dependents": 6
+    "dependents": 6,
+    "disable": "standard 6.0.0"
   },
   {
     "name": "appdmg",
@@ -1416,7 +1423,8 @@
     "repo": "https://github.com/js-data/js-data",
     "description": "Robust, framework-agnostic in-memory data store.",
     "dependents": 5,
-    "args": ["src/**/*.js"]
+    "args": ["src/**/*.js"],
+    "disable": "standard 6.0.0"
   },
   {
     "name": "cast-array",
@@ -1466,7 +1474,8 @@
     "name": "ban-sensitive-files",
     "repo": "https://github.com/bahmutov/ban-sensitive-files",
     "description": "Checks filenames to be committed against a library of filename rules to prevent sensitive files in Git",
-    "dependents": 5
+    "dependents": 5,
+    "disable": "standard 6.0.0"
   },
   {
     "name": "fill-keys",
@@ -1708,7 +1717,8 @@
     "name": "get-github-user",
     "repo": "https://github.com/richardlitt/get-github-user",
     "description": "Get GitHub user information from just a username",
-    "dependents": 4
+    "dependents": 4,
+    "disable": "standard 6.0.0"
   },
   {
     "name": "chokidar-socket-emitter",
@@ -1720,7 +1730,8 @@
     "name": "express-restify-mongoose",
     "repo": "https://github.com/florianholzapfel/express-restify-mongoose",
     "description": "Easily create a flexible REST interface for mongoose models",
-    "dependents": 4
+    "dependents": 4,
+    "disable": "standard 6.0.0"
   },
   {
     "name": "couchdb-push",
@@ -1835,7 +1846,8 @@
     "name": "hapi-swaggered",
     "repo": "https://github.com/z0mt3c/hapi-swaggered",
     "description": "Yet another hapi plugin providing swagger compliant API specifications based on routes and joi schemas to be used with swagger-ui.",
-    "dependents": 4
+    "dependents": 4,
+    "disable": "standard 6.0.0"
   },
   {
     "name": "sodium-signatures",
@@ -2158,7 +2170,8 @@
     "name": "chiffchaff",
     "repo": "https://github.com/zentrick/chiffchaff",
     "description": "Cancellable promises with progress reporting.",
-    "dependents": 3
+    "dependents": 3,
+    "disable": "standard 6.0.0"
   },
   {
     "name": "parse-asn1",
@@ -2256,7 +2269,8 @@
     "name": "compose-editor",
     "repo": "https://github.com/lucthev/compose",
     "description": "Yet another rich text editor thing.",
-    "dependents": 3
+    "dependents": 3,
+    "disable": "standard 6.0.0"
   },
   {
     "name": "is-ci",
@@ -2310,7 +2324,8 @@
     "name": "express-history-api-fallback",
     "repo": "https://github.com/cbas/express-history-api-fallback",
     "description": "Simple fallback for Express-served single page apps that use the HTML5 History API for client side routing.",
-    "dependents": 3
+    "dependents": 3,
+    "disable": "standard 6.0.0"
   },
   {
     "name": "git-head",
@@ -2322,7 +2337,8 @@
     "name": "publish-dist",
     "repo": "https://github.com/tlvince/publish-dist",
     "description": "Build and publish dist",
-    "dependents": 3
+    "dependents": 3,
+    "disable": "standard 6.0.0"
   },
   {
     "name": "phantom-ownpropertynames",
@@ -2365,7 +2381,8 @@
     "name": "multitest",
     "repo": "https://github.com/jcollado/multitest",
     "description": "Run \"npm test\" using multiple node versions",
-    "dependents": 3
+    "dependents": 3,
+    "disable": "standard 6.0.0"
   },
   {
     "name": "unique-filename",
@@ -2407,13 +2424,15 @@
     "name": "ipfs-repo",
     "repo": "https://github.com/ipfs/js-ipfs-repo",
     "description": "IPFS Repo implementation",
-    "dependents": 3
+    "dependents": 3,
+    "disable": "standard 6.0.0"
   },
   {
     "name": "hapi-swaggered-ui",
     "repo": "https://github.com/z0mt3c/hapi-swaggered-ui",
     "description": "Easy swagger-ui drop-in plugin for hapi to be used with hapi-swaggered.",
-    "dependents": 3
+    "dependents": 3,
+    "disable": "standard 6.0.0"
   },
   {
     "name": "feathers-action-types",
@@ -2479,7 +2498,8 @@
     "name": "make-concurrent",
     "repo": "https://github.com/fanatid/make-concurrent",
     "description": "Easy exclusive or shared access to resource",
-    "dependents": 3
+    "dependents": 3,
+    "disable": "standard 6.0.0"
   },
   {
     "name": "base64-emoji",
