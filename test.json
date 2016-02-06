@@ -1798,8 +1798,7 @@
     "name": "hjs-webpack",
     "repo": "https://github.com/henrikjoreteg/hjs-webpack",
     "description": "Presets for setting up webpack with hotloading react and ES6(2015) using Babel.",
-    "dependents": 4,
-    "disable": "standard 6.0.0"
+    "dependents": 4
   },
   {
     "name": "cyclist",
