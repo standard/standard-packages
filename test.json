@@ -16,7 +16,8 @@
     "name": "yargs",
     "repo": "https://github.com/bcoe/yargs",
     "description": "Light-weight option parsing with an argv hash. No optstrings attached.",
-    "dependents": 2526
+    "dependents": 2526,
+    "disable": "standard 6.0.0"
   },
   {
     "name": "karma-coverage",
@@ -119,7 +120,8 @@
     "name": "budo",
     "repo": "https://github.com/mattdesl/budo",
     "description": "a browserify server for rapid prototyping",
-    "dependents": 175
+    "dependents": 175,
+    "disable": "standard 6.0.0"
   },
   {
     "name": "karma-ng-html2js-preprocessor",
@@ -252,7 +254,8 @@
     "name": "david",
     "repo": "https://github.com/alanshaw/david",
     "description": "Node.js module that tells you when your project npm dependencies are out of date.",
-    "dependents": 60
+    "dependents": 60,
+    "disable": "standard 6.0.0"
   },
   {
     "name": "bs58",
@@ -308,13 +311,15 @@
     "name": "gl-geometry",
     "repo": "https://github.com/stackgl/gl-geometry",
     "description": "A flexible wrapper for gl-vao and gl-buffer that you can use to set up renderable WebGL geometries from a variety of different formats.",
-    "dependents": 36
+    "dependents": 36,
+    "disable": "standard 6.0.0"
   },
   {
     "name": "stream-to-promise",
     "repo": "https://github.com/bendrucker/stream-to-promise",
     "description": "Convert streams (readable or writable) to promises",
-    "dependents": 35
+    "dependents": 35,
+    "disable": "standard 6.0.0"
   },
   {
     "name": "torrent-stream",
@@ -411,7 +416,8 @@
     "name": "bitcoin",
     "repo": "https://github.com/freewil/node-bitcoin",
     "description": "Communicate with bitcoind via JSON-RPC",
-    "dependents": 25
+    "dependents": 25,
+    "disable": "standard 6.0.0"
   },
   {
     "name": "cerebral",
@@ -466,7 +472,8 @@
     "name": "dat",
     "repo": "https://github.com/maxogden/dat",
     "description": "versioning and sync tool for data sets",
-    "dependents": 23
+    "dependents": 23,
+    "disable": "standard 6.0.0"
   },
   {
     "name": "md5-file",
@@ -490,7 +497,8 @@
     "name": "gh-release",
     "repo": "https://github.com/ngoldman/gh-release",
     "description": "Create a release for a node package on github.",
-    "dependents": 22
+    "dependents": 22,
+    "disable": "standard 6.0.0"
   },
   {
     "name": "echint",
@@ -568,7 +576,8 @@
     "name": "toa",
     "repo": "https://github.com/toajs/toa",
     "description": "A pithy and powerful web framework.",
-    "dependents": 18
+    "dependents": 18,
+    "disable": "standard 6.0.0"
   },
   {
     "name": "multiaddr",
@@ -655,7 +664,8 @@
     "name": "koop",
     "repo": "https://github.com/koopjs/koop",
     "description": "Transform, query, & download geospatial data on the web",
-    "dependents": 15
+    "dependents": 15,
+    "disable": "standard 6.0.0"
   },
   {
     "name": "magnet-uri",
@@ -735,13 +745,15 @@
     "name": "tape-spawn",
     "repo": "https://github.com/maxogden/tape-spawn",
     "description": "spawn processes conveniently in tape tests and match against stdout/stderr streaming output",
-    "dependents": 13
+    "dependents": 13,
+    "disable": "standard 6.0.0"
   },
   {
     "name": "markdown-pdf",
     "repo": "https://github.com/alanshaw/markdown-pdf",
     "description": "Markdown to PDF converter",
-    "dependents": 13
+    "dependents": 13,
+    "disable": "standard 6.0.0"
   },
   {
     "name": "prebuild",
@@ -889,7 +901,8 @@
     "name": "simple-bin-help",
     "repo": "https://github.com/bahmutov/simple-bin-help",
     "description": "Simple help and sanity checks for Node CLI bin scripts",
-    "dependents": 10
+    "dependents": 10,
+    "disable": "standard 6.0.0"
   },
   {
     "name": "supertest-koa-agent",
@@ -1068,13 +1081,15 @@
     "repo": "https://github.com/poppinss/adonis-fold",
     "description": "Dependency manager and ioc container for your next NodeJs application",
     "dependents": 8,
-    "args": ["src/**/*.js", "test/**/*.spec.js"]
+    "args": ["src/**/*.js", "test/**/*.spec.js"],
+    "disable": "standard 6.0.0"
   },
   {
     "name": "wantsit",
     "repo": "https://github.com/achingbrain/node-wantsit",
     "description": "Super lightweight dependency injection",
-    "dependents": 8
+    "dependents": 8,
+    "disable": "standard 6.0.0"
   },
   {
     "name": "thunk-redis",
@@ -1231,7 +1246,8 @@
     "name": "aerospike",
     "repo": "https://github.com/aerospike/aerospike-client-nodejs",
     "description": "Aerospike Client Library",
-    "dependents": 7
+    "dependents": 7,
+    "disable": "standard 6.0.0"
   },
   {
     "name": "constant-case",
@@ -1328,7 +1344,8 @@
     "name": "marky-markdown",
     "repo": "https://github.com/npm/marky-markdown",
     "description": "npm's markdown parser",
-    "dependents": 6
+    "dependents": 6,
+    "disable": "standard 6.0.0"
   },
   {
     "name": "popsicle-server",
@@ -1408,7 +1425,8 @@
     "name": "multileveldown",
     "repo": "https://github.com/mafintosh/multileveldown",
     "description": "multilevel implemented using leveldowns with reconnect support",
-    "dependents": 5
+    "dependents": 5,
+    "disable": "standard 6.0.0"
   },
   {
     "name": "gameloop",
@@ -1440,7 +1458,8 @@
     "name": "socketio-wildcard",
     "repo": "https://github.com/hden/socketio-wildcard",
     "description": "socket.io with a wildcard event",
-    "dependents": 5
+    "dependents": 5,
+    "disable": "standard 6.0.0"
   },
   {
     "name": "argv-set-env",
@@ -1540,13 +1559,15 @@
     "repo": "https://github.com/h2non/rocky",
     "description": "Full-featured, middleware-oriented, hackable HTTP and WebSocket proxy",
     "dependents": 5,
-    "args": ["lib/**/*.js", "test/**/*.js"]
+    "args": ["lib/**/*.js", "test/**/*.js"],
+    "disable": "standard 6.0.0"
   },
   {
     "name": "koop-pgcache",
     "repo": "https://github.com/koopjs/koop-pgcache",
     "description": "A PostGIS data cache for Koop.",
-    "dependents": 5
+    "dependents": 5,
+    "disable": "standard 6.0.0"
   },
   {
     "name": "route-trie",
@@ -1765,7 +1786,8 @@
     "name": "yargs-cn",
     "repo": "https://github.com/bcoe/yargs",
     "description": "Light-weight option parsing with an argv hash. No optstrings attached.",
-    "dependents": 4
+    "dependents": 4,
+    "disable": "standard 6.0.0"
   },
   {
     "name": "never-ending-stream",
@@ -1995,7 +2017,8 @@
     "name": "dat-core",
     "repo": "https://github.com/maxogden/dat-core",
     "description": "dat core",
-    "dependents": 3
+    "dependents": 3,
+    "disable": "standard 6.0.0"
   },
   {
     "name": "croc-dag",
@@ -2255,7 +2278,8 @@
     "name": "authentic-server",
     "repo": "https://github.com/davidguttman/authentic-server",
     "description": "This is the server component of Authentic. This provides endpoints for signup, login, confirm, and password change.",
-    "dependents": 3
+    "dependents": 3,
+    "disable": "standard 6.0.0"
   },
   {
     "name": "evp_bytestokey",
