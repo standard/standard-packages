@@ -928,8 +928,7 @@
     "name": "merkle-patricia-tree",
     "repo": "https://github.com/ethereumjs/merkle-patricia-tree",
     "description": "This is an implementation of the modified merkle patricia tree as speficed in the Ethereum's yellow paper.",
-    "dependents": 10,
-    "disable": "standard 6.0.0"
+    "dependents": 10
   },
   {
     "name": "corsproxy",
