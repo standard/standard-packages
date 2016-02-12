@@ -2246,7 +2246,8 @@
     "name": "anvil-connect-jwt",
     "repo": "https://github.com/anvilresearch/connect-jwt",
     "description": "Anvil Connect JWT library for Node.js",
-    "dependents": 3
+    "dependents": 3,
+    "disable": "standard 6.0.0"
   },
   {
     "name": "get-package",
