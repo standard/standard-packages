@@ -29,7 +29,8 @@
     "name": "semantic-release",
     "repo": "https://github.com/semantic-release/semantic-release",
     "description": "automated semver compliant package publishing",
-    "dependents": 771
+    "dependents": 771,
+    "disable": "standard 6.0.0"
   },
   {
     "name": "karma-cli",
