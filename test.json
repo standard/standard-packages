@@ -2484,7 +2484,8 @@
     "name": "semantic-release-cli",
     "repo": "https://github.com/semantic-release/cli",
     "description": "setup automated semver compliant package publishing",
-    "dependents": 3
+    "dependents": 3,
+    "disable": "standard 6.0.0"
   },
   {
     "name": "lrucache",
