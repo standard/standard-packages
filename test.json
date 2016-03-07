@@ -640,7 +640,8 @@
     "name": "thunk-mocha",
     "repo": "https://github.com/thunks/thunk-mocha",
     "description": "Enable support for generators in Mocha with backward compatibility.",
-    "dependents": 15
+    "dependents": 15,
+    "disable": "standard 6.0.0"
   },
   {
     "name": "glob-promise",
@@ -854,7 +855,8 @@
     "name": "thenjs",
     "repo": "https://github.com/teambition/then.js",
     "description": "The fastest, smallest, fully compatible, full-featured asynchronous module!",
-    "dependents": 11
+    "dependents": 11,
+    "disable": "standard 6.0.0"
   },
   {
     "name": "hosted-git-info",
@@ -1095,7 +1097,8 @@
     "name": "thunk-redis",
     "repo": "https://github.com/thunks/thunk-redis",
     "description": "The fastest thunk/promise-based redis client, support all redis features.",
-    "dependents": 8
+    "dependents": 8,
+    "disable": "standard 6.0.0"
   },
   {
     "name": "pkg-config",
@@ -1144,7 +1147,8 @@
     "name": "vigour-env",
     "repo": "https://github.com/vigour-io/env",
     "description": "Provides info about the device, platform and build",
-    "dependents": 7
+    "dependents": 7,
+    "disable": "standard 6.0.0"
   },
   {
     "name": "upper-case-first",
@@ -2080,7 +2084,8 @@
     "name": "socket.io-rpc",
     "repo": "https://github.com/capaj/socket.io-rpc",
     "description": "Minimalistic remote procedure call(RPC/RMI) library bootstrapped on socket.io",
-    "dependents": 3
+    "dependents": 3,
+    "disable": "standard 6.0.0"
   },
   {
     "name": "just-debounce",
@@ -2106,7 +2111,8 @@
     "repo": "https://github.com/js-data/js-data-adapter-tests",
     "description": "Tests for js-data adapters.",
     "dependents": 3,
-    "args": ["src/**/*.js"]
+    "args": ["src/**/*.js"],
+    "disable": "standard 6.0.0"
   },
   {
     "name": "bloomrun",
@@ -2446,7 +2452,8 @@
     "name": "tape-promise",
     "repo": "https://github.com/jprichardson/tape-promise",
     "description": "Promise/async support for tape.",
-    "dependents": 3
+    "dependents": 3,
+    "disable": "standard 6.0.0"
   },
   {
     "name": "ipfs-repo",
@@ -2576,7 +2583,8 @@
   },
   {
     "name": "friends",
-    "repo": "https://github.com/moose-team/friends"
+    "repo": "https://github.com/moose-team/friends",
+    "disable": "standard 6.0.0"
   },
   {
     "name": "peerbot",
