@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 var chalk = require('chalk')
 var es = require('event-stream')
 var fs = require('fs')
@@ -18,11 +20,6 @@ var allFreqs = {}
 fs.createReadStream(path.join(__dirname, '..', 'rawdata.json'))
   .pipe(json.parse('rows.*.value'))
   .pipe(es.mapSync(function (data) {
-    var repo = data.repository && data.repository.url
-    if (repo) repo = gh(repo)
-    if (repo) repo = repo.https_url
-    if (repo === '') repo = null
-
     var description = data.description
     if (description === '') description = null
 
@@ -37,6 +34,10 @@ fs.createReadStream(path.join(__dirname, '..', 'rawdata.json'))
         } else {
           freqs[key].count++
         }
+        var repo = data.repository && data.repository.url
+        if (repo) try { repo = gh(repo) } catch (err) {}
+        if (repo) repo = repo.https_url
+        if (repo === '') repo = null
         if (name && repo) freqs[key].deps.push([ name, repo, description ])
       }
 
