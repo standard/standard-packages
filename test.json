@@ -17,7 +17,7 @@
     "repo": "https://github.com/bcoe/yargs",
     "description": "Light-weight option parsing with an argv hash. No optstrings attached.",
     "dependents": 2526,
-    "disable": "standard 6.0.0"
+    "disable": true
   },
   {
     "name": "karma-coverage",
@@ -30,7 +30,7 @@
     "repo": "https://github.com/semantic-release/semantic-release",
     "description": "automated semver compliant package publishing",
     "dependents": 771,
-    "disable": "standard 6.0.0"
+    "disable": true
   },
   {
     "name": "karma-cli",
@@ -78,21 +78,22 @@
     "name": "fstream",
     "repo": "https://github.com/isaacs/fstream",
     "description": "Advanced file system stream things",
-    "dependents": 325
+    "dependents": 325,
+    "disable": true
   },
   {
     "name": "karma-junit-reporter",
     "repo": "https://github.com/karma-runner/karma-junit-reporter",
     "description": "A Karma plugin. Report results in junit xml format.",
     "dependents": 257,
-    "disable": "standard 6.0.0"
+    "disable": true
   },
   {
     "name": "babel-tape-runner",
     "repo": "https://github.com/wavded/babel-tape-runner",
     "description": "Babel + Tape for running your ES Next tests",
     "dependents": 233,
-    "disable": "standard 6.0.0"
+    "disable": true
   },
   {
     "name": "merge2",
@@ -123,7 +124,7 @@
     "repo": "https://github.com/mattdesl/budo",
     "description": "a browserify server for rapid prototyping",
     "dependents": 175,
-    "disable": "standard 6.0.0"
+    "disable": true
   },
   {
     "name": "karma-ng-html2js-preprocessor",
@@ -257,7 +258,7 @@
     "repo": "https://github.com/alanshaw/david",
     "description": "Node.js module that tells you when your project npm dependencies are out of date.",
     "dependents": 60,
-    "disable": "standard 6.0.0"
+    "disable": true
   },
   {
     "name": "bs58",
@@ -270,14 +271,14 @@
     "repo": "https://github.com/niftylettuce/node-email-templates",
     "description": "Node.js module for rendering beautiful emails with ejs, jade, swig, hbs, or handlebars templates and email-friendly inline CSS using juice.",
     "dependents": 49,
-    "disable": "standard 6.0.0"
+    "disable": true
   },
   {
     "name": "deku",
     "repo": "https://github.com/dekujs/deku",
     "description": "Render interfaces using pure functions and virtual DOM",
     "dependents": 49,
-    "disable": "standard 6.0.0"
+    "disable": true
   },
   {
     "name": "csv-parser",
@@ -314,14 +315,14 @@
     "repo": "https://github.com/stackgl/gl-geometry",
     "description": "A flexible wrapper for gl-vao and gl-buffer that you can use to set up renderable WebGL geometries from a variety of different formats.",
     "dependents": 36,
-    "disable": "standard 6.0.0"
+    "disable": true
   },
   {
     "name": "stream-to-promise",
     "repo": "https://github.com/bendrucker/stream-to-promise",
     "description": "Convert streams (readable or writable) to promises",
     "dependents": 35,
-    "disable": "standard 6.0.0"
+    "disable": true
   },
   {
     "name": "torrent-stream",
@@ -406,7 +407,7 @@
     "repo": "https://github.com/thunks/thunks",
     "description": "A small and magical tool that compose all the asynchronous.",
     "dependents": 26,
-    "disable": "standard 6.0.0"
+    "disable": true
   },
   {
     "name": "param-case",
@@ -419,7 +420,7 @@
     "repo": "https://github.com/freewil/node-bitcoin",
     "description": "Communicate with bitcoind via JSON-RPC",
     "dependents": 25,
-    "disable": "standard 6.0.0"
+    "disable": true
   },
   {
     "name": "cerebral",
@@ -475,7 +476,7 @@
     "repo": "https://github.com/maxogden/dat",
     "description": "versioning and sync tool for data sets",
     "dependents": 23,
-    "disable": "standard 6.0.0"
+    "disable": true
   },
   {
     "name": "md5-file",
@@ -500,7 +501,7 @@
     "repo": "https://github.com/ngoldman/gh-release",
     "description": "Create a release for a node package on github.",
     "dependents": 22,
-    "disable": "standard 6.0.0"
+    "disable": true
   },
   {
     "name": "echint",
@@ -579,7 +580,7 @@
     "repo": "https://github.com/toajs/toa",
     "description": "A pithy and powerful web framework.",
     "dependents": 18,
-    "disable": "standard 6.0.0"
+    "disable": true
   },
   {
     "name": "multiaddr",
@@ -635,21 +636,21 @@
     "repo": "https://github.com/gyson/koa-convert",
     "description": "convert koa legacy generator-based middleware to promise-based middleware",
     "dependents": 16,
-    "disable": "standard 6.0.0"
+    "disable": true
   },
   {
     "name": "thunk-mocha",
     "repo": "https://github.com/thunks/thunk-mocha",
     "description": "Enable support for generators in Mocha with backward compatibility.",
     "dependents": 15,
-    "disable": "standard 6.0.0"
+    "disable": true
   },
   {
     "name": "glob-promise",
     "repo": "https://github.com/ahmadnassri/glob-promise",
     "description": "Promise version of glob",
     "dependents": 15,
-    "disable": "standard 6.0.0"
+    "disable": true
   },
   {
     "name": "jsreport-templates",
@@ -668,7 +669,7 @@
     "repo": "https://github.com/koopjs/koop",
     "description": "Transform, query, & download geospatial data on the web",
     "dependents": 15,
-    "disable": "standard 6.0.0"
+    "disable": true
   },
   {
     "name": "magnet-uri",
@@ -687,7 +688,7 @@
     "repo": "https://github.com/shama/base-element",
     "description": "An element authoring library for creating standalone and performant elements.",
     "dependents": 15,
-    "disable": "standard 6.0.0"
+    "disable": true
   },
   {
     "name": "sonos",
@@ -730,7 +731,7 @@
     "repo": "https://github.com/ahmadnassri/mkdirp-promise",
     "description": "Promise version of mkdirp",
     "dependents": 14,
-    "disable": "standard 6.0.0"
+    "disable": true
   },
   {
     "name": "electron-mocha",
@@ -749,14 +750,14 @@
     "repo": "https://github.com/maxogden/tape-spawn",
     "description": "spawn processes conveniently in tape tests and match against stdout/stderr streaming output",
     "dependents": 13,
-    "disable": "standard 6.0.0"
+    "disable": true
   },
   {
     "name": "markdown-pdf",
     "repo": "https://github.com/alanshaw/markdown-pdf",
     "description": "Markdown to PDF converter",
     "dependents": 13,
-    "disable": "standard 6.0.0"
+    "disable": true
   },
   {
     "name": "prebuild",
@@ -788,14 +789,14 @@
     "repo": "https://github.com/valeriangalliat/markdown-it-anchor",
     "description": "Header anchors for markdown-it.",
     "dependents": 13,
-    "disable": "standard 6.0.0"
+    "disable": true
   },
   {
     "name": "markdown-it-highlightjs",
     "repo": "https://github.com/valeriangalliat/markdown-it-highlightjs",
     "description": "Preset to use highlight.js with markdown-it.",
     "dependents": 12,
-    "disable": "standard 6.0.0"
+    "disable": true
   },
   {
     "name": "fastparallel",
@@ -857,7 +858,7 @@
     "repo": "https://github.com/teambition/then.js",
     "description": "The fastest, smallest, fully compatible, full-featured asynchronous module!",
     "dependents": 11,
-    "disable": "standard 6.0.0"
+    "disable": true
   },
   {
     "name": "hosted-git-info",
@@ -906,7 +907,7 @@
     "repo": "https://github.com/bahmutov/simple-bin-help",
     "description": "Simple help and sanity checks for Node CLI bin scripts",
     "dependents": 10,
-    "disable": "standard 6.0.0"
+    "disable": true
   },
   {
     "name": "supertest-koa-agent",
@@ -920,7 +921,7 @@
     "description": "Runs Mocha unit tests but randomizes their order",
     "dependents": 10,
     "args": ["bin/*.js", "*.js", "spec/*.js"],
-    "disable": "standard 6.0.0"
+    "disable": true
   },
   {
     "name": "inject-then",
@@ -1059,7 +1060,7 @@
     "repo": "https://github.com/bahmutov/condition-node-version",
     "description": "Plugin for semantic-release that only allows publishing from a specific NodeJS version",
     "dependents": 8,
-    "disable": "standard 6.0.0"
+    "disable": true
   },
   {
     "name": "opbeat",
@@ -1085,21 +1086,21 @@
     "description": "Dependency manager and ioc container for your next NodeJs application",
     "dependents": 8,
     "args": ["src/**/*.js", "test/**/*.spec.js"],
-    "disable": "standard 6.0.0"
+    "disable": true
   },
   {
     "name": "wantsit",
     "repo": "https://github.com/achingbrain/node-wantsit",
     "description": "Super lightweight dependency injection",
     "dependents": 8,
-    "disable": "standard 6.0.0"
+    "disable": true
   },
   {
     "name": "thunk-redis",
     "repo": "https://github.com/thunks/thunk-redis",
     "description": "The fastest thunk/promise-based redis client, support all redis features.",
     "dependents": 8,
-    "disable": "standard 6.0.0"
+    "disable": true
   },
   {
     "name": "pkg-config",
@@ -1130,7 +1131,7 @@
     "repo": "https://github.com/ipfs/js-ipfsd-ctl",
     "description": "simple controls for an ipfs node",
     "dependents": 8,
-    "disable": "standard 6.0.0"
+    "disable": true
   },
   {
     "name": "get-server-port",
@@ -1149,7 +1150,7 @@
     "repo": "https://github.com/vigour-io/env",
     "description": "Provides info about the device, platform and build",
     "dependents": 7,
-    "disable": "standard 6.0.0"
+    "disable": true
   },
   {
     "name": "upper-case-first",
@@ -1252,7 +1253,7 @@
     "repo": "https://github.com/aerospike/aerospike-client-nodejs",
     "description": "Aerospike Client Library",
     "dependents": 7,
-    "disable": "standard 6.0.0"
+    "disable": true
   },
   {
     "name": "constant-case",
@@ -1277,7 +1278,7 @@
     "repo": "https://github.com/yoshuawuyts/wayfarer",
     "description": "Composable trie based router",
     "dependents": 6,
-    "disable": "standard 6.0.0"
+    "disable": true
   },
   {
     "name": "appdmg",
@@ -1350,7 +1351,7 @@
     "repo": "https://github.com/npm/marky-markdown",
     "description": "npm's markdown parser",
     "dependents": 6,
-    "disable": "standard 6.0.0"
+    "disable": true
   },
   {
     "name": "popsicle-server",
@@ -1418,7 +1419,7 @@
     "repo": "https://github.com/ahmadnassri/fs-writefile-promise",
     "description": "Promise version of fs.writefile",
     "dependents": 5,
-    "disable": "standard 6.0.0"
+    "disable": true
   },
   {
     "name": "builtin-status-codes",
@@ -1431,7 +1432,7 @@
     "repo": "https://github.com/mafintosh/multileveldown",
     "description": "multilevel implemented using leveldowns with reconnect support",
     "dependents": 5,
-    "disable": "standard 6.0.0"
+    "disable": true
   },
   {
     "name": "gameloop",
@@ -1451,7 +1452,7 @@
     "description": "Robust, framework-agnostic in-memory data store.",
     "dependents": 5,
     "args": ["src/**/*.js"],
-    "disable": "standard 6.0.0"
+    "disable": true
   },
   {
     "name": "cast-array",
@@ -1464,14 +1465,14 @@
     "repo": "https://github.com/hden/socketio-wildcard",
     "description": "socket.io with a wildcard event",
     "dependents": 5,
-    "disable": "standard 6.0.0"
+    "disable": true
   },
   {
     "name": "argv-set-env",
     "repo": "https://github.com/kentcdodds/argv-set-env",
     "description": "Use in your config files to set environment variables cross-platform",
     "dependents": 5,
-    "disable": "standard 6.0.0"
+    "disable": true
   },
   {
     "name": "html-validator",
@@ -1496,14 +1497,14 @@
     "repo": "https://github.com/cerebral/cerebral-addons",
     "description": "An actions and factories utility belt for Cerebral",
     "dependents": 5,
-    "disable": "standard 6.0.0"
+    "disable": true
   },
   {
     "name": "ban-sensitive-files",
     "repo": "https://github.com/bahmutov/ban-sensitive-files",
     "description": "Checks filenames to be committed against a library of filename rules to prevent sensitive files in Git",
     "dependents": 5,
-    "disable": "standard 6.0.0"
+    "disable": true
   },
   {
     "name": "fill-keys",
@@ -1565,14 +1566,14 @@
     "description": "Full-featured, middleware-oriented, hackable HTTP and WebSocket proxy",
     "dependents": 5,
     "args": ["lib/**/*.js", "test/**/*.js"],
-    "disable": "standard 6.0.0"
+    "disable": true
   },
   {
     "name": "koop-pgcache",
     "repo": "https://github.com/koopjs/koop-pgcache",
     "description": "A PostGIS data cache for Koop.",
     "dependents": 5,
-    "disable": "standard 6.0.0"
+    "disable": true
   },
   {
     "name": "route-trie",
@@ -1663,7 +1664,7 @@
     "repo": "https://github.com/zensh/resp.js",
     "description": "An implementation of REdis Serialization Protocol (RESP), parse pipelining chunks.",
     "dependents": 4,
-    "disable": "standard 6.0.0"
+    "disable": true
   },
   {
     "name": "chromecasts",
@@ -1749,7 +1750,7 @@
     "repo": "https://github.com/richardlitt/get-github-user",
     "description": "Get GitHub user information from just a username",
     "dependents": 4,
-    "disable": "standard 6.0.0"
+    "disable": true
   },
   {
     "name": "chokidar-socket-emitter",
@@ -1762,7 +1763,7 @@
     "repo": "https://github.com/florianholzapfel/express-restify-mongoose",
     "description": "Easily create a flexible REST interface for mongoose models",
     "dependents": 4,
-    "disable": "standard 6.0.0"
+    "disable": true
   },
   {
     "name": "couchdb-push",
@@ -1781,7 +1782,7 @@
     "repo": "https://github.com/mulesoft-labs/raml-generator",
     "description": "Generate files from a RAML document and Handlebars templates",
     "dependents": 4,
-    "disable": "standard 6.0.0"
+    "disable": true
   },
   {
     "name": "aedes-packet",
@@ -1794,7 +1795,7 @@
     "repo": "https://github.com/bcoe/yargs",
     "description": "Light-weight option parsing with an argv hash. No optstrings attached.",
     "dependents": 4,
-    "disable": "standard 6.0.0"
+    "disable": true
   },
   {
     "name": "never-ending-stream",
@@ -1879,7 +1880,7 @@
     "repo": "https://github.com/z0mt3c/hapi-swaggered",
     "description": "Yet another hapi plugin providing swagger compliant API specifications based on routes and joi schemas to be used with swagger-ui.",
     "dependents": 4,
-    "disable": "standard 6.0.0"
+    "disable": true
   },
   {
     "name": "sodium-signatures",
@@ -2024,7 +2025,7 @@
     "repo": "https://github.com/maxogden/dat-core",
     "description": "dat core",
     "dependents": 3,
-    "disable": "standard 6.0.0"
+    "disable": true
   },
   {
     "name": "croc-dag",
@@ -2037,7 +2038,7 @@
     "repo": "https://github.com/CookPete/auto-changelog",
     "description": "Command line tool for generating a changelog from git tags and commit history",
     "dependents": 3,
-    "disable": "standard 6.0.0"
+    "disable": true
   },
   {
     "name": "jsreport-data",
@@ -2056,7 +2057,7 @@
     "repo": "https://github.com/simenb/stylint-stylish",
     "description": "A stylish reporter for Stylint, heavily inspired by jshint-stylish",
     "dependents": 3,
-    "disable": "standard 6.0.0"
+    "disable": true
   },
   {
     "name": "lower-case-first",
@@ -2075,7 +2076,7 @@
     "repo": "https://github.com/SEAPUNK/socketeer",
     "description": "a better way to do websockets",
     "dependents": 3,
-    "disable": "standard 6.0.0"
+    "disable": true
   },
   {
     "name": "docker-mock",
@@ -2088,7 +2089,7 @@
     "repo": "https://github.com/capaj/socket.io-rpc",
     "description": "Minimalistic remote procedure call(RPC/RMI) library bootstrapped on socket.io",
     "dependents": 3,
-    "disable": "standard 6.0.0"
+    "disable": true
   },
   {
     "name": "just-debounce",
@@ -2101,7 +2102,7 @@
     "repo": "https://github.com/ryanxcharles/fullnode",
     "description": "Javascript implementation of the Blockchain for node and web browsers.",
     "dependents": 3,
-    "disable": "standard 6.0.0"
+    "disable": true
   },
   {
     "name": "assert-array",
@@ -2115,7 +2116,7 @@
     "description": "Tests for js-data adapters.",
     "dependents": 3,
     "args": ["src/**/*.js"],
-    "disable": "standard 6.0.0"
+    "disable": true
   },
   {
     "name": "bloomrun",
@@ -2206,21 +2207,21 @@
     "repo": "https://github.com/zentrick/chiffchaff",
     "description": "Cancellable promises with progress reporting.",
     "dependents": 3,
-    "disable": "standard 6.0.0"
+    "disable": true
   },
   {
     "name": "parse-asn1",
     "repo": "https://github.com/crypto-browserify/parse-asn1",
     "description": "[![TRAVIS](https://secure.travis-ci.org/crypto-browserify/parse-asn1.png)](http://travis-ci.org/crypto-browserify/parse-asn1) [![NPM](http://img.shields.io/npm/v/parse-asn1.svg)](https://www.npmjs.org/package/parse-asn1)",
     "dependents": 3,
-    "disable": "standard 6.0.0"
+    "disable": true
   },
   {
     "name": "xo-collection",
     "repo": "https://github.com/marsaud/collection",
     "description": "Generic in-memory collection with events",
     "dependents": 3,
-    "disable": "standard 6.0.0"
+    "disable": true
   },
   {
     "name": "geohub",
@@ -2257,7 +2258,7 @@
     "repo": "https://github.com/anvilresearch/connect-jwt",
     "description": "Anvil Connect JWT library for Node.js",
     "dependents": 3,
-    "disable": "standard 6.0.0"
+    "disable": true
   },
   {
     "name": "get-package",
@@ -2288,7 +2289,7 @@
     "repo": "https://github.com/davidguttman/authentic-server",
     "description": "This is the server component of Authentic. This provides endpoints for signup, login, confirm, and password change.",
     "dependents": 3,
-    "disable": "standard 6.0.0"
+    "disable": true
   },
   {
     "name": "evp_bytestokey",
@@ -2307,7 +2308,7 @@
     "repo": "https://github.com/lucthev/compose",
     "description": "Yet another rich text editor thing.",
     "dependents": 3,
-    "disable": "standard 6.0.0"
+    "disable": true
   },
   {
     "name": "is-ci",
@@ -2362,7 +2363,7 @@
     "repo": "https://github.com/cbas/express-history-api-fallback",
     "description": "Simple fallback for Express-served single page apps that use the HTML5 History API for client side routing.",
     "dependents": 3,
-    "disable": "standard 6.0.0"
+    "disable": true
   },
   {
     "name": "git-head",
@@ -2375,7 +2376,7 @@
     "repo": "https://github.com/tlvince/publish-dist",
     "description": "Build and publish dist",
     "dependents": 3,
-    "disable": "standard 6.0.0"
+    "disable": true
   },
   {
     "name": "phantom-ownpropertynames",
@@ -2406,7 +2407,7 @@
     "repo": "https://github.com/typicode/user-startup",
     "description": "Automatically run commands when the user logs in (cross-platform)",
     "dependents": 3,
-    "disable": "standard 6.0.0"
+    "disable": true
   },
   {
     "name": "standard-json",
@@ -2419,7 +2420,7 @@
     "repo": "https://github.com/jcollado/multitest",
     "description": "Run \"npm test\" using multiple node versions",
     "dependents": 3,
-    "disable": "standard 6.0.0"
+    "disable": true
   },
   {
     "name": "unique-filename",
@@ -2456,21 +2457,21 @@
     "repo": "https://github.com/jprichardson/tape-promise",
     "description": "Promise/async support for tape.",
     "dependents": 3,
-    "disable": "standard 6.0.0"
+    "disable": true
   },
   {
     "name": "ipfs-repo",
     "repo": "https://github.com/ipfs/js-ipfs-repo",
     "description": "IPFS Repo implementation",
     "dependents": 3,
-    "disable": "standard 6.0.0"
+    "disable": true
   },
   {
     "name": "hapi-swaggered-ui",
     "repo": "https://github.com/z0mt3c/hapi-swaggered-ui",
     "description": "Easy swagger-ui drop-in plugin for hapi to be used with hapi-swaggered.",
     "dependents": 3,
-    "disable": "standard 6.0.0"
+    "disable": true
   },
   {
     "name": "feathers-action-types",
@@ -2495,7 +2496,7 @@
     "repo": "https://github.com/semantic-release/cli",
     "description": "setup automated semver compliant package publishing",
     "dependents": 3,
-    "disable": "standard 6.0.0"
+    "disable": true
   },
   {
     "name": "lrucache",
@@ -2526,7 +2527,7 @@
     "repo": "https://github.com/hoodiehq/pouchdb-hoodie-sync",
     "description": "Hoodie-like sync API for PouchDB",
     "dependents": 3,
-    "disable": "standard 6.0.0"
+    "disable": true
   },
   {
     "name": "ip-packet",
@@ -2539,7 +2540,7 @@
     "repo": "https://github.com/fanatid/make-concurrent",
     "description": "Easy exclusive or shared access to resource",
     "dependents": 3,
-    "disable": "standard 6.0.0"
+    "disable": true
   },
   {
     "name": "base64-emoji",
@@ -2552,7 +2553,7 @@
     "repo": "https://github.com/producthunt/chai-enzyme",
     "description": "Chai.js assertions for enzyme",
     "dependents": 3,
-    "disable": "standard 6.0.0"
+    "disable": true
   },
   {
     "name": "2pl",
@@ -2587,7 +2588,7 @@
   {
     "name": "friends",
     "repo": "https://github.com/moose-team/friends",
-    "disable": "standard 6.0.0"
+    "disable": true
   },
   {
     "name": "peerbot",
