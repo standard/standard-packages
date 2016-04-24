@@ -54,7 +54,8 @@
     "name": "dotenv",
     "repo": "https://github.com/motdotla/dotenv",
     "description": "Loads environment variables from .env file",
-    "dependents": 377
+    "dependents": 377,
+    "disable": true
   },
   {
     "name": "jsonfile",
@@ -66,7 +67,8 @@
     "name": "nyc",
     "repo": "https://github.com/bcoe/nyc",
     "description": "a code coverage tool that works well with subprocesses.",
-    "dependents": 350
+    "dependents": 350,
+    "disable": true
   },
   {
     "name": "path-to-regexp",
@@ -191,7 +193,8 @@
     "name": "bitcoinjs-lib",
     "repo": "https://github.com/bitcoinjs/bitcoinjs-lib",
     "description": "Client-side Bitcoin JavaScript library",
-    "dependents": 83
+    "dependents": 83,
+    "disable": true
   },
   {
     "name": "camel-case",
@@ -227,7 +230,8 @@
     "name": "electron-packager",
     "repo": "https://github.com/maxogden/electron-packager",
     "description": "package your electron app in OS executables (.app, .exe, etc) via JS or CLI",
-    "dependents": 71
+    "dependents": 71,
+    "disable": true
   },
   {
     "name": "run-series",
@@ -251,7 +255,8 @@
     "name": "cssify",
     "repo": "https://github.com/davidguttman/cssify",
     "description": "A simple Browserify transform for adding required styles to the browser.",
-    "dependents": 60
+    "dependents": 60,
+    "disable": true
   },
   {
     "name": "david",
@@ -525,7 +530,8 @@
     "name": "jsreport-core",
     "repo": "https://github.com/jsreport/jsreport-core",
     "description": "javascript based business reporting",
-    "dependents": 20
+    "dependents": 20,
+    "disable": true
   },
   {
     "name": "snake-case",
@@ -537,7 +543,8 @@
     "name": "tap-dev-tool",
     "repo": "https://github.com/Jam3/tap-dev-tool",
     "description": "prettifies TAP in the browser's console",
-    "dependents": 19
+    "dependents": 19,
+    "disable": true
   },
   {
     "name": "assert-ok",
@@ -592,7 +599,8 @@
     "name": "typeforce",
     "repo": "https://github.com/dcousens/typeforce",
     "description": "Another biased type checking solution for Javascript",
-    "dependents": 18
+    "dependents": 18,
+    "disable": true
   },
   {
     "name": "title-case",
@@ -694,7 +702,8 @@
     "name": "sonos",
     "repo": "https://github.com/bencevans/node-sonos",
     "description": "Node.js Sonos Interface",
-    "dependents": 14
+    "dependents": 14,
+    "disable": true
   },
   {
     "name": "any-db-postgres",
@@ -712,7 +721,8 @@
     "name": "jsreport-express",
     "repo": "https://github.com/jsreport/jsreport-express",
     "description": "jsreport extension adding API and studio",
-    "dependents": 14
+    "dependents": 14,
+    "disable": true
   },
   {
     "name": "humanize-duration",
@@ -724,7 +734,8 @@
     "name": "multihashing",
     "repo": "https://github.com/jbenet/js-multihashing",
     "description": "multiple hash functions",
-    "dependents": 14
+    "dependents": 14,
+    "disable": true
   },
   {
     "name": "mkdirp-promise",
@@ -763,7 +774,8 @@
     "name": "prebuild",
     "repo": "https://github.com/mafintosh/prebuild",
     "description": "A command line tool for easily doing prebuilds for multiple version of node/iojs on a specific platform",
-    "dependents": 13
+    "dependents": 13,
+    "disable": true
   },
   {
     "name": "postcss-modules-values",
@@ -827,7 +839,8 @@
     "name": "secp256k1",
     "repo": "https://github.com/cryptocoinjs/secp256k1-node",
     "description": "This module provides native bindings to ecdsa secp256k1 functions",
-    "dependents": 12
+    "dependents": 12,
+    "disable": true
   },
   {
     "name": "fuse-bindings",
@@ -839,7 +852,8 @@
     "name": "csv-streamify",
     "repo": "https://github.com/klaemo/csv-stream",
     "description": "Streaming CSV Parser. Made entirely out of streams.",
-    "dependents": 12
+    "dependents": 12,
+    "disable": true
   },
   {
     "name": "run-parallel-limit",
@@ -876,7 +890,8 @@
     "name": "rerun-script",
     "repo": "https://github.com/wilmoore/rerun-script",
     "description": "Invoke npm scripts upon file changes. Configure via package.json using glob patterns.",
-    "dependents": 11
+    "dependents": 11,
+    "disable": true
   },
   {
     "name": "har-validator",
@@ -1066,7 +1081,8 @@
     "name": "opbeat",
     "repo": "https://github.com/opbeat/opbeat-node",
     "description": "The official Opbeat agent",
-    "dependents": 8
+    "dependents": 8,
+    "disable": true
   },
   {
     "name": "reusify",
@@ -1124,7 +1140,8 @@
     "name": "jsreport",
     "repo": "https://github.com/jsreport/jsreport",
     "description": "javascript based business reporting",
-    "dependents": 8
+    "dependents": 8,
+    "disable": true
   },
   {
     "name": "ipfsd-ctl",
@@ -1174,7 +1191,8 @@
     "name": "browserify-aes",
     "repo": "https://github.com/crypto-browserify/browserify-aes",
     "description": "aes, for browserify",
-    "dependents": 7
+    "dependents": 7,
+    "disable": true
   },
   {
     "name": "prefix-style",
@@ -1284,7 +1302,8 @@
     "name": "appdmg",
     "repo": "https://github.com/LinusU/node-appdmg",
     "description": "Generate beautiful DMG-images for your OS X applications.",
-    "dependents": 6
+    "dependents": 6,
+    "disable": true
   },
   {
     "name": "fs-chunk-store",
@@ -1296,7 +1315,8 @@
     "name": "modinha",
     "repo": "https://github.com/anvilresearch/modinha",
     "description": "Modinha is a toolkit for creating persisted models in Nodejs.",
-    "dependents": 6
+    "dependents": 6,
+    "disable": true
   },
   {
     "name": "loop-grid",
@@ -1338,7 +1358,8 @@
     "name": "protocol-buffers-schema",
     "repo": "https://github.com/mafintosh/protocol-buffers-schema",
     "description": "No nonsense protocol buffers schema parser written in Javascript",
-    "dependents": 6
+    "dependents": 6,
+    "disable": true
   },
   {
     "name": "coininfo",
@@ -1376,7 +1397,8 @@
     "name": "bonjour",
     "repo": "https://github.com/watson/bonjour",
     "description": "A Bonjour/Zeroconf implementation in pure JavaScript",
-    "dependents": 5
+    "dependents": 5,
+    "disable": true
   },
   {
     "name": "application-config",
@@ -1438,7 +1460,8 @@
     "name": "gameloop",
     "repo": "https://github.com/sethvincent/gameloop",
     "description": "simple game loop for javascript – server or browser.",
-    "dependents": 5
+    "dependents": 5,
+    "disable": true
   },
   {
     "name": "npm-install-package",
@@ -1534,7 +1557,8 @@
     "name": "flic",
     "repo": "https://github.com/nkcmr/flic",
     "description": "Easy Inter-process Communication via TCP for node.js",
-    "dependents": 5
+    "dependents": 5,
+    "disable": true
   },
   {
     "name": "is-incoming-message",
@@ -1579,7 +1603,8 @@
     "name": "route-trie",
     "repo": "https://github.com/zensh/route-trie",
     "description": "A trie-based URL router",
-    "dependents": 4
+    "dependents": 4,
+    "disable": true
   },
   {
     "name": "round",
@@ -1731,7 +1756,8 @@
     "name": "markdown-it-decorate",
     "repo": "https://github.com/rstacruz/markdown-it-decorate",
     "description": "Add classes, identifiers and attributes to your markdown with HTML comments",
-    "dependents": 4
+    "dependents": 4,
+    "disable": true
   },
   {
     "name": "attach-css",
@@ -1807,7 +1833,8 @@
     "name": "hjs-webpack",
     "repo": "https://github.com/henrikjoreteg/hjs-webpack",
     "description": "Presets for setting up webpack with hotloading react and ES6(2015) using Babel.",
-    "dependents": 4
+    "dependents": 4,
+    "disable": true
   },
   {
     "name": "cyclist",
@@ -1855,7 +1882,8 @@
     "name": "harmonyhubjs-client",
     "repo": "https://github.com/swissmanu/harmonyhubjs-client",
     "description": "harmonyhubjs-client is a Node.JS library which allows you to interact with your Logitech Harmony Hub.",
-    "dependents": 4
+    "dependents": 4,
+    "disable": true
   },
   {
     "name": "base-input",
@@ -1892,7 +1920,8 @@
     "name": "glslify-bundle",
     "repo": "https://github.com/stackgl/glslify-bundle",
     "description": "Bundle a glslify-deps dependency tree into a GLSL source string",
-    "dependents": 4
+    "dependents": 4,
+    "disable": true
   },
   {
     "name": "aedes-persistence",
@@ -1982,7 +2011,8 @@
     "name": "superagent-no-cache",
     "repo": "https://github.com/johntron/superagent-no-cache",
     "description": "Plugin for visionmedia/superagent that adds headers to all requests that prevents caching",
-    "dependents": 3
+    "dependents": 3,
+    "disable": true
   },
   {
     "name": "sublevelup",
@@ -2031,7 +2061,8 @@
     "name": "croc-dag",
     "repo": "https://github.com/xpavelf/croc",
     "description": "Directed Asyclic Graph for Croc",
-    "dependents": 3
+    "dependents": 3,
+    "disable": true
   },
   {
     "name": "auto-changelog",
@@ -2095,7 +2126,8 @@
     "name": "just-debounce",
     "repo": "https://github.com/hayes/just-debounce",
     "description": "a simple debounce with no dependencies or crazy defaults",
-    "dependents": 3
+    "dependents": 3,
+    "disable": true
   },
   {
     "name": "fullnode",
@@ -2158,7 +2190,8 @@
     "name": "osprey",
     "repo": "https://github.com/mulesoft/osprey",
     "description": "Generate an API proxy from a RAML definition, which can be used locally or globally for validating API requests and responses",
-    "dependents": 3
+    "dependents": 3,
+    "disable": true
   },
   {
     "name": "reeal",
@@ -2295,7 +2328,8 @@
     "name": "evp_bytestokey",
     "repo": "https://github.com/crypto-browserify/EVP_BytesToKey",
     "description": "he super secure key derivation algorithm from openssl",
-    "dependents": 3
+    "dependents": 3,
+    "disable": true
   },
   {
     "name": "url-mapper",
@@ -2489,7 +2523,8 @@
     "name": "stackman",
     "repo": "https://github.com/watson/stackman",
     "description": "Enhance an error stacktrace with code excerpts and other goodies",
-    "dependents": 3
+    "dependents": 3,
+    "disable": true
   },
   {
     "name": "semantic-release-cli",
@@ -2563,7 +2598,8 @@
   },
   {
     "name": "GitTorrent",
-    "repo": "https://github.com/cjb/GitTorrent"
+    "repo": "https://github.com/cjb/GitTorrent",
+    "disable": true
   },
   {
     "name": "standard-www",
