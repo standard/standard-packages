@@ -856,7 +856,8 @@
     "name": "fs-write-stream-atomic",
     "repo": "https://github.com/npm/fs-write-stream-atomic",
     "description": "Like `fs.createWriteStream(...)`, but atomic.",
-    "dependents": 11
+    "dependents": 11,
+    "disable": true
   },
   {
     "name": "thenjs",
