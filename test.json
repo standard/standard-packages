@@ -227,8 +227,7 @@
     "name": "electron-packager",
     "repo": "https://github.com/maxogden/electron-packager",
     "description": "package your electron app in OS executables (.app, .exe, etc) via JS or CLI",
-    "dependents": 71,
-    "disable": true
+    "dependents": 71
   },
   {
     "name": "run-series",
@@ -2085,8 +2084,7 @@
     "name": "socketeer",
     "repo": "https://github.com/SEAPUNK/socketeer",
     "description": "a better way to do websockets",
-    "dependents": 3,
-    "disable": true
+    "dependents": 3
   },
   {
     "name": "docker-mock",
