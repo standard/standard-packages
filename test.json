@@ -426,7 +426,8 @@
     "name": "cerebral",
     "repo": "https://github.com/cerebral/cerebral",
     "description": "A state controller with its own debugger",
-    "dependents": 25
+    "dependents": 25,
+    "disable": true
   },
   {
     "name": "blacklist",
@@ -625,7 +626,8 @@
     "name": "react-faux-dom",
     "repo": "https://github.com/Olical/react-faux-dom",
     "description": "DOM like data structure to be mutated by D3 et al, then rendered to React elements",
-    "dependents": 16
+    "dependents": 16,
+    "disable": true
   },
   {
     "name": "run-waterfall",
