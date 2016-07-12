@@ -2524,12 +2524,6 @@
     "dependents": 3
   },
   {
-    "name": "sema",
-    "repo": "https://github.com/cshum/sema",
-    "description": "Async semaphore for shared or exclusive execution.",
-    "dependents": 3
-  },
-  {
     "name": "pouchdb-hoodie-sync",
     "repo": "https://github.com/hoodiehq/pouchdb-hoodie-sync",
     "description": "Hoodie-like sync API for PouchDB",
@@ -2557,12 +2551,6 @@
     "name": "chai-enzyme",
     "repo": "https://github.com/producthunt/chai-enzyme",
     "description": "Chai.js assertions for enzyme",
-    "dependents": 3
-  },
-  {
-    "name": "2pl",
-    "repo": "https://github.com/cshum/2pl",
-    "description": "Two-phase locking for asynchronous JavaScript executions.",
     "dependents": 3
   },
   {
