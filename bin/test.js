@@ -11,7 +11,7 @@ var series = require('run-series')
 series(packages.test.map(function (pkg) {
   return function (cb) {
     console.log('checking ' + pkg.repo + '...')
-    get(pkg.repo, function (err, res) {
+    get.head(pkg.repo, function (err, res) {
       if (res.statusCode !== 200) {
         err = new Error('Non-200 status code ' + res.statusCode)
       }
