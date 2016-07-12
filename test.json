@@ -1084,7 +1084,8 @@
     "name": "reusify",
     "repo": "https://github.com/mcollina/reusify",
     "description": "Reuse objects and functions with style",
-    "dependents": 8
+    "dependents": 8,
+    "disable": true
   },
   {
     "name": "fs-temp",
@@ -1467,7 +1468,8 @@
     "repo": "https://github.com/js-data/js-data",
     "description": "Robust, framework-agnostic in-memory data store.",
     "dependents": 5,
-    "args": ["src/**/*.js"]
+    "args": ["src/**/*.js"],
+    "disable": true
   },
   {
     "name": "cast-array",
