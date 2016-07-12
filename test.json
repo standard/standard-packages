@@ -666,7 +666,8 @@
     "name": "najax",
     "repo": "https://github.com/alanclarke/najax",
     "description": "jquery ajax-stye http requests in node",
-    "dependents": 15
+    "dependents": 15,
+    "disable": true
   },
   {
     "name": "koop",
@@ -2060,7 +2061,8 @@
     "name": "jsreport-data",
     "repo": "https://github.com/jsreport/jsreport-data",
     "description": "jsreport extension adding support for using sample data for previewing templates",
-    "dependents": 3
+    "dependents": 3,
+    "disable": true
   },
   {
     "name": "sort-semver-comparators",
@@ -2551,7 +2553,8 @@
     "name": "chai-enzyme",
     "repo": "https://github.com/producthunt/chai-enzyme",
     "description": "Chai.js assertions for enzyme",
-    "dependents": 3
+    "dependents": 3,
+    "disable": true
   },
   {
     "name": "GitTorrent",
