@@ -16,6 +16,8 @@
     "event-stream": "^3.3.1",
     "github-url-to-object": "^2.1.0",
     "pad-left": "^2.0.0",
+    "run-series": "^1.1.4",
+    "simple-get": "^2.2.1",
     "standard": "^7.0.0"
   },
   "keywords": [
@@ -52,6 +54,6 @@
   "scripts": {
     "fetch": "curl https://skimdb.npmjs.com/registry/_design/scratch/_view/byField > rawdata.json",
     "start": "node bin/update.js",
-    "test": "standard && node -e \"require('.')\""
+    "test": "standard && node bin/test.js"
   }
 }
