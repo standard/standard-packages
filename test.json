@@ -607,7 +607,8 @@
     "name": "binary-split",
     "repo": "https://github.com/maxogden/binary-split",
     "description": "a fast newline (or any delimiter) splitter stream - like require('split') but faster",
-    "dependents": 17
+    "dependents": 17,
+    "disable": true
   },
   {
     "name": "webtorrent",
@@ -806,7 +807,8 @@
     "name": "fastparallel",
     "repo": "https://github.com/mcollina/fastparallel",
     "description": "Zero-overhead asynchronous parallel/each/map function call",
-    "dependents": 12
+    "dependents": 12,
+    "disable": true
   },
   {
     "name": "rlp",
@@ -896,7 +898,8 @@
     "name": "human-format",
     "repo": "https://github.com/julien-f/human-format",
     "description": "Converts a number to/from a human readable string: `1337` ↔ `1.34kB`",
-    "dependents": 11
+    "dependents": 11,
+    "disable": true
   },
   {
     "name": "deglob",
@@ -1138,7 +1141,8 @@
     "name": "ipfsd-ctl",
     "repo": "https://github.com/ipfs/js-ipfsd-ctl",
     "description": "simple controls for an ipfs node",
-    "dependents": 8
+    "dependents": 8,
+    "disable": true
   },
   {
     "name": "get-server-port",
@@ -2065,12 +2069,6 @@
     "dependents": 3
   },
   {
-    "name": "stylint-stylish",
-    "repo": "https://github.com/simenb/stylint-stylish",
-    "description": "A stylish reporter for Stylint, heavily inspired by jshint-stylish",
-    "dependents": 3
-  },
-  {
     "name": "lower-case-first",
     "repo": "https://github.com/blakeembrey/lower-case-first",
     "description": "Lower case the first character of a string",
@@ -2080,7 +2078,8 @@
     "name": "docker-loghose",
     "repo": "https://github.com/mcollina/docker-loghose",
     "description": "Collect all the logs from all docker containers",
-    "dependents": 3
+    "dependents": 3,
+    "disable": true
   },
   {
     "name": "socketeer",
@@ -2126,7 +2125,8 @@
     "repo": "https://github.com/js-data/js-data-adapter-tests",
     "description": "Tests for js-data adapters.",
     "dependents": 3,
-    "args": ["src/**/*.js"]
+    "args": ["src/**/*.js"],
+    "disable": true
   },
   {
     "name": "bloomrun",
@@ -2279,7 +2279,8 @@
     "name": "metalsmith-register-helpers",
     "repo": "https://github.com/losttype/metalsmith-register-helpers",
     "description": "A Metalsmith plugin for registering Handlebars helpers.",
-    "dependents": 3
+    "dependents": 3,
+    "disable": true
   },
   {
     "name": "patch-text",
@@ -2426,7 +2427,8 @@
     "name": "multitest",
     "repo": "https://github.com/jcollado/multitest",
     "description": "Run \"npm test\" using multiple node versions",
-    "dependents": 3
+    "dependents": 3,
+    "disable": true
   },
   {
     "name": "unique-filename",
@@ -2462,7 +2464,8 @@
     "name": "tape-promise",
     "repo": "https://github.com/jprichardson/tape-promise",
     "description": "Promise/async support for tape.",
-    "dependents": 3
+    "dependents": 3,
+    "disable": true
   },
   {
     "name": "ipfs-repo",
