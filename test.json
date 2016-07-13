@@ -203,7 +203,8 @@
     "name": "garnish",
     "repo": "https://github.com/mattdesl/garnish",
     "description": "prettifies ndjson from wzrd and similar tools",
-    "dependents": 75
+    "dependents": 75,
+    "disable": true
   },
   {
     "name": "buffer",
@@ -227,7 +228,8 @@
     "name": "electron-packager",
     "repo": "https://github.com/maxogden/electron-packager",
     "description": "package your electron app in OS executables (.app, .exe, etc) via JS or CLI",
-    "dependents": 71
+    "dependents": 71,
+    "disable": true
   },
   {
     "name": "run-series",
@@ -1897,7 +1899,8 @@
     "name": "hapi-swaggered",
     "repo": "https://github.com/z0mt3c/hapi-swaggered",
     "description": "Yet another hapi plugin providing swagger compliant API specifications based on routes and joi schemas to be used with swagger-ui.",
-    "dependents": 4
+    "dependents": 4,
+    "disable": true
   },
   {
     "name": "sodium-signatures",
@@ -2341,7 +2344,8 @@
     "name": "ipp-printer",
     "repo": "https://github.com/watson/ipp-printer",
     "description": "Create a printer on the network",
-    "dependents": 3
+    "dependents": 3,
+    "disable": true
   },
   {
     "name": "raml-client-generator",
@@ -2353,7 +2357,8 @@
     "name": "ipp-encoder",
     "repo": "https://github.com/watson/ipp-encoder",
     "description": "Internet Printing Protocol (IPP) encoder and decoder",
-    "dependents": 3
+    "dependents": 3,
+    "disable": true
   },
   {
     "name": "klaw",
