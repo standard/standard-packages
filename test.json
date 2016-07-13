@@ -1573,12 +1573,6 @@
     "dependents": 5
   },
   {
-    "name": "kazana-server",
-    "repo": "https://github.com/eHealthAfrica/kazana-server",
-    "description": "hapi.Server wrapper to serve kazana apps and plugins",
-    "dependents": 5
-  },
-  {
     "name": "rocky",
     "repo": "https://github.com/h2non/rocky",
     "description": "Full-featured, middleware-oriented, hackable HTTP and WebSocket proxy",
