@@ -1964,12 +1964,6 @@
     "dependents": 3
   },
   {
-    "name": "kazana-bootstrap",
-    "repo": "https://github.com/eHealthAfrica/kazana-bootstrap",
-    "description": "Kazana core module to bootstrap all things CouchDB",
-    "dependents": 3
-  },
-  {
     "name": "application-config-path",
     "repo": "https://github.com/LinusU/node-application-config-path",
     "description": "Store your application config in the right location.",
