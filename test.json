@@ -323,8 +323,7 @@
     "name": "stream-to-promise",
     "repo": "https://github.com/bendrucker/stream-to-promise",
     "description": "Convert streams (readable or writable) to promises",
-    "dependents": 35,
-    "disable": true
+    "dependents": 35
   },
   {
     "name": "torrent-stream",
@@ -408,8 +407,7 @@
     "name": "thunks",
     "repo": "https://github.com/thunks/thunks",
     "description": "A small and magical tool that compose all the asynchronous.",
-    "dependents": 26,
-    "disable": true
+    "dependents": 26
   },
   {
     "name": "param-case",
@@ -428,8 +426,7 @@
     "name": "cerebral",
     "repo": "https://github.com/cerebral/cerebral",
     "description": "A state controller with its own debugger",
-    "dependents": 25,
-    "disable": true
+    "dependents": 25
   },
   {
     "name": "blacklist",
@@ -478,8 +475,7 @@
     "name": "dat",
     "repo": "https://github.com/maxogden/dat",
     "description": "versioning and sync tool for data sets",
-    "dependents": 23,
-    "disable": true
+    "dependents": 23
   },
   {
     "name": "md5-file",
@@ -583,8 +579,7 @@
     "name": "toa",
     "repo": "https://github.com/toajs/toa",
     "description": "A pithy and powerful web framework.",
-    "dependents": 18,
-    "disable": true
+    "dependents": 18
   },
   {
     "name": "multiaddr",
@@ -629,8 +624,7 @@
     "name": "react-faux-dom",
     "repo": "https://github.com/Olical/react-faux-dom",
     "description": "DOM like data structure to be mutated by D3 et al, then rendered to React elements",
-    "dependents": 16,
-    "disable": true
+    "dependents": 16
   },
   {
     "name": "run-waterfall",
@@ -649,8 +643,7 @@
     "name": "thunk-mocha",
     "repo": "https://github.com/thunks/thunk-mocha",
     "description": "Enable support for generators in Mocha with backward compatibility.",
-    "dependents": 15,
-    "disable": true
+    "dependents": 15
   },
   {
     "name": "glob-promise",
@@ -721,8 +714,7 @@
     "name": "jsreport-express",
     "repo": "https://github.com/jsreport/jsreport-express",
     "description": "jsreport extension adding API and studio",
-    "dependents": 14,
-    "disable": true
+    "dependents": 14
   },
   {
     "name": "humanize-duration",
@@ -773,8 +765,7 @@
     "name": "prebuild",
     "repo": "https://github.com/mafintosh/prebuild",
     "description": "A command line tool for easily doing prebuilds for multiple version of node/iojs on a specific platform",
-    "dependents": 13,
-    "disable": true
+    "dependents": 13
   },
   {
     "name": "postcss-modules-values",
@@ -837,8 +828,7 @@
     "name": "secp256k1",
     "repo": "https://github.com/cryptocoinjs/secp256k1-node",
     "description": "This module provides native bindings to ecdsa secp256k1 functions",
-    "dependents": 12,
-    "disable": true
+    "dependents": 12
   },
   {
     "name": "fuse-bindings",
@@ -850,8 +840,7 @@
     "name": "csv-streamify",
     "repo": "https://github.com/klaemo/csv-stream",
     "description": "Streaming CSV Parser. Made entirely out of streams.",
-    "dependents": 12,
-    "disable": true
+    "dependents": 12
   },
   {
     "name": "run-parallel-limit",
@@ -870,8 +859,7 @@
     "name": "thenjs",
     "repo": "https://github.com/teambition/then.js",
     "description": "The fastest, smallest, fully compatible, full-featured asynchronous module!",
-    "dependents": 11,
-    "disable": true
+    "dependents": 11
   },
   {
     "name": "hosted-git-info",
@@ -1114,8 +1102,7 @@
     "name": "thunk-redis",
     "repo": "https://github.com/thunks/thunk-redis",
     "description": "The fastest thunk/promise-based redis client, support all redis features.",
-    "dependents": 8,
-    "disable": true
+    "dependents": 8
   },
   {
     "name": "pkg-config",
@@ -1299,8 +1286,7 @@
     "name": "appdmg",
     "repo": "https://github.com/LinusU/node-appdmg",
     "description": "Generate beautiful DMG-images for your OS X applications.",
-    "dependents": 6,
-    "disable": true
+    "dependents": 6
   },
   {
     "name": "fs-chunk-store",
@@ -1393,8 +1379,7 @@
     "name": "bonjour",
     "repo": "https://github.com/watson/bonjour",
     "description": "A Bonjour/Zeroconf implementation in pure JavaScript",
-    "dependents": 5,
-    "disable": true
+    "dependents": 5
   },
   {
     "name": "application-config",
@@ -1489,8 +1474,7 @@
     "name": "argv-set-env",
     "repo": "https://github.com/kentcdodds/argv-set-env",
     "description": "Use in your config files to set environment variables cross-platform",
-    "dependents": 5,
-    "disable": true
+    "dependents": 5
   },
   {
     "name": "html-validator",
@@ -1591,8 +1575,7 @@
     "name": "route-trie",
     "repo": "https://github.com/zensh/route-trie",
     "description": "A trie-based URL router",
-    "dependents": 4,
-    "disable": true
+    "dependents": 4
   },
   {
     "name": "round",
@@ -1676,8 +1659,7 @@
     "name": "respjs",
     "repo": "https://github.com/zensh/resp.js",
     "description": "An implementation of REdis Serialization Protocol (RESP), parse pipelining chunks.",
-    "dependents": 4,
-    "disable": true
+    "dependents": 4
   },
   {
     "name": "chromecasts",
@@ -2048,8 +2030,7 @@
     "name": "auto-changelog",
     "repo": "https://github.com/CookPete/auto-changelog",
     "description": "Command line tool for generating a changelog from git tags and commit history",
-    "dependents": 3,
-    "disable": true
+    "dependents": 3
   },
   {
     "name": "jsreport-data",
@@ -2093,8 +2074,7 @@
     "name": "socket.io-rpc",
     "repo": "https://github.com/capaj/socket.io-rpc",
     "description": "Minimalistic remote procedure call(RPC/RMI) library bootstrapped on socket.io",
-    "dependents": 3,
-    "disable": true
+    "dependents": 3
   },
   {
     "name": "just-debounce",
@@ -2121,8 +2101,7 @@
     "repo": "https://github.com/js-data/js-data-adapter-tests",
     "description": "Tests for js-data adapters.",
     "dependents": 3,
-    "args": ["src/**/*.js"],
-    "disable": true
+    "args": ["src/**/*.js"]
   },
   {
     "name": "bloomrun",
@@ -2226,8 +2205,7 @@
     "name": "xo-collection",
     "repo": "https://github.com/marsaud/collection",
     "description": "Generic in-memory collection with events",
-    "dependents": 3,
-    "disable": true
+    "dependents": 3
   },
   {
     "name": "geohub",
@@ -2412,8 +2390,7 @@
     "name": "user-startup",
     "repo": "https://github.com/typicode/user-startup",
     "description": "Automatically run commands when the user logs in (cross-platform)",
-    "dependents": 3,
-    "disable": true
+    "dependents": 3
   },
   {
     "name": "standard-json",
@@ -2425,8 +2402,7 @@
     "name": "multitest",
     "repo": "https://github.com/jcollado/multitest",
     "description": "Run \"npm test\" using multiple node versions",
-    "dependents": 3,
-    "disable": true
+    "dependents": 3
   },
   {
     "name": "unique-filename",
@@ -2462,8 +2438,7 @@
     "name": "tape-promise",
     "repo": "https://github.com/jprichardson/tape-promise",
     "description": "Promise/async support for tape.",
-    "dependents": 3,
-    "disable": true
+    "dependents": 3
   },
   {
     "name": "ipfs-repo",
