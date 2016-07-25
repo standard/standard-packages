@@ -3,7 +3,8 @@
     "name": "fs-extra",
     "repo": "https://github.com/jprichardson/node-fs-extra",
     "description": "fs-extra contains methods that aren't included in the vanilla Node.js fs package. Such as mkdir -p, cp -r, and rm -rf.",
-    "dependents": 3279
+    "dependents": 3279,
+    "disable": true
   },
   {
     "name": "tap",
@@ -407,7 +408,8 @@
     "name": "thunks",
     "repo": "https://github.com/thunks/thunks",
     "description": "A small and magical tool that compose all the asynchronous.",
-    "dependents": 26
+    "dependents": 26,
+    "disable": true
   },
   {
     "name": "param-case",
@@ -579,7 +581,8 @@
     "name": "toa",
     "repo": "https://github.com/toajs/toa",
     "description": "A pithy and powerful web framework.",
-    "dependents": 18
+    "dependents": 18,
+    "disable": true
   },
   {
     "name": "multiaddr",
@@ -649,7 +652,8 @@
     "name": "glob-promise",
     "repo": "https://github.com/ahmadnassri/glob-promise",
     "description": "Promise version of glob",
-    "dependents": 15
+    "dependents": 15,
+    "disable": true
   },
   {
     "name": "jsreport-templates",
@@ -682,7 +686,8 @@
     "name": "ecdsa",
     "repo": "https://github.com/cryptocoinjs/ecdsa",
     "description": "Elliptic Curve Cryptography Digital Signing",
-    "dependents": 15
+    "dependents": 15,
+    "disable": true
   },
   {
     "name": "base-element",
@@ -859,7 +864,8 @@
     "name": "thenjs",
     "repo": "https://github.com/teambition/then.js",
     "description": "The fastest, smallest, fully compatible, full-featured asynchronous module!",
-    "dependents": 11
+    "dependents": 11,
+    "disable": true
   },
   {
     "name": "hosted-git-info",
@@ -941,7 +947,8 @@
     "name": "corsproxy",
     "repo": "https://github.com/gr2m/CORS-Proxy",
     "description": "standalone CORS proxy",
-    "dependents": 10
+    "dependents": 10,
+    "disable": true
   },
   {
     "name": "karma-slimerjs-launcher",
@@ -1102,7 +1109,8 @@
     "name": "thunk-redis",
     "repo": "https://github.com/thunks/thunk-redis",
     "description": "The fastest thunk/promise-based redis client, support all redis features.",
-    "dependents": 8
+    "dependents": 8,
+    "disable": true
   },
   {
     "name": "pkg-config",
@@ -1366,7 +1374,8 @@
     "name": "gulp-codecov.io",
     "repo": "https://github.com/eddiemoore/gulp-codecov.io",
     "description": "Gulp plugin to submit code coverage to Codecov.io",
-    "dependents": 6
+    "dependents": 6,
+    "disable": true
   },
   {
     "name": "acho",
@@ -1468,7 +1477,8 @@
     "name": "socketio-wildcard",
     "repo": "https://github.com/hden/socketio-wildcard",
     "description": "socket.io with a wildcard event",
-    "dependents": 5
+    "dependents": 5,
+    "disable": true
   },
   {
     "name": "argv-set-env",
@@ -1575,7 +1585,8 @@
     "name": "route-trie",
     "repo": "https://github.com/zensh/route-trie",
     "description": "A trie-based URL router",
-    "dependents": 4
+    "dependents": 4,
+    "disable": true
   },
   {
     "name": "round",
@@ -1751,7 +1762,8 @@
     "name": "chokidar-socket-emitter",
     "repo": "https://github.com/capaj/chokidar-socket-emitter",
     "description": "socket.io server emitting changes on filesystem",
-    "dependents": 4
+    "dependents": 4,
+    "disable": true
   },
   {
     "name": "express-restify-mongoose",
@@ -2488,7 +2500,8 @@
     "name": "toa-token",
     "repo": "https://github.com/toajs/toa-token",
     "description": "Json web token (JWT) module for toa.",
-    "dependents": 3
+    "dependents": 3,
+    "disable": true
   },
   {
     "name": "object-pair",
