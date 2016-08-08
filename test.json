@@ -2459,12 +2459,6 @@
     "dependents": 3
   },
   {
-    "name": "hapi-swaggered-ui",
-    "repo": "https://github.com/z0mt3c/hapi-swaggered-ui",
-    "description": "Easy swagger-ui drop-in plugin for hapi to be used with hapi-swaggered.",
-    "dependents": 3
-  },
-  {
     "name": "feathers-action-types",
     "repo": "https://github.com/ahdinosaur/feathers-action-types",
     "description": "flux action types for feathers services",
