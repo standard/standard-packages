@@ -2550,6 +2550,10 @@
     "repo": "https://github.com/feross/webtorrent-www"
   },
   {
+    "name": "webtorrent-desktop",
+    "repo": "https://github.com/feross/webtorrent-desktop"
+  },
+  {
     "name": "instant.io",
     "repo": "https://github.com/feross/instant.io"
   },
