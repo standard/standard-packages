@@ -660,8 +660,7 @@
     "name": "jsreport-templates",
     "repo": "https://github.com/jsreport/jsreport-templates",
     "description": "jsreport extension adding support for storing templates",
-    "dependents": 15,
-    "disable": true
+    "dependents": 15
   },
   {
     "name": "najax",
@@ -1814,8 +1813,7 @@
     "name": "hjs-webpack",
     "repo": "https://github.com/henrikjoreteg/hjs-webpack",
     "description": "Presets for setting up webpack with hotloading react and ES6(2015) using Babel.",
-    "dependents": 4,
-    "disable": true
+    "dependents": 4
   },
   {
     "name": "cyclist",
@@ -2049,8 +2047,7 @@
     "name": "jsreport-data",
     "repo": "https://github.com/jsreport/jsreport-data",
     "description": "jsreport extension adding support for using sample data for previewing templates",
-    "dependents": 3,
-    "disable": true
+    "dependents": 3
   },
   {
     "name": "sort-semver-comparators",
