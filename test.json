@@ -1831,7 +1831,8 @@
     "name": "object-loops",
     "repo": "https://github.com/tjmehta/object-loops",
     "description": "Functional methods like forEach, map, filter, and other ES5 Array methods for Objects in javascript",
-    "dependents": 4
+    "dependents": 4,
+    "disable": true
   },
   {
     "name": "multi-write-stream",
