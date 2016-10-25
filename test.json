@@ -429,7 +429,8 @@
     "name": "cerebral",
     "repo": "https://github.com/cerebral/cerebral",
     "description": "A state controller with its own debugger",
-    "dependents": 25
+    "dependents": 25,
+    "disable": true
   },
   {
     "name": "blacklist",
@@ -2402,7 +2403,8 @@
     "name": "user-startup",
     "repo": "https://github.com/typicode/user-startup",
     "description": "Automatically run commands when the user logs in (cross-platform)",
-    "dependents": 3
+    "dependents": 3,
+    "disable": true
   },
   {
     "name": "standard-json",
