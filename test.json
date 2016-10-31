@@ -17,7 +17,8 @@
     "name": "yargs",
     "repo": "https://github.com/bcoe/yargs",
     "description": "Light-weight option parsing with an argv hash. No optstrings attached.",
-    "dependents": 2526
+    "dependents": 2526,
+    "disable": true
   },
   {
     "name": "karma-coverage",
@@ -74,7 +75,8 @@
     "name": "path-to-regexp",
     "repo": "https://github.com/pillarjs/path-to-regexp",
     "description": "Express style path to RegExp utility",
-    "dependents": 333
+    "dependents": 333,
+    "disable": true
   },
   {
     "name": "fstream",
@@ -212,7 +214,8 @@
     "name": "buffer",
     "repo": "https://github.com/feross/buffer",
     "description": "Node.js Buffer API, for the browser",
-    "dependents": 75
+    "dependents": 75,
+    "disable": true
   },
   {
     "name": "tar-stream",
@@ -249,7 +252,8 @@
     "name": "read-package-json",
     "repo": "https://github.com/npm/read-package-json",
     "description": "The thing npm uses to read package.json files with semantics and defaults and validation",
-    "dependents": 62
+    "dependents": 62,
+    "disable": true
   },
   {
     "name": "cssify",
@@ -262,7 +266,8 @@
     "name": "david",
     "repo": "https://github.com/alanshaw/david",
     "description": "Node.js module that tells you when your project npm dependencies are out of date.",
-    "dependents": 60
+    "dependents": 60,
+    "disable": true
   },
   {
     "name": "bs58",
@@ -515,7 +520,8 @@
     "name": "napa",
     "repo": "https://github.com/shama/napa",
     "description": "A helper for installing repos without a package.json with npm.",
-    "dependents": 21
+    "dependents": 21,
+    "disable": true
   },
   {
     "name": "dom-css",
@@ -577,7 +583,8 @@
     "name": "standard-format",
     "repo": "https://github.com/maxogden/standard-format",
     "description": "attempts to reformat javascript to comply with feross/standard style",
-    "dependents": 18
+    "dependents": 18,
+    "disable": true
   },
   {
     "name": "toa",
@@ -629,7 +636,8 @@
     "name": "react-faux-dom",
     "repo": "https://github.com/Olical/react-faux-dom",
     "description": "DOM like data structure to be mutated by D3 et al, then rendered to React elements",
-    "dependents": 16
+    "dependents": 16,
+    "disable": true
   },
   {
     "name": "run-waterfall",
@@ -648,7 +656,8 @@
     "name": "thunk-mocha",
     "repo": "https://github.com/thunks/thunk-mocha",
     "description": "Enable support for generators in Mocha with backward compatibility.",
-    "dependents": 15
+    "dependents": 15,
+    "disable": true
   },
   {
     "name": "glob-promise",
@@ -822,7 +831,8 @@
     "name": "bittorrent-tracker",
     "repo": "https://github.com/feross/bittorrent-tracker",
     "description": "Simple, robust, BitTorrent tracker (client & server) implementation",
-    "dependents": 12
+    "dependents": 12,
+    "disable": true
   },
   {
     "name": "filereader-stream",
@@ -872,7 +882,8 @@
     "name": "hosted-git-info",
     "repo": "https://github.com/npm/hosted-git-info",
     "description": "Provides metadata and conversions from repository urls for Github, Bitbucket and Gitlab",
-    "dependents": 11
+    "dependents": 11,
+    "disable": true
   },
   {
     "name": "lower-case",
@@ -1015,7 +1026,8 @@
     "name": "pouchdb-hoodie-api",
     "repo": "https://github.com/hoodiehq/pouchdb-hoodie-api",
     "description": "Hoodie-like API for PouchDB",
-    "dependents": 9
+    "dependents": 9,
+    "disable": true
   },
   {
     "name": "create-torrent",
@@ -1295,7 +1307,8 @@
     "name": "appdmg",
     "repo": "https://github.com/LinusU/node-appdmg",
     "description": "Generate beautiful DMG-images for your OS X applications.",
-    "dependents": 6
+    "dependents": 6,
+    "disable": true
   },
   {
     "name": "fs-chunk-store",
@@ -1363,7 +1376,8 @@
     "name": "marky-markdown",
     "repo": "https://github.com/npm/marky-markdown",
     "description": "npm's markdown parser",
-    "dependents": 6
+    "dependents": 6,
+    "disable": true
   },
   {
     "name": "popsicle-server",
@@ -1605,7 +1619,8 @@
     "name": "mdx",
     "repo": "https://github.com/rstacruz/mdx",
     "description": "Generic documentation extractor. Extensible enough to work with any language that supports comments.",
-    "dependents": 4
+    "dependents": 4,
+    "disable": true
   },
   {
     "name": "virtual-hook",
@@ -1802,7 +1817,8 @@
     "name": "yargs-cn",
     "repo": "https://github.com/bcoe/yargs",
     "description": "Light-weight option parsing with an argv hash. No optstrings attached.",
-    "dependents": 4
+    "dependents": 4,
+    "disable": true
   },
   {
     "name": "never-ending-stream",
@@ -1981,7 +1997,8 @@
     "name": "moment-parseformat",
     "repo": "https://github.com/gr2m/moment-parseformat",
     "description": "A moment.js plugin to extract the format of a date/time string",
-    "dependents": 3
+    "dependents": 3,
+    "disable": true
   },
   {
     "name": "superagent-no-cache",
@@ -2044,7 +2061,8 @@
     "name": "auto-changelog",
     "repo": "https://github.com/CookPete/auto-changelog",
     "description": "Command line tool for generating a changelog from git tags and commit history",
-    "dependents": 3
+    "dependents": 3,
+    "disable": true
   },
   {
     "name": "jsreport-data",
@@ -2075,7 +2093,8 @@
     "name": "socketeer",
     "repo": "https://github.com/SEAPUNK/socketeer",
     "description": "a better way to do websockets",
-    "dependents": 3
+    "dependents": 3,
+    "disable": true
   },
   {
     "name": "docker-mock",
@@ -2555,11 +2574,13 @@
   },
   {
     "name": "webtorrent-desktop",
-    "repo": "https://github.com/feross/webtorrent-desktop"
+    "repo": "https://github.com/feross/webtorrent-desktop",
+    "disable": true
   },
   {
     "name": "instant.io",
-    "repo": "https://github.com/feross/instant.io"
+    "repo": "https://github.com/feross/instant.io",
+    "disable": true
   },
   {
     "name": "friends-swarm",
