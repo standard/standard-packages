@@ -2221,7 +2221,8 @@
     "name": "chiffchaff",
     "repo": "https://github.com/zentrick/chiffchaff",
     "description": "Cancellable promises with progress reporting.",
-    "dependents": 3
+    "dependents": 3,
+    "disable": true
   },
   {
     "name": "parse-asn1",
