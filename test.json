@@ -2475,7 +2475,8 @@
     "name": "ipfs-repo",
     "repo": "https://github.com/ipfs/js-ipfs-repo",
     "description": "IPFS Repo implementation",
-    "dependents": 3
+    "dependents": 3,
+    "disable": true
   },
   {
     "name": "feathers-action-types",
