@@ -31,8 +31,7 @@
     "name": "semantic-release",
     "repo": "https://github.com/semantic-release/semantic-release",
     "description": "automated semver compliant package publishing",
-    "dependents": 771,
-    "disable": true
+    "dependents": 771
   },
   {
     "name": "karma-cli",
@@ -238,8 +237,7 @@
     "name": "electron-packager",
     "repo": "https://github.com/maxogden/electron-packager",
     "description": "package your electron app in OS executables (.app, .exe, etc) via JS or CLI",
-    "dependents": 71,
-    "disable": true
+    "dependents": 71
   },
   {
     "name": "run-series",
@@ -271,8 +269,7 @@
     "name": "david",
     "repo": "https://github.com/alanshaw/david",
     "description": "Node.js module that tells you when your project npm dependencies are out of date.",
-    "dependents": 60,
-    "disable": true
+    "dependents": 60
   },
   {
     "name": "bs58",
@@ -613,8 +610,7 @@
     "name": "typeforce",
     "repo": "https://github.com/dcousens/typeforce",
     "description": "Another biased type checking solution for Javascript",
-    "dependents": 18,
-    "disable": true
+    "dependents": 18
   },
   {
     "name": "title-case",
@@ -673,8 +669,7 @@
     "name": "glob-promise",
     "repo": "https://github.com/ahmadnassri/glob-promise",
     "description": "Promise version of glob",
-    "dependents": 15,
-    "disable": true
+    "dependents": 15
   },
   {
     "name": "jsreport-templates",
@@ -720,8 +715,7 @@
     "name": "sonos",
     "repo": "https://github.com/bencevans/node-sonos",
     "description": "Node.js Sonos Interface",
-    "dependents": 14,
-    "disable": true
+    "dependents": 14
   },
   {
     "name": "any-db-postgres",
@@ -886,8 +880,7 @@
     "name": "thenjs",
     "repo": "https://github.com/teambition/then.js",
     "description": "The fastest, smallest, fully compatible, full-featured asynchronous module!",
-    "dependents": 11,
-    "disable": true
+    "dependents": 11
   },
   {
     "name": "hosted-git-info",
@@ -919,8 +912,7 @@
     "name": "human-format",
     "repo": "https://github.com/julien-f/human-format",
     "description": "Converts a number to/from a human readable string: `1337` ↔ `1.34kB`",
-    "dependents": 11,
-    "disable": true
+    "dependents": 11
   },
   {
     "name": "deglob",
@@ -1163,8 +1155,7 @@
     "name": "jsreport",
     "repo": "https://github.com/jsreport/jsreport",
     "description": "javascript based business reporting",
-    "dependents": 8,
-    "disable": true
+    "dependents": 8
   },
   {
     "name": "ipfsd-ctl",
@@ -1397,8 +1388,7 @@
     "name": "marky-markdown",
     "repo": "https://github.com/npm/marky-markdown",
     "description": "npm's markdown parser",
-    "dependents": 6,
-    "disable": true
+    "dependents": 6
   },
   {
     "name": "popsicle-server",
@@ -1466,8 +1456,7 @@
     "name": "fs-writefile-promise",
     "repo": "https://github.com/ahmadnassri/fs-writefile-promise",
     "description": "Promise version of fs.writefile",
-    "dependents": 5,
-    "disable": true
+    "dependents": 5
   },
   {
     "name": "builtin-status-codes",
@@ -1617,15 +1606,13 @@
     "name": "koop-pgcache",
     "repo": "https://github.com/koopjs/koop-pgcache",
     "description": "A PostGIS data cache for Koop.",
-    "dependents": 5,
-    "disable": true
+    "dependents": 5
   },
   {
     "name": "route-trie",
     "repo": "https://github.com/zensh/route-trie",
     "description": "A trie-based URL router",
-    "dependents": 4,
-    "disable": true
+    "dependents": 4
   },
   {
     "name": "round",
@@ -1779,8 +1766,7 @@
     "name": "markdown-it-decorate",
     "repo": "https://github.com/rstacruz/markdown-it-decorate",
     "description": "Add classes, identifiers and attributes to your markdown with HTML comments",
-    "dependents": 4,
-    "disable": true
+    "dependents": 4
   },
   {
     "name": "attach-css",
@@ -1812,8 +1798,7 @@
     "name": "express-restify-mongoose",
     "repo": "https://github.com/florianholzapfel/express-restify-mongoose",
     "description": "Easily create a flexible REST interface for mongoose models",
-    "dependents": 4,
-    "disable": true
+    "dependents": 4
   },
   {
     "name": "couchdb-push",
@@ -1860,8 +1845,7 @@
     "name": "hjs-webpack",
     "repo": "https://github.com/henrikjoreteg/hjs-webpack",
     "description": "Presets for setting up webpack with hotloading react and ES6(2015) using Babel.",
-    "dependents": 4,
-    "disable": true
+    "dependents": 4
   },
   {
     "name": "cyclist",
@@ -2539,8 +2523,7 @@
     "name": "stackman",
     "repo": "https://github.com/watson/stackman",
     "description": "Enhance an error stacktrace with code excerpts and other goodies",
-    "dependents": 3,
-    "disable": true
+    "dependents": 3
   },
   {
     "name": "semantic-release-cli",
@@ -2559,8 +2542,7 @@
     "name": "toa-token",
     "repo": "https://github.com/toajs/toa-token",
     "description": "Json web token (JWT) module for toa.",
-    "dependents": 3,
-    "disable": true
+    "dependents": 3
   },
   {
     "name": "object-pair",
