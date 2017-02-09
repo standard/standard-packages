@@ -24,7 +24,8 @@
     "name": "karma-coverage",
     "repo": "https://github.com/karma-runner/karma-coverage",
     "description": "A Karma plugin. Generate code coverage.",
-    "dependents": 1743
+    "dependents": 1743,
+    "disable": true
   },
   {
     "name": "semantic-release",
@@ -49,7 +50,8 @@
     "name": "co-mocha",
     "repo": "https://github.com/blakeembrey/co-mocha",
     "description": "Enable support for generators in Mocha tests",
-    "dependents": 388
+    "dependents": 388,
+    "disable": true
   },
   {
     "name": "dotenv",
@@ -120,7 +122,8 @@
     "name": "mongojs",
     "repo": "https://github.com/mafintosh/mongojs",
     "description": "Easy to use module that implements the mongo api",
-    "dependents": 183
+    "dependents": 183,
+    "disable": true
   },
   {
     "name": "budo",
@@ -133,7 +136,8 @@
     "name": "karma-ng-html2js-preprocessor",
     "repo": "https://github.com/karma-runner/karma-ng-html2js-preprocessor",
     "description": "A Karma plugin. Compile AngularJS templates to JavaScript on the fly.",
-    "dependents": 151
+    "dependents": 151,
+    "disable": true
   },
   {
     "name": "semistandard",
@@ -151,7 +155,8 @@
     "name": "mocha-jsdom",
     "repo": "https://github.com/rstacruz/mocha-jsdom",
     "description": "Simple integration of jsdom into mocha tests",
-    "dependents": 140
+    "dependents": 140,
+    "disable": true
   },
   {
     "name": "tar-fs",
@@ -182,7 +187,8 @@
     "name": "split2",
     "repo": "https://github.com/mcollina/split2",
     "description": "split a Text Stream into a Line Stream, using Stream 3",
-    "dependents": 96
+    "dependents": 96,
+    "disable": true
   },
   {
     "name": "run-parallel",
@@ -298,7 +304,8 @@
     "name": "tosource",
     "repo": "https://github.com/marcello3d/node-tosource",
     "description": "toSource converts JavaScript objects back to source",
-    "dependents": 43
+    "dependents": 43,
+    "disable": true
   },
   {
     "name": "crypto-browserify",
@@ -329,13 +336,15 @@
     "name": "stream-to-promise",
     "repo": "https://github.com/bendrucker/stream-to-promise",
     "description": "Convert streams (readable or writable) to promises",
-    "dependents": 35
+    "dependents": 35,
+    "disable": true
   },
   {
     "name": "torrent-stream",
     "repo": "https://github.com/mafintosh/torrent-stream",
     "description": "Low level streaming torrent client that exposes files as node.js streams and downloads pieces based on demand",
-    "dependents": 34
+    "dependents": 34,
+    "disable": true
   },
   {
     "name": "gunzip-maybe",
@@ -483,7 +492,8 @@
     "name": "dat",
     "repo": "https://github.com/maxogden/dat",
     "description": "versioning and sync tool for data sets",
-    "dependents": 23
+    "dependents": 23,
+    "disable": true
   },
   {
     "name": "md5-file",
@@ -564,7 +574,8 @@
     "name": "make-error",
     "repo": "https://github.com/julien-f/js-make-error",
     "description": "Make your own error types!",
-    "dependents": 19
+    "dependents": 19,
+    "disable": true
   },
   {
     "name": "multistream",
@@ -595,7 +606,8 @@
     "name": "multiaddr",
     "repo": "https://github.com/jbenet/js-multiaddr",
     "description": "multiaddr implementation (binary + string representation of network addresses)",
-    "dependents": 18
+    "dependents": 18,
+    "disable": true
   },
   {
     "name": "typeforce",
@@ -727,7 +739,8 @@
     "name": "jsreport-express",
     "repo": "https://github.com/jsreport/jsreport-express",
     "description": "jsreport extension adding API and studio",
-    "dependents": 14
+    "dependents": 14,
+    "disable": true
   },
   {
     "name": "humanize-duration",
@@ -841,7 +854,8 @@
     "name": "secp256k1",
     "repo": "https://github.com/cryptocoinjs/secp256k1-node",
     "description": "This module provides native bindings to ecdsa secp256k1 functions",
-    "dependents": 12
+    "dependents": 12,
+    "disable": true
   },
   {
     "name": "fuse-bindings",
@@ -963,7 +977,8 @@
     "name": "karma-slimerjs-launcher",
     "repo": "https://github.com/nfroidure/karma-slimerjs-launcher",
     "description": "A Karma plugin. Launcher for SlimerJS.",
-    "dependents": 10
+    "dependents": 10,
+    "disable": true
   },
   {
     "name": "stream-iterate",
@@ -987,13 +1002,15 @@
     "name": "multihashes",
     "repo": "https://github.com/jbenet/js-multihash",
     "description": "multihash implementation",
-    "dependents": 9
+    "dependents": 9,
+    "disable": true
   },
   {
     "name": "menubar",
     "repo": "https://github.com/maxogden/menubar",
     "description": "high level way to create menubar desktop applications with atom-shell",
-    "dependents": 9
+    "dependents": 9,
+    "disable": true
   },
   {
     "name": "value-pipe",
@@ -1054,7 +1071,8 @@
     "name": "npm-install-checks",
     "repo": "https://github.com/npm/npm-install-checks",
     "description": "checks that npm runs during the installation of a module",
-    "dependents": 9
+    "dependents": 9,
+    "disable": true
   },
   {
     "name": "ethereumjs-block",
@@ -1072,7 +1090,8 @@
     "name": "cracks",
     "repo": "https://github.com/semantic-release/cracks",
     "description": "breaking change detection",
-    "dependents": 8
+    "dependents": 8,
+    "disable": true
   },
   {
     "name": "condition-node-version",
@@ -1170,7 +1189,8 @@
     "name": "vigour-env",
     "repo": "https://github.com/vigour-io/env",
     "description": "Provides info about the device, platform and build",
-    "dependents": 7
+    "dependents": 7,
+    "disable": true
   },
   {
     "name": "upper-case-first",
@@ -1243,7 +1263,8 @@
     "name": "ipld",
     "repo": "https://github.com/diasdavid/js-ipld",
     "description": "JavaScript implementation of the IPLD (InterpPlanetary Linked Data)",
-    "dependents": 7
+    "dependents": 7,
+    "disable": true
   },
   {
     "name": "bulk-write-stream",
@@ -1298,7 +1319,8 @@
     "name": "wayfarer",
     "repo": "https://github.com/yoshuawuyts/wayfarer",
     "description": "Composable trie based router",
-    "dependents": 6
+    "dependents": 6,
+    "disable": true
   },
   {
     "name": "appdmg",
@@ -1324,7 +1346,8 @@
     "name": "loop-grid",
     "repo": "https://github.com/mmckegg/loop-grid",
     "description": "An observable collection of looped event sequences shaped to a grid.",
-    "dependents": 6
+    "dependents": 6,
+    "disable": true
   },
   {
     "name": "read-closest-package",
@@ -1348,7 +1371,8 @@
     "name": "spawn-pouchdb-server",
     "repo": "https://github.com/hoodiehq/spawn-pouchdb-server",
     "description": "Configurable per-app pouchdb-server as a drop-in replacement for CouchDB",
-    "dependents": 6
+    "dependents": 6,
+    "disable": true
   },
   {
     "name": "protocol-buffers-stream",
@@ -1496,7 +1520,8 @@
     "name": "argv-set-env",
     "repo": "https://github.com/kentcdodds/argv-set-env",
     "description": "Use in your config files to set environment variables cross-platform",
-    "dependents": 5
+    "dependents": 5,
+    "disable": true
   },
   {
     "name": "html-validator",
@@ -1545,7 +1570,8 @@
     "name": "libp2p-tcp",
     "repo": "https://github.com/diasdavid/js-libp2p-tcp",
     "description": "Node.js implementation of the TCP module that libp2p uses, which implements the abstract-connection interface",
-    "dependents": 5
+    "dependents": 5,
+    "disable": true
   },
   {
     "name": "merkledag-store",
@@ -1564,7 +1590,8 @@
     "name": "is-incoming-message",
     "repo": "https://github.com/yoshuawuyts/is-incoming-message",
     "description": "Check if value is an incoming message (`req`)",
-    "dependents": 5
+    "dependents": 5,
+    "disable": true
   },
   {
     "name": "transport-stream",
@@ -1629,7 +1656,8 @@
     "name": "level-transactions",
     "repo": "https://github.com/cshum/level-transactions",
     "description": "Transaction manager for LevelDB.",
-    "dependents": 4
+    "dependents": 4,
+    "disable": true
   },
   {
     "name": "dover",
@@ -1744,7 +1772,8 @@
     "name": "tape-eslint",
     "repo": "https://github.com/rstacruz/tape-eslint",
     "description": "Lint files in tape tests",
-    "dependents": 4
+    "dependents": 4,
+    "disable": true
   },
   {
     "name": "markdown-it-decorate",
@@ -1769,7 +1798,8 @@
     "name": "get-github-user",
     "repo": "https://github.com/richardlitt/get-github-user",
     "description": "Get GitHub user information from just a username",
-    "dependents": 4
+    "dependents": 4,
+    "disable": true
   },
   {
     "name": "chokidar-socket-emitter",
@@ -1789,13 +1819,15 @@
     "name": "couchdb-push",
     "repo": "https://github.com/jo/couchdb-push",
     "description": "Deploy CouchDB documents from directory, JSON or module.",
-    "dependents": 4
+    "dependents": 4,
+    "disable": true
   },
   {
     "name": "hoodie-client-store",
     "repo": "https://github.com/hoodiehq/hoodie-client-store",
     "description": "pouchdb with Hoodie's Store API",
-    "dependents": 4
+    "dependents": 4,
+    "disable": true
   },
   {
     "name": "raml-generator",
@@ -1808,7 +1840,8 @@
     "name": "aedes-packet",
     "repo": "https://github.com/mcollina/aedes-packet",
     "description": "Basic data structure for packets in Aedes ",
-    "dependents": 4
+    "dependents": 4,
+    "disable": true
   },
   {
     "name": "yargs-cn",
@@ -2065,7 +2098,8 @@
     "name": "jsreport-data",
     "repo": "https://github.com/jsreport/jsreport-data",
     "description": "jsreport extension adding support for using sample data for previewing templates",
-    "dependents": 3
+    "dependents": 3,
+    "disable": true
   },
   {
     "name": "sort-semver-comparators",
@@ -2097,13 +2131,15 @@
     "name": "docker-mock",
     "repo": "https://github.com/Runnable/docker-mock",
     "description": "Mock for Docker",
-    "dependents": 3
+    "dependents": 3,
+    "disable": true
   },
   {
     "name": "socket.io-rpc",
     "repo": "https://github.com/capaj/socket.io-rpc",
     "description": "Minimalistic remote procedure call(RPC/RMI) library bootstrapped on socket.io",
-    "dependents": 3
+    "dependents": 3,
+    "disable": true
   },
   {
     "name": "just-debounce",
@@ -2197,7 +2233,8 @@
     "name": "osprey-router",
     "repo": "https://github.com/mulesoft-labs/osprey-router",
     "description": "Simple middleware-style router for RAML based on router",
-    "dependents": 3
+    "dependents": 3,
+    "disable": true
   },
   {
     "name": "package-json-io",
@@ -2296,7 +2333,8 @@
     "name": "combokeys",
     "repo": "https://github.com/PolicyStat/combokeys",
     "description": "Handles keyboard shortcuts in the browser",
-    "dependents": 3
+    "dependents": 3,
+    "disable": true
   },
   {
     "name": "authentic-server",
@@ -2366,7 +2404,8 @@
     "name": "view-list",
     "repo": "https://github.com/shama/view-list",
     "description": "An infinite scrolling list view element built on a virtual DOM.",
-    "dependents": 3
+    "dependents": 3,
+    "disable": true
   },
   {
     "name": "view-size",
@@ -2378,7 +2417,8 @@
     "name": "express-history-api-fallback",
     "repo": "https://github.com/cbas/express-history-api-fallback",
     "description": "Simple fallback for Express-served single page apps that use the HTML5 History API for client side routing.",
-    "dependents": 3
+    "dependents": 3,
+    "disable": true
   },
   {
     "name": "git-head",
@@ -2402,7 +2442,8 @@
     "name": "tape-watch",
     "repo": "https://github.com/rstacruz/tape-watch",
     "description": "Reruns tape tests when files change",
-    "dependents": 3
+    "dependents": 3,
+    "disable": true
   },
   {
     "name": "draw-to-canvas",
@@ -2433,7 +2474,8 @@
     "name": "multitest",
     "repo": "https://github.com/jcollado/multitest",
     "description": "Run \"npm test\" using multiple node versions",
-    "dependents": 3
+    "dependents": 3,
+    "disable": true
   },
   {
     "name": "unique-filename",
@@ -2445,13 +2487,15 @@
     "name": "hash-index",
     "repo": "https://github.com/watson/hash-index",
     "description": "A hashing function which returns integers with a possible max value",
-    "dependents": 3
+    "dependents": 3,
+    "disable": true
   },
   {
     "name": "program-version",
     "repo": "https://github.com/wilmoore/program-version",
     "description": "Returns the program/package name and version as a string with optional format customization.",
-    "dependents": 3
+    "dependents": 3,
+    "disable": true
   },
   {
     "name": "gl-blend-demo",
@@ -2463,7 +2507,8 @@
     "name": "gl-cubemap-placeholder",
     "repo": "https://github.com/wwwtyro/gl-cubemap-placeholder",
     "description": "Simple debug cubemap generator.",
-    "dependents": 3
+    "dependents": 3,
+    "disable": true
   },
   {
     "name": "tape-promise",
@@ -2527,7 +2572,8 @@
     "name": "pouchdb-hoodie-sync",
     "repo": "https://github.com/hoodiehq/pouchdb-hoodie-sync",
     "description": "Hoodie-like sync API for PouchDB",
-    "dependents": 3
+    "dependents": 3,
+    "disable": true
   },
   {
     "name": "ip-packet",
@@ -2568,8 +2614,8 @@
     "repo": "https://github.com/feross/studynotes"
   },
   {
-    "name": "webtorrent-www",
-    "repo": "https://github.com/feross/webtorrent-www"
+    "name": "webtorrent.io",
+    "repo": "https://github.com/feross/webtorrent.io"
   },
   {
     "name": "webtorrent-desktop",
