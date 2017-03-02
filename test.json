@@ -31,7 +31,8 @@
     "name": "semantic-release",
     "repo": "https://github.com/semantic-release/semantic-release",
     "description": "automated semver compliant package publishing",
-    "dependents": 771
+    "dependents": 771,
+    "disable": true
   },
   {
     "name": "karma-cli",
@@ -161,7 +162,8 @@
     "name": "tar-fs",
     "repo": "https://github.com/mafintosh/tar-fs",
     "description": "filesystem bindings for tar-stream",
-    "dependents": 126
+    "dependents": 126,
+    "disable": true
   },
   {
     "name": "redbox-react",
@@ -237,7 +239,8 @@
     "name": "electron-packager",
     "repo": "https://github.com/maxogden/electron-packager",
     "description": "package your electron app in OS executables (.app, .exe, etc) via JS or CLI",
-    "dependents": 71
+    "dependents": 71,
+    "disable": true
   },
   {
     "name": "run-series",
@@ -295,7 +298,8 @@
     "name": "csv-parser",
     "repo": "https://github.com/mafintosh/csv-parser",
     "description": "Streaming CSV parser that aims for maximum speed as well as compatibility with the csv-spectrum test suite",
-    "dependents": 48
+    "dependents": 48,
+    "disable": true
   },
   {
     "name": "tosource",
@@ -308,7 +312,8 @@
     "name": "crypto-browserify",
     "repo": "https://github.com/crypto-browserify/crypto-browserify",
     "description": "implementation of crypto for the browser",
-    "dependents": 41
+    "dependents": 41,
+    "disable": true
   },
   {
     "name": "array-flatten",
@@ -320,7 +325,8 @@
     "name": "subleveldown",
     "repo": "https://github.com/mafintosh/subleveldown",
     "description": "sublevels implemented using leveldowns",
-    "dependents": 40
+    "dependents": 40,
+    "disable": true
   },
   {
     "name": "gl-geometry",
@@ -377,13 +383,15 @@
     "name": "extract-zip",
     "repo": "https://github.com/maxogden/extract-zip",
     "description": "unzip a zip file into a directory using 100% pure gluten-free organic javascript",
-    "dependents": 30
+    "dependents": 30,
+    "disable": true
   },
   {
     "name": "randombytes",
     "repo": "https://github.com/crypto-browserify/randombytes",
     "description": "random bytes from browserify stand alone",
-    "dependents": 29
+    "dependents": 29,
+    "disable": true
   },
   {
     "name": "is-generator",
@@ -452,7 +460,8 @@
     "name": "write-file-atomic",
     "repo": "https://github.com/iarna/write-file-atomic",
     "description": "Write files in an atomic fashion w/configurable ownership",
-    "dependents": 24
+    "dependents": 24,
+    "disable": true
   },
   {
     "name": "proxyquire-universal",
@@ -476,7 +485,8 @@
     "name": "multicast-dns",
     "repo": "https://github.com/mafintosh/multicast-dns",
     "description": "Low level multicast-dns implementation in pure javascript",
-    "dependents": 23
+    "dependents": 23,
+    "disable": true
   },
   {
     "name": "virtual-element",
@@ -496,7 +506,8 @@
     "name": "md5-file",
     "repo": "https://github.com/roryrjb/md5-file",
     "description": "return an md5sum of a given file",
-    "dependents": 23
+    "dependents": 23,
+    "disable": true
   },
   {
     "name": "eslint-plugin-jasmine",
@@ -508,7 +519,8 @@
     "name": "bs58check",
     "repo": "https://github.com/bitcoinjs/bs58check",
     "description": "A straightforward implementation of base58-check encoding",
-    "dependents": 22
+    "dependents": 22,
+    "disable": true
   },
   {
     "name": "gh-release",
@@ -610,7 +622,8 @@
     "name": "typeforce",
     "repo": "https://github.com/dcousens/typeforce",
     "description": "Another biased type checking solution for Javascript",
-    "dependents": 18
+    "dependents": 18,
+    "disable": true
   },
   {
     "name": "title-case",
@@ -715,7 +728,8 @@
     "name": "sonos",
     "repo": "https://github.com/bencevans/node-sonos",
     "description": "Node.js Sonos Interface",
-    "dependents": 14
+    "dependents": 14,
+    "disable": true
   },
   {
     "name": "any-db-postgres",
@@ -804,7 +818,8 @@
     "name": "ssh-exec",
     "repo": "https://github.com/mafintosh/ssh-exec",
     "description": "Execute a script over ssh using Node.JS",
-    "dependents": 13
+    "dependents": 13,
+    "disable": true
   },
   {
     "name": "markdown-it-anchor",
@@ -830,7 +845,8 @@
     "repo": "https://github.com/wanderer/rlp",
     "description": "Recursive Length Prefix Encoding Module",
     "dependents": 12,
-    "args": ["./index.js", "./bin/rlp"]
+    "args": ["./index.js", "./bin/rlp"],
+    "disable": true
   },
   {
     "name": "bittorrent-tracker",
@@ -855,7 +871,8 @@
     "name": "fuse-bindings",
     "repo": "https://github.com/mafintosh/fuse-bindings",
     "description": "Fully maintained fuse bindings for Node that aims to cover the entire FUSE api",
-    "dependents": 12
+    "dependents": 12,
+    "disable": true
   },
   {
     "name": "csv-streamify",
@@ -956,7 +973,8 @@
     "name": "merkle-patricia-tree",
     "repo": "https://github.com/ethereumjs/merkle-patricia-tree",
     "description": "This is an implementation of the modified merkle patricia tree as speficed in the Ethereum's yellow paper.",
-    "dependents": 10
+    "dependents": 10,
+    "disable": true
   },
   {
     "name": "corsproxy",
@@ -1070,7 +1088,8 @@
     "name": "ethereumjs-block",
     "repo": "https://github.com/ethereumjs/ethereumjs-block",
     "description": "Provides Block serialization and help functions",
-    "dependents": 9
+    "dependents": 9,
+    "disable": true
   },
   {
     "name": "mqemitter",
@@ -1109,7 +1128,8 @@
     "name": "fs-temp",
     "repo": "https://github.com/LinusU/fs-temp",
     "description": "`fs-temp` is a quick and simple way to create temporary files and directories.",
-    "dependents": 8
+    "dependents": 8,
+    "disable": true
   },
   {
     "name": "adonis-fold",
@@ -1193,7 +1213,8 @@
     "name": "base-x",
     "repo": "https://github.com/cryptocoinjs/base-x",
     "description": "Fast base encoding / decoding of any given alphabet",
-    "dependents": 7
+    "dependents": 7,
+    "disable": true
   },
   {
     "name": "subcommand",
@@ -1248,7 +1269,8 @@
     "name": "buffer-xor",
     "repo": "https://github.com/crypto-browserify/buffer-xor",
     "description": "A simple module for bitwise-xor on buffers",
-    "dependents": 7
+    "dependents": 7,
+    "disable": true
   },
   {
     "name": "ipld",
@@ -1261,7 +1283,8 @@
     "name": "bulk-write-stream",
     "repo": "https://github.com/mafintosh/bulk-write-stream",
     "description": "Writable stream that forwards everything in the highWaterMark buffer to a custom write function using the new writev api in streams",
-    "dependents": 7
+    "dependents": 7,
+    "disable": true
   },
   {
     "name": "hapi-cors-headers",
@@ -1298,7 +1321,8 @@
     "name": "deeper",
     "repo": "https://github.com/othiym23/node-deeper",
     "description": "JavaScript \"deep equality\" / structural equality tester with Node.js flavor.",
-    "dependents": 6
+    "dependents": 6,
+    "disable": true
   },
   {
     "name": "simple-format",
@@ -1369,7 +1393,8 @@
     "name": "protocol-buffers-stream",
     "repo": "https://github.com/mafintosh/protocol-buffers-stream",
     "description": "Streaming protocol buffers for Node.js",
-    "dependents": 6
+    "dependents": 6,
+    "disable": true
   },
   {
     "name": "protocol-buffers-schema",
@@ -1382,7 +1407,8 @@
     "name": "coininfo",
     "repo": "https://github.com/cryptocoinjs/coininfo",
     "description": "JavaScript component for crypto currency specific information.",
-    "dependents": 6
+    "dependents": 6,
+    "disable": true
   },
   {
     "name": "marky-markdown",
@@ -1414,7 +1440,8 @@
     "name": "bonjour",
     "repo": "https://github.com/watson/bonjour",
     "description": "A Bonjour/Zeroconf implementation in pure JavaScript",
-    "dependents": 5
+    "dependents": 5,
+    "disable": true
   },
   {
     "name": "application-config",
@@ -1528,7 +1555,8 @@
     "name": "git-state",
     "repo": "https://github.com/watson/git-state",
     "description": "Get the current state of any git repository",
-    "dependents": 5
+    "dependents": 5,
+    "disable": true
   },
   {
     "name": "cerebral-addons",
@@ -1698,7 +1726,8 @@
     "name": "respjs",
     "repo": "https://github.com/zensh/resp.js",
     "description": "An implementation of REdis Serialization Protocol (RESP), parse pipelining chunks.",
-    "dependents": 4
+    "dependents": 4,
+    "disable": true
   },
   {
     "name": "chromecasts",
@@ -1748,12 +1777,6 @@
     "description": "Replacing symbols during the linking phase of ICSS",
     "dependents": 4,
     "args": ["src", "test"]
-  },
-  {
-    "name": "bittorrent-swarm",
-    "repo": "https://github.com/feross/bittorrent-swarm",
-    "description": "Simple, robust, BitTorrent swarm implementation",
-    "dependents": 4
   },
   {
     "name": "tape-eslint",
@@ -1839,13 +1862,15 @@
     "name": "never-ending-stream",
     "repo": "https://github.com/mcollina/never-ending-stream",
     "description": "concatenate multiple streams",
-    "dependents": 4
+    "dependents": 4,
+    "disable": true
   },
   {
     "name": "hjs-webpack",
     "repo": "https://github.com/henrikjoreteg/hjs-webpack",
     "description": "Presets for setting up webpack with hotloading react and ES6(2015) using Babel.",
-    "dependents": 4
+    "dependents": 4,
+    "disable": true
   },
   {
     "name": "cyclist",
@@ -1870,19 +1895,22 @@
     "name": "multi-write-stream",
     "repo": "https://github.com/mafintosh/multi-write-stream",
     "description": "Create a writable stream that writes to multiple other writeable streams",
-    "dependents": 4
+    "dependents": 4,
+    "disable": true
   },
   {
     "name": "metalsmith-jade",
     "repo": "https://github.com/ahmadnassri/metalsmith-jade",
     "description": "Metalsmith plugin to convert jade files.",
-    "dependents": 4
+    "dependents": 4,
+    "disable": true
   },
   {
     "name": "bip38",
     "repo": "https://github.com/cryptocoinjs/bip38",
     "description": "BIP38 is a standard process to encrypt Bitcoin and crypto currency private keys that is impervious to brute force attacks thus protecting the user.",
-    "dependents": 4
+    "dependents": 4,
+    "disable": true
   },
   {
     "name": "observ-default",
@@ -1913,7 +1941,8 @@
     "name": "browserify-sign",
     "repo": "https://github.com/crypto-browserify/browserify-sign",
     "description": "adds node crypto signing for browsers",
-    "dependents": 4
+    "dependents": 4,
+    "disable": true
   },
   {
     "name": "hapi-swaggered",
@@ -1926,7 +1955,8 @@
     "name": "sodium-signatures",
     "repo": "https://github.com/mafintosh/sodium-signatures",
     "description": "Sodium signatures that works in node and in the browser",
-    "dependents": 4
+    "dependents": 4,
+    "disable": true
   },
   {
     "name": "glslify-bundle",
@@ -1939,7 +1969,8 @@
     "name": "aedes-persistence",
     "repo": "https://github.com/mcollina/aedes-persistence",
     "description": "The spec for an Aedes persistence, with abstract tests and a fast in-memory implementation.",
-    "dependents": 4
+    "dependents": 4,
+    "disable": true
   },
   {
     "name": "browser-supports-log-styles",
@@ -2025,7 +2056,8 @@
     "name": "sublevelup",
     "repo": "https://github.com/cshum/sublevelup",
     "description": "Separated sections of LevelUP",
-    "dependents": 3
+    "dependents": 3,
+    "disable": true
   },
   {
     "name": "apply-or",
@@ -2180,7 +2212,8 @@
     "name": "mdns-txt",
     "repo": "https://github.com/watson/mdns-txt",
     "description": "Encode/decode mDNS TXT record RDATA fields",
-    "dependents": 3
+    "dependents": 3,
+    "disable": true
   },
   {
     "name": "cli-fail",
@@ -2224,7 +2257,8 @@
     "name": "package-json-io",
     "repo": "https://github.com/watson/package-json-io",
     "description": "Read and update package.json files",
-    "dependents": 3
+    "dependents": 3,
+    "disable": true
   },
   {
     "name": "stream-to-blob-url",
@@ -2256,7 +2290,8 @@
     "name": "xo-collection",
     "repo": "https://github.com/marsaud/collection",
     "description": "Generic in-memory collection with events",
-    "dependents": 3
+    "dependents": 3,
+    "disable": true
   },
   {
     "name": "geohub",
@@ -2561,7 +2596,8 @@
     "name": "ip-packet",
     "repo": "https://github.com/mafintosh/ip-packet",
     "description": "Encode/decode raw ip packets",
-    "dependents": 3
+    "dependents": 3,
+    "disable": true
   },
   {
     "name": "make-concurrent",
@@ -2573,7 +2609,8 @@
     "name": "base64-emoji",
     "repo": "https://github.com/watson/base64-emoji",
     "description": "Like base64 but encoding into emojis",
-    "dependents": 3
+    "dependents": 3,
+    "disable": true
   },
   {
     "name": "chai-enzyme",
