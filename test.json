@@ -227,7 +227,8 @@
     "name": "tar-stream",
     "repo": "https://github.com/mafintosh/tar-stream",
     "description": "tar-stream is a streaming tar parser and generator and nothing else. It is streams2 and operates purely using streams which means you can easily extract/parse tarballs without ever hitting the file system.",
-    "dependents": 73
+    "dependents": 73,
+    "disable": true
   },
   {
     "name": "karma-browserstack-launcher",
