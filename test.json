@@ -1096,7 +1096,8 @@
     "name": "mqemitter",
     "repo": "https://github.com/mcollina/mqemitter",
     "description": "An Opinionated Message Queue with an emitter-style API",
-    "dependents": 8
+    "dependents": 8,
+    "disable": true
   },
   {
     "name": "cracks",
