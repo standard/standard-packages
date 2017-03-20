@@ -2641,7 +2641,8 @@
   },
   {
     "name": "webtorrent-desktop",
-    "repo": "https://github.com/feross/webtorrent-desktop"
+    "repo": "https://github.com/feross/webtorrent-desktop",
+    "disable": true
   },
   {
     "name": "instant.io",
