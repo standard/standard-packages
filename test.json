@@ -689,7 +689,8 @@
     "name": "jsreport-templates",
     "repo": "https://github.com/jsreport/jsreport-templates",
     "description": "jsreport extension adding support for storing templates",
-    "dependents": 15
+    "dependents": 15,
+    "disable": true
   },
   {
     "name": "najax",
