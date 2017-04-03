@@ -2209,7 +2209,8 @@
     "name": "collapse-whitespace",
     "repo": "https://github.com/lucthev/collapse-whitespace",
     "description": "Remove unnecessary whitespace from an element.",
-    "dependents": 3
+    "dependents": 3,
+    "disable": true
   },
   {
     "name": "mdns-txt",
