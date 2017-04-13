@@ -1417,7 +1417,8 @@
     "name": "marky-markdown",
     "repo": "https://github.com/npm/marky-markdown",
     "description": "npm's markdown parser",
-    "dependents": 6
+    "dependents": 6,
+    "disable": true
   },
   {
     "name": "popsicle-server",
