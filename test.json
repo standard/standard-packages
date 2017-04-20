@@ -221,7 +221,8 @@
     "name": "buffer",
     "repo": "https://github.com/feross/buffer",
     "description": "Node.js Buffer API, for the browser",
-    "dependents": 75
+    "dependents": 75,
+    "disable": true
   },
   {
     "name": "tar-stream",
@@ -273,7 +274,8 @@
     "name": "david",
     "repo": "https://github.com/alanshaw/david",
     "description": "Node.js module that tells you when your project npm dependencies are out of date.",
-    "dependents": 60
+    "dependents": 60,
+    "disable": true
   },
   {
     "name": "bs58",
@@ -603,7 +605,8 @@
     "name": "standard-format",
     "repo": "https://github.com/maxogden/standard-format",
     "description": "attempts to reformat javascript to comply with feross/standard style",
-    "dependents": 18
+    "dependents": 18,
+    "disable": true
   },
   {
     "name": "toa",
@@ -854,7 +857,8 @@
     "name": "bittorrent-tracker",
     "repo": "https://github.com/feross/bittorrent-tracker",
     "description": "Simple, robust, BitTorrent tracker (client & server) implementation",
-    "dependents": 12
+    "dependents": 12,
+    "disable": true
   },
   {
     "name": "filereader-stream",
@@ -2648,7 +2652,8 @@
   },
   {
     "name": "instant.io",
-    "repo": "https://github.com/feross/instant.io"
+    "repo": "https://github.com/feross/instant.io",
+    "disable": true
   },
   {
     "name": "friends-swarm",
