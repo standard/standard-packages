@@ -15,7 +15,7 @@
     "chalk": "^1.1.1",
     "event-stream": "^3.3.1",
     "github-url-to-object": "^2.1.0",
-    "pad-left": "^2.0.0",
+    "pad-left": "^2.1.0",
     "run-series": "^1.1.4",
     "simple-get": "^2.2.1",
     "standard": "*"
