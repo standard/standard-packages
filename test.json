@@ -44,7 +44,8 @@
     "name": "lru-cache",
     "repo": "https://github.com/isaacs/node-lru-cache",
     "description": "A cache object that deletes the least-recently-used items.",
-    "dependents": 413
+    "dependents": 413,
+    "disable": true
   },
   {
     "name": "co-mocha",
