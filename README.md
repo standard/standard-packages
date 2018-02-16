@@ -1,7 +1,5 @@
 # standard-packages [![travis][travis-image]][travis-url] [![npm][npm-image]][npm-url] [![downloads][downloads-image]][downloads-url] [![javascript style guide][standard-image]][standard-url]
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/standard/standard-packages.svg)](https://greenkeeper.io/)
-
 [travis-image]: https://img.shields.io/travis/standard/standard-packages/master.svg
 [travis-url]: https://travis-ci.org/standard/standard-packages
 [npm-image]: https://img.shields.io/npm/v/standard-packages.svg
