@@ -8,7 +8,7 @@
     "url": "http://feross.org/"
   },
   "bugs": {
-    "url": "https://github.com/feross/standard-packages/issues"
+    "url": "https://github.com/standard/standard-packages/issues"
   },
   "devDependencies": {
     "JSONStream": "^1.0.6",
@@ -50,7 +50,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/feross/standard-packages.git"
+    "url": "git://github.com/standard/standard-packages.git"
   },
   "scripts": {
     "fetch": "curl https://skimdb.npmjs.com/registry/_design/scratch/_view/byField > rawdata.json",
