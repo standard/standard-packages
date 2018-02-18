@@ -417,7 +417,8 @@
     "name": "sheetify",
     "repo": "https://github.com/sheetify/sheetify",
     "description": "Modular CSS bundler",
-    "dependents": 27
+    "dependents": 27,
+    "disable": true
   },
   {
     "name": "pascal-case",
@@ -515,7 +516,8 @@
     "name": "eslint-plugin-jasmine",
     "repo": "https://github.com/tlvince/eslint-plugin-jasmine",
     "description": "ESLint rules for Jasmine",
-    "dependents": 22
+    "dependents": 22,
+    "disable": true
   },
   {
     "name": "bs58check",
@@ -757,7 +759,8 @@
     "name": "humanize-duration",
     "repo": "https://github.com/EvanHahn/HumanizeDuration.js",
     "description": "Convert millisecond durations to English and many other languages.",
-    "dependents": 14
+    "dependents": 14,
+    "disable": true
   },
   {
     "name": "multihashing",
@@ -900,7 +903,8 @@
     "name": "thenjs",
     "repo": "https://github.com/teambition/then.js",
     "description": "The fastest, smallest, fully compatible, full-featured asynchronous module!",
-    "dependents": 11
+    "dependents": 11,
+    "disable": true
   },
   {
     "name": "hosted-git-info",
@@ -1179,7 +1183,8 @@
     "name": "jsreport",
     "repo": "https://github.com/jsreport/jsreport",
     "description": "javascript based business reporting",
-    "dependents": 8
+    "dependents": 8,
+    "disable": true
   },
   {
     "name": "ipfsd-ctl",
@@ -1639,7 +1644,8 @@
     "name": "koop-pgcache",
     "repo": "https://github.com/koopjs/koop-pgcache",
     "description": "A PostGIS data cache for Koop.",
-    "dependents": 5
+    "dependents": 5,
+    "disable": true
   },
   {
     "name": "route-trie",
@@ -1657,7 +1663,8 @@
     "name": "error-system",
     "repo": "https://github.com/fanatid/error-system",
     "description": "Your custom errors in your JavaScript code",
-    "dependents": 4
+    "dependents": 4,
+    "disable": true
   },
   {
     "name": "mdx",
@@ -2017,7 +2024,8 @@
     "name": "schema-is-schema",
     "repo": "https://github.com/holodex/schema-is-schema",
     "description": "json-schema validation",
-    "dependents": 3
+    "dependents": 3,
+    "disable": true
   },
   {
     "name": "int-encoder",
@@ -2126,7 +2134,8 @@
     "name": "sort-semver-comparators",
     "repo": "https://github.com/bendrucker/sort-semver-comparators",
     "description": "Sort semver comparators",
-    "dependents": 3
+    "dependents": 3,
+    "disable": true
   },
   {
     "name": "lower-case-first",
@@ -2386,7 +2395,8 @@
     "name": "compose-editor",
     "repo": "https://github.com/lucthev/compose",
     "description": "Yet another rich text editor thing.",
-    "dependents": 3
+    "dependents": 3,
+    "disable": true
   },
   {
     "name": "is-ci",
