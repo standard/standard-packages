@@ -20,6 +20,7 @@
     "simple-get": "^2.2.1",
     "standard": "*"
   },
+  "homepage": "https://standardjs.com",
   "keywords": [
     "JavaScript Standard Style",
     "check",
