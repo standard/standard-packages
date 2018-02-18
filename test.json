@@ -3,8 +3,7 @@
     "name": "fs-extra",
     "repo": "https://github.com/jprichardson/node-fs-extra",
     "description": "fs-extra contains methods that aren't included in the vanilla Node.js fs package. Such as mkdir -p, cp -r, and rm -rf.",
-    "dependents": 3279,
-    "disable": true
+    "dependents": 3279
   },
   {
     "name": "tap",
@@ -51,8 +50,7 @@
     "name": "co-mocha",
     "repo": "https://github.com/blakeembrey/co-mocha",
     "description": "Enable support for generators in Mocha tests",
-    "dependents": 388,
-    "disable": true
+    "dependents": 388
   },
   {
     "name": "dotenv",
@@ -78,8 +76,7 @@
     "name": "path-to-regexp",
     "repo": "https://github.com/pillarjs/path-to-regexp",
     "description": "Express style path to RegExp utility",
-    "dependents": 333,
-    "disable": true
+    "dependents": 333
   },
   {
     "name": "fstream",
@@ -123,8 +120,7 @@
     "name": "mongojs",
     "repo": "https://github.com/mafintosh/mongojs",
     "description": "Easy to use module that implements the mongo api",
-    "dependents": 183,
-    "disable": true
+    "dependents": 183
   },
   {
     "name": "budo",
@@ -189,8 +185,7 @@
     "name": "split2",
     "repo": "https://github.com/mcollina/split2",
     "description": "split a Text Stream into a Line Stream, using Stream 3",
-    "dependents": 96,
-    "disable": true
+    "dependents": 96
   },
   {
     "name": "run-parallel",
@@ -463,8 +458,7 @@
     "name": "write-file-atomic",
     "repo": "https://github.com/iarna/write-file-atomic",
     "description": "Write files in an atomic fashion w/configurable ownership",
-    "dependents": 24,
-    "disable": true
+    "dependents": 24
   },
   {
     "name": "proxyquire-universal",
@@ -509,8 +503,7 @@
     "name": "md5-file",
     "repo": "https://github.com/roryrjb/md5-file",
     "description": "return an md5sum of a given file",
-    "dependents": 23,
-    "disable": true
+    "dependents": 23
   },
   {
     "name": "eslint-plugin-jasmine",
@@ -523,8 +516,7 @@
     "name": "bs58check",
     "repo": "https://github.com/bitcoinjs/bs58check",
     "description": "A straightforward implementation of base58-check encoding",
-    "dependents": 22,
-    "disable": true
+    "dependents": 22
   },
   {
     "name": "gh-release",
@@ -542,8 +534,7 @@
     "name": "napa",
     "repo": "https://github.com/shama/napa",
     "description": "A helper for installing repos without a package.json with npm.",
-    "dependents": 21,
-    "disable": true
+    "dependents": 21
   },
   {
     "name": "dom-css",
@@ -555,8 +546,7 @@
     "name": "jsreport-core",
     "repo": "https://github.com/jsreport/jsreport-core",
     "description": "javascript based business reporting",
-    "dependents": 20,
-    "disable": true
+    "dependents": 20
   },
   {
     "name": "snake-case",
@@ -587,8 +577,7 @@
     "name": "make-error",
     "repo": "https://github.com/julien-f/js-make-error",
     "description": "Make your own error types!",
-    "dependents": 19,
-    "disable": true
+    "dependents": 19
   },
   {
     "name": "multistream",
@@ -619,8 +608,7 @@
     "name": "multiaddr",
     "repo": "https://github.com/jbenet/js-multiaddr",
     "description": "multiaddr implementation (binary + string representation of network addresses)",
-    "dependents": 18,
-    "disable": true
+    "dependents": 18
   },
   {
     "name": "typeforce",
@@ -692,8 +680,7 @@
     "name": "jsreport-templates",
     "repo": "https://github.com/jsreport/jsreport-templates",
     "description": "jsreport extension adding support for storing templates",
-    "dependents": 15,
-    "disable": true
+    "dependents": 15
   },
   {
     "name": "najax",
@@ -706,8 +693,7 @@
     "name": "koop",
     "repo": "https://github.com/koopjs/koop",
     "description": "Transform, query, & download geospatial data on the web",
-    "dependents": 15,
-    "disable": true
+    "dependents": 15
   },
   {
     "name": "magnet-uri",
@@ -752,8 +738,7 @@
     "name": "jsreport-express",
     "repo": "https://github.com/jsreport/jsreport-express",
     "description": "jsreport extension adding API and studio",
-    "dependents": 14,
-    "disable": true
+    "dependents": 14
   },
   {
     "name": "humanize-duration",
@@ -766,8 +751,7 @@
     "name": "multihashing",
     "repo": "https://github.com/jbenet/js-multihashing",
     "description": "multiple hash functions",
-    "dependents": 14,
-    "disable": true
+    "dependents": 14
   },
   {
     "name": "mkdirp-promise",
@@ -798,8 +782,7 @@
     "name": "markdown-pdf",
     "repo": "https://github.com/alanshaw/markdown-pdf",
     "description": "Markdown to PDF converter",
-    "dependents": 13,
-    "disable": true
+    "dependents": 13
   },
   {
     "name": "prebuild",
@@ -843,16 +826,14 @@
     "name": "fastparallel",
     "repo": "https://github.com/mcollina/fastparallel",
     "description": "Zero-overhead asynchronous parallel/each/map function call",
-    "dependents": 12,
-    "disable": true
+    "dependents": 12
   },
   {
     "name": "rlp",
     "repo": "https://github.com/wanderer/rlp",
     "description": "Recursive Length Prefix Encoding Module",
     "dependents": 12,
-    "args": ["./index.js", "./bin/rlp"],
-    "disable": true
+    "args": ["./index.js", "./bin/rlp"]
   },
   {
     "name": "bittorrent-tracker",
@@ -967,8 +948,7 @@
     "repo": "https://github.com/bahmutov/rocha",
     "description": "Runs Mocha unit tests but randomizes their order",
     "dependents": 10,
-    "args": ["bin/*.js", "*.js", "spec/*.js"],
-    "disable": true
+    "args": ["bin/*.js", "*.js", "spec/*.js"]
   },
   {
     "name": "inject-then",
@@ -1019,8 +999,7 @@
     "name": "multihashes",
     "repo": "https://github.com/jbenet/js-multihash",
     "description": "multihash implementation",
-    "dependents": 9,
-    "disable": true
+    "dependents": 9
   },
   {
     "name": "menubar",
@@ -1102,8 +1081,7 @@
     "name": "mqemitter",
     "repo": "https://github.com/mcollina/mqemitter",
     "description": "An Opinionated Message Queue with an emitter-style API",
-    "dependents": 8,
-    "disable": true
+    "dependents": 8
   },
   {
     "name": "cracks",
@@ -1129,8 +1107,7 @@
     "name": "reusify",
     "repo": "https://github.com/mcollina/reusify",
     "description": "Reuse objects and functions with style",
-    "dependents": 8,
-    "disable": true
+    "dependents": 8
   },
   {
     "name": "fs-temp",
@@ -1158,8 +1135,7 @@
     "name": "thunk-redis",
     "repo": "https://github.com/thunks/thunk-redis",
     "description": "The fastest thunk/promise-based redis client, support all redis features.",
-    "dependents": 8,
-    "disable": true
+    "dependents": 8
   },
   {
     "name": "pkg-config",
@@ -1190,8 +1166,7 @@
     "name": "ipfsd-ctl",
     "repo": "https://github.com/ipfs/js-ipfsd-ctl",
     "description": "simple controls for an ipfs node",
-    "dependents": 8,
-    "disable": true
+    "dependents": 8
   },
   {
     "name": "get-server-port",
@@ -1278,15 +1253,13 @@
     "name": "buffer-xor",
     "repo": "https://github.com/crypto-browserify/buffer-xor",
     "description": "A simple module for bitwise-xor on buffers",
-    "dependents": 7,
-    "disable": true
+    "dependents": 7
   },
   {
     "name": "ipld",
     "repo": "https://github.com/diasdavid/js-ipld",
     "description": "JavaScript implementation of the IPLD (InterpPlanetary Linked Data)",
-    "dependents": 7,
-    "disable": true
+    "dependents": 7
   },
   {
     "name": "bulk-write-stream",
@@ -1343,8 +1316,7 @@
     "name": "wayfarer",
     "repo": "https://github.com/yoshuawuyts/wayfarer",
     "description": "Composable trie based router",
-    "dependents": 6,
-    "disable": true
+    "dependents": 6
   },
   {
     "name": "appdmg",
@@ -1363,8 +1335,7 @@
     "name": "modinha",
     "repo": "https://github.com/anvilresearch/modinha",
     "description": "Modinha is a toolkit for creating persisted models in Nodejs.",
-    "dependents": 6,
-    "disable": true
+    "dependents": 6
   },
   {
     "name": "loop-grid",
@@ -1416,8 +1387,7 @@
     "name": "coininfo",
     "repo": "https://github.com/cryptocoinjs/coininfo",
     "description": "JavaScript component for crypto currency specific information.",
-    "dependents": 6,
-    "disable": true
+    "dependents": 6
   },
   {
     "name": "marky-markdown",
@@ -1436,8 +1406,7 @@
     "name": "gulp-codecov.io",
     "repo": "https://github.com/eddiemoore/gulp-codecov.io",
     "description": "Gulp plugin to submit code coverage to Codecov.io",
-    "dependents": 6,
-    "disable": true
+    "dependents": 6
   },
   {
     "name": "acho",
@@ -1512,8 +1481,7 @@
     "name": "gameloop",
     "repo": "https://github.com/sethvincent/gameloop",
     "description": "simple game loop for javascript – server or browser.",
-    "dependents": 5,
-    "disable": true
+    "dependents": 5
   },
   {
     "name": "npm-install-package",
@@ -1539,8 +1507,7 @@
     "name": "socketio-wildcard",
     "repo": "https://github.com/hden/socketio-wildcard",
     "description": "socket.io with a wildcard event",
-    "dependents": 5,
-    "disable": true
+    "dependents": 5
   },
   {
     "name": "argv-set-env",
@@ -1565,8 +1532,7 @@
     "name": "git-state",
     "repo": "https://github.com/watson/git-state",
     "description": "Get the current state of any git repository",
-    "dependents": 5,
-    "disable": true
+    "dependents": 5
   },
   {
     "name": "cerebral-addons",
@@ -1597,8 +1563,7 @@
     "name": "libp2p-tcp",
     "repo": "https://github.com/diasdavid/js-libp2p-tcp",
     "description": "Node.js implementation of the TCP module that libp2p uses, which implements the abstract-connection interface",
-    "dependents": 5,
-    "disable": true
+    "dependents": 5
   },
   {
     "name": "merkledag-store",
@@ -1738,8 +1703,7 @@
     "name": "respjs",
     "repo": "https://github.com/zensh/resp.js",
     "description": "An implementation of REdis Serialization Protocol (RESP), parse pipelining chunks.",
-    "dependents": 4,
-    "disable": true
+    "dependents": 4
   },
   {
     "name": "chromecasts",
@@ -1921,8 +1885,7 @@
     "name": "bip38",
     "repo": "https://github.com/cryptocoinjs/bip38",
     "description": "BIP38 is a standard process to encrypt Bitcoin and crypto currency private keys that is impervious to brute force attacks thus protecting the user.",
-    "dependents": 4,
-    "disable": true
+    "dependents": 4
   },
   {
     "name": "observ-default",
@@ -1960,15 +1923,13 @@
     "name": "hapi-swaggered",
     "repo": "https://github.com/z0mt3c/hapi-swaggered",
     "description": "Yet another hapi plugin providing swagger compliant API specifications based on routes and joi schemas to be used with swagger-ui.",
-    "dependents": 4,
-    "disable": true
+    "dependents": 4
   },
   {
     "name": "sodium-signatures",
     "repo": "https://github.com/mafintosh/sodium-signatures",
     "description": "Sodium signatures that works in node and in the browser",
-    "dependents": 4,
-    "disable": true
+    "dependents": 4
   },
   {
     "name": "glslify-bundle",
@@ -2055,8 +2016,7 @@
     "name": "moment-parseformat",
     "repo": "https://github.com/gr2m/moment-parseformat",
     "description": "A moment.js plugin to extract the format of a date/time string",
-    "dependents": 3,
-    "disable": true
+    "dependents": 3
   },
   {
     "name": "superagent-no-cache",
@@ -2305,8 +2265,7 @@
     "name": "xo-collection",
     "repo": "https://github.com/marsaud/collection",
     "description": "Generic in-memory collection with events",
-    "dependents": 3,
-    "disable": true
+    "dependents": 3
   },
   {
     "name": "geohub",
@@ -2355,8 +2314,7 @@
     "name": "metalsmith-register-helpers",
     "repo": "https://github.com/losttype/metalsmith-register-helpers",
     "description": "A Metalsmith plugin for registering Handlebars helpers.",
-    "dependents": 3,
-    "disable": true
+    "dependents": 3
   },
   {
     "name": "patch-text",
@@ -2382,8 +2340,7 @@
     "name": "evp_bytestokey",
     "repo": "https://github.com/crypto-browserify/EVP_BytesToKey",
     "description": "he super secure key derivation algorithm from openssl",
-    "dependents": 3,
-    "disable": true
+    "dependents": 3
   },
   {
     "name": "url-mapper",
@@ -2440,8 +2397,7 @@
     "name": "view-list",
     "repo": "https://github.com/shama/view-list",
     "description": "An infinite scrolling list view element built on a virtual DOM.",
-    "dependents": 3,
-    "disable": true
+    "dependents": 3
   },
   {
     "name": "view-size",
@@ -2523,15 +2479,13 @@
     "name": "hash-index",
     "repo": "https://github.com/watson/hash-index",
     "description": "A hashing function which returns integers with a possible max value",
-    "dependents": 3,
-    "disable": true
+    "dependents": 3
   },
   {
     "name": "program-version",
     "repo": "https://github.com/wilmoore/program-version",
     "description": "Returns the program/package name and version as a string with optional format customization.",
-    "dependents": 3,
-    "disable": true
+    "dependents": 3
   },
   {
     "name": "gl-blend-demo",
@@ -2543,8 +2497,7 @@
     "name": "gl-cubemap-placeholder",
     "repo": "https://github.com/wwwtyro/gl-cubemap-placeholder",
     "description": "Simple debug cubemap generator.",
-    "dependents": 3,
-    "disable": true
+    "dependents": 3
   },
   {
     "name": "tape-promise",
@@ -2556,8 +2509,7 @@
     "name": "ipfs-repo",
     "repo": "https://github.com/ipfs/js-ipfs-repo",
     "description": "IPFS Repo implementation",
-    "dependents": 3,
-    "disable": true
+    "dependents": 3
   },
   {
     "name": "feathers-action-types",
@@ -2655,8 +2607,7 @@
   },
   {
     "name": "webtorrent-desktop",
-    "repo": "https://github.com/webtorrent/webtorrent-desktop",
-    "disable": true
+    "repo": "https://github.com/webtorrent/webtorrent-desktop"
   },
   {
     "name": "instant.io",
