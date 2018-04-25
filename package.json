@@ -54,8 +54,8 @@
   },
   "scripts": {
     "fetch": "curl https://skimdb.npmjs.com/registry/_design/scratch/_view/byField > rawdata.json",
-    "start": "node scripts/update.js",
     "test": "standard && node -e \"require('./')\"",
-    "test-full": "npm test && node scripts/test.js"
+    "test-full": "npm test && node scripts/test.js",
+    "update": "node scripts/update.js"
   }
 }

@@ -28,8 +28,7 @@ packages.forEach(function (pkg) {
 To update the data in `all.json` run:
 
 ```bash
-npm run fetch
-npm start
+npm run fetch && npm run update
 ```
 :warning: `npm run fetch` will download and save a ~300MB file named `rawdata.json` to the package directory.
 
