@@ -17,7 +17,7 @@
     "github-url-to-object": "^4.0.2",
     "pad-left": "^2.0.0",
     "run-series": "^1.1.4",
-    "simple-get": "^2.2.1",
+    "simple-get": "^3.0.0",
     "standard": "*"
   },
   "homepage": "https://standardjs.com",
