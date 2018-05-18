@@ -1166,7 +1166,8 @@
     "name": "ipfsd-ctl",
     "repo": "https://github.com/ipfs/js-ipfsd-ctl",
     "description": "simple controls for an ipfs node",
-    "dependents": 8
+    "dependents": 8,
+    "disable": true
   },
   {
     "name": "get-server-port",
