@@ -1,3 +1,4 @@
 .travis.yml
-rawdata.json
-util/
+test/
+tmp/
+tools/
