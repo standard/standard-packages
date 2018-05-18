@@ -55,7 +55,7 @@
   "scripts": {
     "fetch": "mkdir tmp && curl https://skimdb.npmjs.com/registry/_design/scratch/_view/byField > tmp/rawdata.json",
     "test": "standard && node -e \"require('./')\"",
-    "test-full": "npm test && node test/basic.js",
+    "test-full": "npm test && node test/full.js",
     "update": "node tools/update.js"
   }
 }
