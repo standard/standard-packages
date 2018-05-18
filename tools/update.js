@@ -17,7 +17,7 @@ var modules = [
 
 var allFreqs = {}
 
-fs.createReadStream(path.join(__dirname, '..', 'rawdata.json'))
+fs.createReadStream(path.join(__dirname, '..', 'tmp', 'rawdata.json'))
   .pipe(json.parse('rows.*.value'))
   .pipe(es.mapSync(function (data) {
     var description = data.description
