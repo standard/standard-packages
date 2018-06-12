@@ -1798,7 +1798,8 @@
     "name": "express-restify-mongoose",
     "repo": "https://github.com/florianholzapfel/express-restify-mongoose",
     "description": "Easily create a flexible REST interface for mongoose models",
-    "dependents": 4
+    "dependents": 4,
+    "disable": true
   },
   {
     "name": "couchdb-push",

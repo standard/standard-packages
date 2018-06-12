@@ -9153,7 +9153,8 @@
     "name": "express-restify-mongoose",
     "repo": "https://github.com/florianholzapfel/express-restify-mongoose",
     "description": "Easily create a flexible REST interface for mongoose models",
-    "dependents": 7
+    "dependents": 7,
+    "disable": true
   },
   {
     "name": "fail-nicely",
