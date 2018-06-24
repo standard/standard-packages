@@ -1,7 +1,7 @@
 {
   "name": "standard-packages",
   "description": "List of Packages that Use JavaScript Standard Style",
-  "version": "3.4.5",
+  "version": "3.4.6-dev",
   "author": {
     "email": "feross@feross.org",
     "name": "Feross Aboukhadijeh",
