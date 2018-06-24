@@ -4737,7 +4737,8 @@
     "name": "gulp-codecov",
     "repo": "https://github.com/eddiemoore/gulp-codecov",
     "description": "Gulp plugin to submit code coverage to Codecov.io",
-    "dependents": 4
+    "dependents": 4,
+    "disable": true
   },
   {
     "name": "openwhisk",
