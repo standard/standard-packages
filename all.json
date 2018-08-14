@@ -4736,8 +4736,8 @@
   {
     "name": "gulp-codecov",
     "repo": "https://github.com/eddiemoore/gulp-codecov",
-    "description": "Gulp plugin to submit code coverage to Codecov",
-    "dependents": 19
+    "description": "Gulp plugin to submit code coverage to Codecov.io",
+    "dependents": 4
   },
   {
     "name": "openwhisk",
@@ -10750,12 +10750,6 @@
     "name": "axis3d",
     "repo": "https://github.com/littlstar/axis3d",
     "description": "Minimal functional graphics library.",
-    "dependents": 5
-  },
-  {
-    "name": "gulp-codecov.io",
-    "repo": "https://github.com/eddiemoore/gulp-codecov.io",
-    "description": "Gulp plugin to submit code coverage to Codecov.io",
     "dependents": 5
   },
   {
