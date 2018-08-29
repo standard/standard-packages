@@ -16,8 +16,8 @@
 ## Usage
 
 ```js
-var packages = require('standard-packages')
-packages.forEach(function (pkg) {
+const packages = require('standard-packages')
+packages.forEach(pkg => {
   console.log('package name', pkg.name)
   console.log('repo url', pkg.repo)
 })
