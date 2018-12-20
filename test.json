@@ -600,7 +600,8 @@
     "name": "make-error",
     "repo": "https://github.com/julien-f/js-make-error",
     "description": "Make your own error types!",
-    "dependents": 19
+    "dependents": 19,
+    "disable": true
   },
   {
     "name": "multistream",
