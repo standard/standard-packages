@@ -38,7 +38,7 @@ fs.createReadStream(path.join(__dirname, '..', 'tmp', 'rawdata.json'))
         if (repo) try { repo = gh(repo) } catch (err) {}
         if (repo) repo = repo.https_url
         if (repo === '') repo = null
-        if (name && repo) freqs[key].deps.push([ name, repo, description ])
+        if (name && repo) freqs[key].deps.push([name, repo, description])
       }
 
       if (!(key in allFreqs)) {
