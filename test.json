@@ -146,7 +146,8 @@
     "name": "semistandard",
     "repo": "https://github.com/Flet/semistandard",
     "description": "All the goodness of `feross/standard` with semicolons sprinkled on top.",
-    "dependents": 150
+    "dependents": 150,
+    "disable": true
   },
   {
     "name": "dependency-check",
@@ -159,7 +160,8 @@
     "name": "mocha-jsdom",
     "repo": "https://github.com/rstacruz/mocha-jsdom",
     "description": "Simple integration of jsdom into mocha tests",
-    "dependents": 140
+    "dependents": 140,
+    "disable": true
   },
   {
     "name": "tar-fs",
@@ -238,7 +240,8 @@
     "name": "karma-browserstack-launcher",
     "repo": "https://github.com/karma-runner/karma-browserstack-launcher",
     "description": "A Karma plugin. Launch any browser on BrowserStack!",
-    "dependents": 72
+    "dependents": 72,
+    "disable": true
   },
   {
     "name": "electron-packager",
@@ -508,7 +511,8 @@
     "repo": "https://github.com/dekujs/virtual-element",
     "description": "Build virtual tree elements",
     "dependents": 23,
-    "args": ["index.js"]
+    "args": ["index.js"],
+    "disable": true
   },
   {
     "name": "dat",
@@ -561,7 +565,8 @@
     "name": "dom-css",
     "repo": "https://github.com/mattdesl/dom-css",
     "description": "fast dom CSS styling",
-    "dependents": 21
+    "dependents": 21,
+    "disable": true
   },
   {
     "name": "jsreport-core",
@@ -701,7 +706,8 @@
     "name": "glob-promise",
     "repo": "https://github.com/ahmadnassri/glob-promise",
     "description": "Promise version of glob",
-    "dependents": 15
+    "dependents": 15,
+    "disable": true
   },
   {
     "name": "jsreport-templates",
@@ -929,7 +935,8 @@
     "name": "hosted-git-info",
     "repo": "https://github.com/npm/hosted-git-info",
     "description": "Provides metadata and conversions from repository urls for Github, Bitbucket and Gitlab",
-    "dependents": 11
+    "dependents": 11,
+    "disable": true
   },
   {
     "name": "lower-case",
@@ -994,7 +1001,8 @@
     "name": "inject-then",
     "repo": "https://github.com/bendrucker/injectThen",
     "description": "Promise wrapper for Hapi's server.inject",
-    "dependents": 10
+    "dependents": 10,
+    "disable": true
   },
   {
     "name": "merkle-patricia-tree",
@@ -1269,7 +1277,8 @@
     "name": "prefix-style",
     "repo": "https://github.com/mattdesl/prefix-style",
     "description": "gets a prefixed name for a css style",
-    "dependents": 7
+    "dependents": 7,
+    "disable": true
   },
   {
     "name": "memory-chunk-store",
@@ -1300,7 +1309,8 @@
     "name": "yargonaut",
     "repo": "https://github.com/nexdrew/yargonaut",
     "description": "Decorate yargs content with chalk styles and figlet fonts",
-    "dependents": 7
+    "dependents": 7,
+    "disable": true
   },
   {
     "name": "buffer-xor",
@@ -1544,7 +1554,8 @@
     "name": "npm-install-package",
     "repo": "https://github.com/yoshuawuyts/npm-install-package",
     "description": "Install an npm package",
-    "dependents": 5
+    "dependents": 5,
+    "disable": true
   },
   {
     "name": "js-data",
@@ -1577,7 +1588,8 @@
     "name": "html-validator",
     "repo": "https://github.com/zrrrzzt/html-validator",
     "description": "Validate html using validator.w3.org/nu",
-    "dependents": 5
+    "dependents": 5,
+    "disable": true
   },
   {
     "name": "electron-spawn",
@@ -1683,7 +1695,8 @@
     "name": "round",
     "repo": "https://github.com/bendrucker/round.js",
     "description": "Round numbers to the nearest increment with an optional direction",
-    "dependents": 4
+    "dependents": 4,
+    "disable": true
   },
   {
     "name": "error-system",
@@ -1832,7 +1845,8 @@
     "name": "markdown-it-decorate",
     "repo": "https://github.com/rstacruz/markdown-it-decorate",
     "description": "Add classes, identifiers and attributes to your markdown with HTML comments",
-    "dependents": 4
+    "dependents": 4,
+    "disable": true
   },
   {
     "name": "attach-css",
@@ -1980,7 +1994,8 @@
     "name": "gl-vignette-background",
     "repo": "https://github.com/mattdesl/gl-vignette-background",
     "description": "a soft gradient background in WebGL",
-    "dependents": 4
+    "dependents": 4,
+    "disable": true
   },
   {
     "name": "browserify-sign",
@@ -2254,7 +2269,8 @@
     "name": "stringify-clone",
     "repo": "https://github.com/ahmadnassri/stringify-clone",
     "description": "Wrapper for fast object cloning using `JSON.parse` & `JSON.stringify`",
-    "dependents": 3
+    "dependents": 3,
+    "disable": true
   },
   {
     "name": "collapse-whitespace",
@@ -2293,7 +2309,8 @@
     "name": "testdata-w3c-json-form",
     "repo": "https://github.com/LinusU/testdata-w3c-json-form",
     "description": "This repository contains test data intended to be used by people building query parsers that follows [the W3C JSON form spec](http://www.w3.org/TR/html-json-forms/).",
-    "dependents": 3
+    "dependents": 3,
+    "disable": true
   },
   {
     "name": "dom-stub",
@@ -2363,7 +2380,8 @@
     "name": "simple-media-element",
     "repo": "https://github.com/Jam3/simple-media-element",
     "description": "a bare-bones <audio> and <video> abstraction",
-    "dependents": 3
+    "dependents": 3,
+    "disable": true
   },
   {
     "name": "dot-slash",
@@ -2382,7 +2400,8 @@
     "name": "anvil-connect-jwt",
     "repo": "https://github.com/anvilresearch/connect-jwt",
     "description": "Anvil Connect JWT library for Node.js",
-    "dependents": 3
+    "dependents": 3,
+    "disable": true
   },
   {
     "name": "get-package",
@@ -2459,7 +2478,8 @@
     "name": "raml-client-generator",
     "repo": "https://github.com/mulesoft/raml-client-generator",
     "description": "Template-driven generator of clients for APIs described by RAML",
-    "dependents": 3
+    "dependents": 3,
+    "disable": true
   },
   {
     "name": "ipp-encoder",
@@ -2530,7 +2550,8 @@
     "name": "server-address",
     "repo": "https://github.com/blakeembrey/server-address",
     "description": "Listen to a randomly available port and resolve urls relative to the server address",
-    "dependents": 3
+    "dependents": 3,
+    "disable": true
   },
   {
     "name": "user-startup",
@@ -2660,7 +2681,8 @@
     "name": "make-concurrent",
     "repo": "https://github.com/fanatid/make-concurrent",
     "description": "Easy exclusive or shared access to resource",
-    "dependents": 3
+    "dependents": 3,
+    "disable": true
   },
   {
     "name": "base64-emoji",
