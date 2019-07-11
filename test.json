@@ -2699,17 +2699,12 @@
     "disable": true
   },
   {
-    "name": "GitTorrent",
-    "repo": "https://github.com/cjb/GitTorrent",
-    "disable": true
-  },
-  {
     "name": "standard-www",
     "repo": "https://github.com/standard/standard-www"
   },
   {
-    "name": "studynotes",
-    "repo": "https://github.com/feross/studynotes"
+    "name": "studynotes.org",
+    "repo": "https://github.com/feross/studynotes.org"
   },
   {
     "name": "webtorrent.io",
@@ -2724,15 +2719,7 @@
     "repo": "https://github.com/webtorrent/instant.io"
   },
   {
-    "name": "friends-swarm",
-    "repo": "https://github.com/moose-team/friends-swarm"
-  },
-  {
-    "name": "friends",
-    "repo": "https://github.com/moose-team/friends"
-  },
-  {
-    "name": "peerbot",
-    "repo": "https://github.com/moose-team/peerbot"
+    "name": "bitmidi.com",
+    "repo": "https://github.com/feross/bitmidi.com"
   }
 ]
