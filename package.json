@@ -13,7 +13,7 @@
   "devDependencies": {
     "JSONStream": "^1.0.6",
     "chalk": "^2.3.0",
-    "event-stream": "3.3.4",
+    "event-stream": "4.0.1",
     "github-url-to-object": "^4.0.2",
     "pad-left": "^2.0.0",
     "run-series": "^1.1.4",
