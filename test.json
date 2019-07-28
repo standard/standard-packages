@@ -1595,7 +1595,8 @@
     "name": "electron-spawn",
     "repo": "https://github.com/maxogden/electron-spawn",
     "description": "easy way to run code inside of a headless electron window from the CLI",
-    "dependents": 5
+    "dependents": 5,
+    "disable": true
   },
   {
     "name": "git-state",
@@ -1628,7 +1629,8 @@
     "name": "cliui",
     "repo": "https://github.com/bcoe/cliui",
     "description": "easily create complex multi-column command-line-interfaces",
-    "dependents": 5
+    "dependents": 5,
+    "disable": true
   },
   {
     "name": "libp2p-tcp",
@@ -2085,7 +2087,8 @@
     "name": "application-config-path",
     "repo": "https://github.com/LinusU/node-application-config-path",
     "description": "Store your application config in the right location.",
-    "dependents": 3
+    "dependents": 3,
+    "disable": true
   },
   {
     "name": "sanitycheck",
