@@ -583,13 +583,6 @@
     "disable": true
   },
   {
-    "name": "tap-dev-tool",
-    "repo": "https://github.com/Jam3/tap-dev-tool",
-    "description": "prettifies TAP in the browser's console",
-    "dependents": 19,
-    "disable": true
-  },
-  {
     "name": "assert-ok",
     "repo": "https://github.com/bendrucker/assert-ok",
     "description": "Assert that a value is truthy",
@@ -613,13 +606,6 @@
     "repo": "https://github.com/feross/multistream",
     "description": "A stream that emits multiple other streams one after another (streams2)",
     "dependents": 19
-  },
-  {
-    "name": "from2-string",
-    "repo": "https://github.com/yoshuawuyts/from2-string",
-    "description": "Create a stream from a string. Sugary wrapper around from2",
-    "dependents": 19,
-    "disable": true
   },
   {
     "name": "standard-format",
@@ -739,13 +725,6 @@
     "name": "ecdsa",
     "repo": "https://github.com/cryptocoinjs/ecdsa",
     "description": "Elliptic Curve Cryptography Digital Signing",
-    "dependents": 15,
-    "disable": true
-  },
-  {
-    "name": "base-element",
-    "repo": "https://github.com/shama/base-element",
-    "description": "An element authoring library for creating standalone and performant elements.",
     "dependents": 15,
     "disable": true
   },
@@ -942,13 +921,6 @@
     "name": "lower-case",
     "repo": "https://github.com/blakeembrey/lower-case",
     "description": "Lowercase a string",
-    "dependents": 11,
-    "disable": true
-  },
-  {
-    "name": "rerun-script",
-    "repo": "https://github.com/wilmoore/rerun-script",
-    "description": "Invoke npm scripts upon file changes. Configure via package.json using glob patterns.",
     "dependents": 11,
     "disable": true
   },
@@ -1736,12 +1708,6 @@
     "disable": true
   },
   {
-    "name": "mightyiam",
-    "repo": "https://github.com/mightyiam/mightyiam.js",
-    "description": "Shahar Or (mightyiam)",
-    "dependents": 4
-  },
-  {
     "name": "fs-find-root",
     "repo": "https://github.com/jarofghosts/fs-find-root",
     "description": "search up directories",
@@ -1770,12 +1736,6 @@
     "name": "is-installed",
     "repo": "https://github.com/tunnckoCore/is-installed",
     "description": "Checks that given package is installed on the system - globally or locally.",
-    "dependents": 4
-  },
-  {
-    "name": "random-iterate",
-    "repo": "https://github.com/mafintosh/random-iterate",
-    "description": "Iterate values in a list in random order",
     "dependents": 4
   },
   {
@@ -1851,19 +1811,6 @@
     "disable": true
   },
   {
-    "name": "attach-css",
-    "repo": "https://github.com/shama/attach-css",
-    "description": "Localizes CSS based on a virtual DOM tree.",
-    "dependents": 4
-  },
-  {
-    "name": "airpaste",
-    "repo": "https://github.com/mafintosh/airpaste",
-    "description": "A 1-1 network pipe that auto discovers other peers using mdns",
-    "dependents": 4,
-    "disable": true
-  },
-  {
     "name": "get-github-user",
     "repo": "https://github.com/richardlitt/get-github-user",
     "description": "Get GitHub user information from just a username",
@@ -1931,12 +1878,6 @@
     "description": "Presets for setting up webpack with hotloading react and ES6(2015) using Babel.",
     "dependents": 4,
     "disable": true
-  },
-  {
-    "name": "cyclist",
-    "repo": "https://github.com/mafintosh/cyclist",
-    "description": "Cyclist is an efficient cyclic list implemention.",
-    "dependents": 4
   },
   {
     "name": "console-log-level",
@@ -2091,12 +2032,6 @@
     "disable": true
   },
   {
-    "name": "sanitycheck",
-    "repo": "https://github.com/jden/node-sanitycheck",
-    "description": "ensure that all deps are present and accounted for CI / CD",
-    "dependents": 3
-  },
-  {
     "name": "addressbar",
     "repo": "https://github.com/cerebral/addressbar",
     "description": "Makes the addressbar of the browser work just like a normal input",
@@ -2124,13 +2059,6 @@
     "disable": true
   },
   {
-    "name": "apply-or",
-    "repo": "https://github.com/wilmoore/apply-or.js",
-    "description": "Invoke .apply if value is a function, otherwise, return default value.",
-    "dependents": 3,
-    "disable": true
-  },
-  {
     "name": "mongo-clean",
     "repo": "https://github.com/mcollina/mongo-clean",
     "description": "Clean a Mongo database",
@@ -2141,13 +2069,6 @@
     "name": "format-spatial-ref",
     "repo": "https://github.com/koopjs/format-spatial-ref",
     "description": "Format WKID spatial reference variations into a standard structure.",
-    "dependents": 3,
-    "disable": true
-  },
-  {
-    "name": "sorted-union-stream",
-    "repo": "https://github.com/mafintosh/sorted-union-stream",
-    "description": "Get the union of two sorted streams",
     "dependents": 3,
     "disable": true
   },
@@ -2228,13 +2149,6 @@
     "disable": true
   },
   {
-    "name": "just-debounce",
-    "repo": "https://github.com/hayes/just-debounce",
-    "description": "a simple debounce with no dependencies or crazy defaults",
-    "dependents": 3,
-    "disable": true
-  },
-  {
     "name": "fullnode",
     "repo": "https://github.com/ryanxcharles/fullnode",
     "description": "Javascript implementation of the Blockchain for node and web browsers.",
@@ -2303,23 +2217,11 @@
     "disable": true
   },
   {
-    "name": "reeal",
-    "repo": "https://github.com/reg4in/reeal",
-    "description": "simple event emitter",
-    "dependents": 3
-  },
-  {
     "name": "testdata-w3c-json-form",
     "repo": "https://github.com/LinusU/testdata-w3c-json-form",
     "description": "This repository contains test data intended to be used by people building query parsers that follows [the W3C JSON form spec](http://www.w3.org/TR/html-json-forms/).",
     "dependents": 3,
     "disable": true
-  },
-  {
-    "name": "dom-stub",
-    "repo": "https://github.com/npm-dom/dom-stub",
-    "description": "A minimal dom node stub for testing purposes",
-    "dependents": 3
   },
   {
     "name": "osprey-router",
@@ -2583,21 +2485,9 @@
     "dependents": 3
   },
   {
-    "name": "hash-index",
-    "repo": "https://github.com/watson/hash-index",
-    "description": "A hashing function which returns integers with a possible max value",
-    "dependents": 3
-  },
-  {
     "name": "program-version",
     "repo": "https://github.com/wilmoore/program-version",
     "description": "Returns the program/package name and version as a string with optional format customization.",
-    "dependents": 3
-  },
-  {
-    "name": "gl-blend-demo",
-    "repo": "https://github.com/Jam3/gl-blend-demo",
-    "description": "an example scene which blends foreground and background images",
     "dependents": 3
   },
   {
