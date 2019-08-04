@@ -64,8 +64,7 @@
     "name": "jsonfile",
     "repo": "https://github.com/jprichardson/node-jsonfile",
     "description": "Easily read/write JSON files.",
-    "dependents": 370,
-    "disable": true
+    "dependents": 370
   },
   {
     "name": "nyc",
@@ -104,8 +103,7 @@
     "name": "merge2",
     "repo": "https://github.com/teambition/merge2",
     "description": "Merge multiple streams into one stream in sequence or parallel.",
-    "dependents": 214,
-    "disable": true
+    "dependents": 214
   },
   {
     "name": "electron-prebuilt",
@@ -118,8 +116,7 @@
     "name": "change-case",
     "repo": "https://github.com/blakeembrey/change-case",
     "description": "Convert a string between camelCase, PascalCase, Title Case, snake_case and more.",
-    "dependents": 205,
-    "disable": true
+    "dependents": 205
   },
   {
     "name": "mongojs",
@@ -146,15 +143,13 @@
     "name": "semistandard",
     "repo": "https://github.com/standard/semistandard",
     "description": "All the goodness of `feross/standard` with semicolons sprinkled on top.",
-    "dependents": 150,
-    "disable": true
+    "dependents": 150
   },
   {
     "name": "dependency-check",
     "repo": "https://github.com/dependency-check-team/dependency-check",
     "description": "checks which modules you have used in your code and then makes sure they are listed as dependencies in your package.json",
-    "dependents": 149,
-    "disable": true
+    "dependents": 149
   },
   {
     "name": "mocha-jsdom",
@@ -167,8 +162,7 @@
     "name": "tar-fs",
     "repo": "https://github.com/mafintosh/tar-fs",
     "description": "filesystem bindings for tar-stream",
-    "dependents": 126,
-    "disable": true
+    "dependents": 126
   },
   {
     "name": "redbox-react",
@@ -260,8 +254,7 @@
     "name": "helmet",
     "repo": "https://github.com/helmetjs/helmet",
     "description": "help secure Express/Connect apps with various HTTP headers",
-    "dependents": 67,
-    "disable": true
+    "dependents": 67
   },
   {
     "name": "read-package-json",
@@ -336,8 +329,7 @@
     "name": "subleveldown",
     "repo": "https://github.com/Level/subleveldown",
     "description": "sublevels implemented using leveldowns",
-    "dependents": 40,
-    "disable": true
+    "dependents": 40
   },
   {
     "name": "gl-geometry",
@@ -350,8 +342,7 @@
     "name": "stream-to-promise",
     "repo": "https://github.com/bendrucker/stream-to-promise",
     "description": "Convert streams (readable or writable) to promises",
-    "dependents": 35,
-    "disable": true
+    "dependents": 35
   },
   {
     "name": "torrent-stream",
@@ -484,8 +475,7 @@
     "name": "proxyquire-universal",
     "repo": "https://github.com/bendrucker/proxyquire-universal",
     "description": "Proxyquire in Node and Proxyquireify in the browser with no code changes",
-    "dependents": 24,
-    "disable": true
+    "dependents": 24
   },
   {
     "name": "base64-js",
@@ -638,8 +628,7 @@
     "name": "multiaddr",
     "repo": "https://github.com/multiformats/js-multiaddr",
     "description": "multiaddr implementation (binary + string representation of network addresses)",
-    "dependents": 18,
-    "disable": true
+    "dependents": 18
   },
   {
     "name": "typeforce",
@@ -659,8 +648,7 @@
     "name": "binary-split",
     "repo": "https://github.com/maxogden/binary-split",
     "description": "a fast newline (or any delimiter) splitter stream - like require('split') but faster",
-    "dependents": 17,
-    "disable": true
+    "dependents": 17
   },
   {
     "name": "webtorrent",
@@ -798,8 +786,7 @@
     "name": "electron-mocha",
     "repo": "https://github.com/jprichardson/electron-mocha",
     "description": "Mocha tests in Electron.",
-    "dependents": 14,
-    "disable": true
+    "dependents": 14
   },
   {
     "name": "curry2",
@@ -825,8 +812,7 @@
     "name": "prebuild",
     "repo": "https://github.com/prebuild/prebuild",
     "description": "A command line tool for easily doing prebuilds for multiple version of node/iojs on a specific platform",
-    "dependents": 13,
-    "disable": true
+    "dependents": 13
   },
   {
     "name": "postcss-modules-values",
@@ -866,16 +852,14 @@
     "name": "fastparallel",
     "repo": "https://github.com/mcollina/fastparallel",
     "description": "Zero-overhead asynchronous parallel/each/map function call",
-    "dependents": 12,
-    "disable": true
+    "dependents": 12
   },
   {
     "name": "rlp",
     "repo": "https://github.com/ethereumjs/rlp",
     "description": "Recursive Length Prefix Encoding Module",
     "dependents": 12,
-    "args": ["./index.js", "./bin/rlp"],
-    "disable": true
+    "args": ["./index.js", "./bin/rlp"]
   },
   {
     "name": "bittorrent-tracker",
@@ -1175,8 +1159,7 @@
     "repo": "https://github.com/poppinss/adonis-fold",
     "description": "Dependency manager and ioc container for your next NodeJs application",
     "dependents": 8,
-    "args": ["src/**/*.js", "test/**/*.spec.js"],
-    "disable": true
+    "args": ["src/**/*.js", "test/**/*.spec.js"]
   },
   {
     "name": "wantsit",
@@ -1263,8 +1246,7 @@
     "name": "subcommand",
     "repo": "https://github.com/maxogden/subcommand",
     "description": "create CLI tools with subcommands",
-    "dependents": 7,
-    "disable": true
+    "dependents": 7
   },
   {
     "name": "browserify-aes",
@@ -1322,8 +1304,7 @@
     "name": "ipld",
     "repo": "https://github.com/ipld/js-ipld-dag-cbor",
     "description": "JavaScript implementation of the IPLD (InterpPlanetary Linked Data)",
-    "dependents": 7,
-    "disable": true
+    "dependents": 7
   },
   {
     "name": "bulk-write-stream",
@@ -1492,8 +1473,7 @@
     "name": "application-config",
     "repo": "https://github.com/LinusU/node-application-config",
     "description": "Store your applications config where the operating system wants you to.",
-    "dependents": 5,
-    "disable": true
+    "dependents": 5
   },
   {
     "name": "observ-value",
@@ -1622,8 +1602,7 @@
     "name": "fill-keys",
     "repo": "https://github.com/bendrucker/fill-keys",
     "description": "Fill keys in a destination that are defined on the source",
-    "dependents": 5,
-    "disable": true
+    "dependents": 5
   },
   {
     "name": "cliui",
@@ -1690,8 +1669,7 @@
     "name": "route-trie",
     "repo": "https://github.com/zensh/route-trie",
     "description": "A trie-based URL router",
-    "dependents": 4,
-    "disable": true
+    "dependents": 4
   },
   {
     "name": "round",
@@ -1782,8 +1760,7 @@
     "name": "respjs",
     "repo": "https://github.com/zensh/resp.js",
     "description": "An implementation of REdis Serialization Protocol (RESP), parse pipelining chunks.",
-    "dependents": 4,
-    "disable": true
+    "dependents": 4
   },
   {
     "name": "chromecasts",
@@ -1908,8 +1885,7 @@
     "name": "aedes-packet",
     "repo": "https://github.com/mcollina/aedes-packet",
     "description": "Basic data structure for packets in Aedes ",
-    "dependents": 4,
-    "disable": true
+    "dependents": 4
   },
   {
     "name": "yargs-cn",
@@ -1969,8 +1945,7 @@
     "name": "bip38",
     "repo": "https://github.com/bitcoinjs/bip38",
     "description": "BIP38 is a standard process to encrypt Bitcoin and crypto currency private keys that is impervious to brute force attacks thus protecting the user.",
-    "dependents": 4,
-    "disable": true
+    "dependents": 4
   },
   {
     "name": "observ-default",
@@ -2023,15 +1998,13 @@
     "name": "glslify-bundle",
     "repo": "https://github.com/glslify/glslify-bundle",
     "description": "Bundle a glslify-deps dependency tree into a GLSL source string",
-    "dependents": 4,
-    "disable": true
+    "dependents": 4
   },
   {
     "name": "aedes-persistence",
     "repo": "https://github.com/mcollina/aedes-persistence",
     "description": "The spec for an Aedes persistence, with abstract tests and a fast in-memory implementation.",
-    "dependents": 4,
-    "disable": true
+    "dependents": 4
   },
   {
     "name": "browser-supports-log-styles",
@@ -2087,8 +2060,7 @@
     "name": "application-config-path",
     "repo": "https://github.com/LinusU/node-application-config-path",
     "description": "Store your application config in the right location.",
-    "dependents": 3,
-    "disable": true
+    "dependents": 3
   },
   {
     "name": "sanitycheck",
@@ -2106,8 +2078,7 @@
     "name": "moment-parseformat",
     "repo": "https://github.com/gr2m/moment-parseformat",
     "description": "A moment.js plugin to extract the format of a date/time string",
-    "dependents": 3,
-    "disable": true
+    "dependents": 3
   },
   {
     "name": "superagent-no-cache",
@@ -2189,8 +2160,7 @@
     "name": "sort-semver-comparators",
     "repo": "https://github.com/bendrucker/sort-semver-comparators",
     "description": "Sort semver comparators",
-    "dependents": 3,
-    "disable": true
+    "dependents": 3
   },
   {
     "name": "lower-case-first",
@@ -2636,8 +2606,7 @@
     "name": "stackman",
     "repo": "https://github.com/watson/stackman",
     "description": "Enhance an error stacktrace with code excerpts and other goodies",
-    "dependents": 3,
-    "disable": true
+    "dependents": 3
   },
   {
     "name": "semantic-release-cli",
@@ -2657,8 +2626,7 @@
     "name": "toa-token",
     "repo": "https://github.com/toajs/toa-token",
     "description": "Json web token (JWT) module for toa.",
-    "dependents": 3,
-    "disable": true
+    "dependents": 3
   },
   {
     "name": "object-pair",
@@ -2684,8 +2652,7 @@
     "name": "make-concurrent",
     "repo": "https://github.com/fanatid/make-concurrent",
     "description": "Easy exclusive or shared access to resource",
-    "dependents": 3,
-    "disable": true
+    "dependents": 3
   },
   {
     "name": "base64-emoji",
