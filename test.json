@@ -162,7 +162,8 @@
     "name": "tar-fs",
     "repo": "https://github.com/mafintosh/tar-fs",
     "description": "filesystem bindings for tar-stream",
-    "dependents": 126
+    "dependents": 126,
+    "disable": true
   },
   {
     "name": "redbox-react",
