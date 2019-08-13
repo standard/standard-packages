@@ -1761,7 +1761,8 @@
     "name": "respjs",
     "repo": "https://github.com/zensh/resp.js",
     "description": "An implementation of REdis Serialization Protocol (RESP), parse pipelining chunks.",
-    "dependents": 4
+    "dependents": 4,
+    "disable": true
   },
   {
     "name": "chromecasts",
