@@ -103,7 +103,8 @@
     "name": "merge2",
     "repo": "https://github.com/teambition/merge2",
     "description": "Merge multiple streams into one stream in sequence or parallel.",
-    "dependents": 214
+    "dependents": 214,
+    "disable": true
   },
   {
     "name": "electron-prebuilt",
