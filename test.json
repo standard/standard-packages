@@ -814,7 +814,8 @@
     "name": "prebuild",
     "repo": "https://github.com/prebuild/prebuild",
     "description": "A command line tool for easily doing prebuilds for multiple version of node/iojs on a specific platform",
-    "dependents": 13
+    "dependents": 13,
+    "disable": true
   },
   {
     "name": "postcss-modules-values",
