@@ -18,7 +18,7 @@
     "pad-left": "^2.0.0",
     "run-series": "^1.1.4",
     "simple-get": "^3.0.0",
-    "standard": "*"
+    "standard": ">=13.1.0"
   },
   "homepage": "https://standardjs.com",
   "keywords": [
