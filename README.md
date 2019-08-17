@@ -25,13 +25,13 @@ packages.forEach(pkg => {
 
 ## Contribute
 
-To update the data in `all.json` run:
+To update the data in `all.json`, install [CouchDB](https://couchdb.apache.org), create an `npm_registry` database, and run:
 
 ```bash
-npm run fetch && npm run update
+npm run replicate && npm run update
 ```
 
-:warning: `npm run fetch` will download and save a 1 GB+ file named `tmp/rawdata.json`
+:warning: `npm run replicate` will [replicate](https://docs.couchdb.org/en/stable/replication/intro.html) a 10 GB+ database
 
 ## License
 

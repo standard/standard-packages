@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 
 var chalk = require('chalk')
+var db = require('nano')('http://localhost:5984/npm_registry')
 var es = require('event-stream')
 var fs = require('fs')
 var gh = require('github-url-to-object')
@@ -17,16 +18,22 @@ var modules = [
 
 var allFreqs = {}
 
-fs.createReadStream(path.join(__dirname, '..', 'tmp', 'rawdata.json'))
-  .pipe(json.parse('rows.*.value'))
+db.listAsStream({ include_docs: true })
+  .pipe(json.parse('rows.*.doc'))
   .pipe(es.mapSync(function (data) {
+    // skip packages where the `latest` tag is not in `versions`
+    if (!data.versions[data['dist-tags'].latest]) {
+      return
+    }
+
     var description = data.description
     if (description === '') description = null
 
     var name = data.name
+    var latest = data.versions[data['dist-tags'].latest]
     var deps = []
-    if (data.dependencies) deps = deps.concat(Object.keys(data.dependencies))
-    if (data.devDependencies) deps = deps.concat(Object.keys(data.devDependencies))
+    if (latest.dependencies) deps = deps.concat(Object.keys(latest.dependencies))
+    if (latest.devDependencies) deps = deps.concat(Object.keys(latest.devDependencies))
     deps.forEach(function (key) {
       if (modules.indexOf(key) >= 0) {
         if (!(key in freqs)) {
@@ -34,7 +41,7 @@ fs.createReadStream(path.join(__dirname, '..', 'tmp', 'rawdata.json'))
         } else {
           freqs[key].count++
         }
-        var repo = data.repository && data.repository.url
+        var repo = latest.repository && latest.repository.url
         if (repo) try { repo = gh(repo) } catch (err) {}
         if (repo) repo = repo.https_url
         if (repo === '') repo = null
