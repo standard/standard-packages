@@ -54,6 +54,7 @@
     "url": "git://github.com/standard/standard-packages.git"
   },
   "scripts": {
+    "install-deps": "brew install couchdb",
     "replicate": "node tools/replicate.js",
     "test": "standard && node -e \"require('./')\"",
     "test-full": "npm test && node test/full.js",
