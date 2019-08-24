@@ -4,9 +4,9 @@
  * Sanity check that all repos in test.json actually exist on GitHub
  */
 
-var get = require('simple-get')
-var packages = require('../')
-var series = require('run-series')
+const get = require('simple-get')
+const packages = require('../')
+const series = require('run-series')
 
 series(packages.test.map(function (pkg) {
   return function (cb) {
