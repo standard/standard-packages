@@ -1,22 +1,22 @@
 #!/usr/bin/env node
 
-var chalk = require('chalk')
-var db = require('nano')('http://localhost:5984/npm_registry')
-var es = require('event-stream')
-var fs = require('fs')
-var gh = require('github-url-to-object')
-var json = require('JSONStream')
-var padLeft = require('pad-left')
-var path = require('path')
+const chalk = require('chalk')
+const db = require('nano')('http://localhost:5984/npm_registry')
+const es = require('event-stream')
+const fs = require('fs')
+const gh = require('github-url-to-object')
+const json = require('JSONStream')
+const padLeft = require('pad-left')
+const path = require('path')
 
-var freqs = {}
+const freqs = {}
 
 // search some modules specifically
-var modules = [
+const modules = [
   'standard', 'snazzy', 'eslint-config-standard'
 ]
 
-var allFreqs = {}
+const allFreqs = {}
 
 db.listAsStream({ include_docs: true })
   .pipe(json.parse('rows.*.doc'))
@@ -26,12 +26,12 @@ db.listAsStream({ include_docs: true })
       return
     }
 
-    var description = data.description
+    let description = data.description
     if (description === '') description = null
 
-    var name = data.name
-    var latest = data.versions[data['dist-tags'].latest]
-    var deps = []
+    const name = data.name
+    const latest = data.versions[data['dist-tags'].latest]
+    let deps = []
     if (latest.dependencies) deps = deps.concat(Object.keys(latest.dependencies))
     if (latest.devDependencies) deps = deps.concat(Object.keys(latest.devDependencies))
     deps.forEach(function (key) {
@@ -41,7 +41,7 @@ db.listAsStream({ include_docs: true })
         } else {
           freqs[key].count++
         }
-        var repo = latest.repository && latest.repository.url
+        let repo = latest.repository && latest.repository.url
         if (repo) try { repo = gh(repo) } catch (err) {}
         if (repo) repo = repo.https_url
         if (repo === '') repo = null
@@ -57,7 +57,7 @@ db.listAsStream({ include_docs: true })
     return deps
   }))
   .on('end', function (ev) {
-    var values = Object.keys(allFreqs)
+    let values = Object.keys(allFreqs)
       .map(function (k) {
         return { value: k, frequency: allFreqs[k] }
       })
@@ -67,7 +67,7 @@ db.listAsStream({ include_docs: true })
 
     values = values.slice(0, 200)
 
-    var longest = values.reduce(function (prev, a) {
+    const longest = values.reduce(function (prev, a) {
       return Math.max(prev, a.value.length)
     }, 0)
 
@@ -75,10 +75,10 @@ db.listAsStream({ include_docs: true })
     console.log('SPECIFIC MODULES')
     console.log('--------\n')
 
-    var arr = []
-    var included = {}
+    let arr = []
+    const included = {}
     modules.forEach(function (key) {
-      var padding = longest - key.length
+      const padding = longest - key.length
       console.log(key, padLeft(freqs[key].count || 0, padding + 1))
       freqs[key].deps
         .forEach(function (dep) {
@@ -89,7 +89,7 @@ db.listAsStream({ include_docs: true })
     })
 
     // `standard` count should include `snazzy` and `eslint-config-standard` users
-    var standard = arr.filter(function (pkg) {
+    const standard = arr.filter(function (pkg) {
       if (pkg.name === 'standard') return true
     })[0]
     standard.dependents = arr.length
@@ -104,9 +104,9 @@ db.listAsStream({ include_docs: true })
     console.log('--------\n')
 
     values.forEach(function (x, i) {
-      var key = x.value
-      var count = x.frequency
-      var padding = longest - key.length
+      let key = x.value
+      const count = x.frequency
+      const padding = longest - key.length
 
       // highlight standard style packages
       modules.forEach(function (module) {
