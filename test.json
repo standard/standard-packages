@@ -3,8 +3,7 @@
     "name": "fs-extra",
     "repo": "https://github.com/jprichardson/node-fs-extra",
     "description": "fs-extra contains methods that aren't included in the vanilla Node.js fs package. Such as mkdir -p, cp -r, and rm -rf.",
-    "dependents": 3279,
-    "disable": true
+    "dependents": 3279
   },
   {
     "name": "tap",
@@ -57,8 +56,7 @@
     "name": "dotenv",
     "repo": "https://github.com/motdotla/dotenv",
     "description": "Loads environment variables from .env file",
-    "dependents": 377,
-    "disable": true
+    "dependents": 377
   },
   {
     "name": "jsonfile",
@@ -103,8 +101,7 @@
     "name": "merge2",
     "repo": "https://github.com/teambition/merge2",
     "description": "Merge multiple streams into one stream in sequence or parallel.",
-    "dependents": 214,
-    "disable": true
+    "dependents": 214
   },
   {
     "name": "electron-prebuilt",
@@ -229,8 +226,7 @@
     "name": "tar-stream",
     "repo": "https://github.com/mafintosh/tar-stream",
     "description": "tar-stream is a streaming tar parser and generator and nothing else. It is streams2 and operates purely using streams which means you can easily extract/parse tarballs without ever hitting the file system.",
-    "dependents": 73,
-    "disable": true
+    "dependents": 73
   },
   {
     "name": "karma-browserstack-launcher",
@@ -276,8 +272,7 @@
     "name": "david",
     "repo": "https://github.com/alanshaw/david",
     "description": "Node.js module that tells you when your project npm dependencies are out of date.",
-    "dependents": 60,
-    "disable": true
+    "dependents": 60
   },
   {
     "name": "bs58",
@@ -769,8 +764,7 @@
     "name": "humanize-duration",
     "repo": "https://github.com/EvanHahn/HumanizeDuration.js",
     "description": "Convert millisecond durations to English and many other languages.",
-    "dependents": 14,
-    "disable": true
+    "dependents": 14
   },
   {
     "name": "multihashing",
@@ -807,8 +801,7 @@
     "name": "markdown-pdf",
     "repo": "https://github.com/alanshaw/markdown-pdf",
     "description": "Markdown to PDF converter",
-    "dependents": 13,
-    "disable": true
+    "dependents": 13
   },
   {
     "name": "prebuild",
@@ -1337,8 +1330,7 @@
     "name": "aerospike",
     "repo": "https://github.com/aerospike/aerospike-client-nodejs",
     "description": "Aerospike Client Library",
-    "dependents": 7,
-    "disable": true
+    "dependents": 7
   },
   {
     "name": "constant-case",
@@ -1763,8 +1755,7 @@
     "name": "respjs",
     "repo": "https://github.com/zensh/resp.js",
     "description": "An implementation of REdis Serialization Protocol (RESP), parse pipelining chunks.",
-    "dependents": 4,
-    "disable": true
+    "dependents": 4
   },
   {
     "name": "chromecasts",
@@ -2150,8 +2141,7 @@
     "name": "auto-changelog",
     "repo": "https://github.com/CookPete/auto-changelog",
     "description": "Command line tool for generating a changelog from git tags and commit history",
-    "dependents": 3,
-    "disable": true
+    "dependents": 3
   },
   {
     "name": "jsreport-data",
