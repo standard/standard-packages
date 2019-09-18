@@ -1141,5 +1141,535 @@
   {
     "name": "bitmidi.com",
     "repo": "https://github.com/feross/bitmidi.com"
+  },
+  {
+    "name": "request",
+    "repo": "https://github.com/request/request",
+    "description": "Simplified HTTP request client.",
+    "dependents": 41569,
+    "disable": true
+  },
+  {
+    "name": "commander",
+    "repo": "https://github.com/tj/commander.js",
+    "description": "the complete solution for node.js command-line programs",
+    "dependents": 34111,
+    "disable": true
+  },
+  {
+    "name": "nyc",
+    "repo": "https://github.com/istanbuljs/nyc",
+    "description": "the Istanbul command line interface",
+    "dependents": 31616,
+    "disable": true
+  },
+  {
+    "name": "karma-chrome-launcher",
+    "repo": "https://github.com/karma-runner/karma-chrome-launcher",
+    "description": "A Karma plugin. Launcher for Chrome and Chrome Canary.",
+    "dependents": 22619
+  },
+  {
+    "name": "postcss-loader",
+    "repo": "https://github.com/postcss/postcss-loader",
+    "description": "PostCSS loader for webpack",
+    "dependents": 21179,
+    "disable": true
+  },
+  {
+    "name": "eslint-plugin-standard",
+    "repo": "https://github.com/standard/eslint-plugin-standard",
+    "description": "ESlint Plugin for the Standard Linter",
+    "dependents": 20349
+  },
+  {
+    "name": "yargs",
+    "repo": "https://github.com/yargs/yargs",
+    "description": "yargs the modern, pirate-themed, successor to optimist.",
+    "dependents": 17832,
+    "disable": true
+  },
+  {
+    "name": "karma-firefox-launcher",
+    "repo": "https://github.com/karma-runner/karma-firefox-launcher",
+    "description": "A Karma plugin. Launcher for Firefox.",
+    "dependents": 6947
+  },
+  {
+    "name": "babel-plugin-istanbul",
+    "repo": "https://github.com/istanbuljs/babel-plugin-istanbul",
+    "description": "A babel plugin that adds istanbul instrumentation to ES6 code",
+    "dependents": 6465
+  },
+  {
+    "name": "proxyquire",
+    "repo": "https://github.com/thlorenz/proxyquire",
+    "description": "Proxies nodejs require in order to allow overriding dependencies during testing.",
+    "dependents": 4889,
+    "disable": true
+  },
+  {
+    "name": "npm",
+    "repo": "https://github.com/npm/cli",
+    "description": "a package manager for JavaScript",
+    "dependents": 3868,
+    "disable": true
+  },
+  {
+    "name": "fast-sass-loader",
+    "repo": "https://github.com/yibn2008/fast-sass-loader",
+    "description": "fast sass loader for webpack",
+    "dependents": 3341,
+    "disable": true
+  },
+  {
+    "name": "tslint-config-standard",
+    "repo": "https://github.com/blakeembrey/tslint-config-standard",
+    "description": "A TSLint config for JavaScript Standard Style",
+    "dependents": 3169,
+    "disable": true
+  },
+  {
+    "name": "jsdom-global",
+    "repo": "https://github.com/rstacruz/jsdom-global",
+    "description": "Enable DOM in Node.js",
+    "dependents": 2164
+  },
+  {
+    "name": "date-fns",
+    "repo": "https://github.com/date-fns/date-fns",
+    "description": "Modern JavaScript date utility library",
+    "dependents": 2026,
+    "disable": true
+  },
+  {
+    "name": "electron",
+    "repo": "https://github.com/electron/electron",
+    "description": "Build cross platform desktop apps with JavaScript, HTML, and CSS",
+    "dependents": 1985,
+    "disable": true
+  },
+  {
+    "name": "multer",
+    "repo": "https://github.com/expressjs/multer",
+    "description": "Middleware for handling `multipart/form-data`.",
+    "dependents": 1766,
+    "disable": true
+  },
+  {
+    "name": "ini",
+    "repo": "https://github.com/isaacs/ini",
+    "description": "An ini encoder/decoder for node",
+    "dependents": 1353,
+    "disable": true
+  },
+  {
+    "name": "npmlog",
+    "repo": "https://github.com/npm/npmlog",
+    "description": "logger for npm",
+    "dependents": 1114,
+    "disable": true
+  },
+  {
+    "name": "budo",
+    "repo": "https://github.com/mattdesl/budo",
+    "description": "a browserify server for rapid prototyping",
+    "dependents": 1105,
+    "disable": true
+  },
+  {
+    "name": "mqtt",
+    "repo": "https://github.com/mqttjs/MQTT.js",
+    "description": "A library for the MQTT protocol",
+    "dependents": 1096,
+    "disable": true
+  },
+  {
+    "name": "hubot",
+    "repo": "https://github.com/hubotio/hubot",
+    "description": "A simple helpful robot for your Company",
+    "dependents": 1080,
+    "disable": true
+  },
+  {
+    "name": "validate-npm-package-name",
+    "repo": "https://github.com/npm/validate-npm-package-name",
+    "description": "Give me a string and I'll tell you if it's a valid npm package name",
+    "dependents": 1064,
+    "disable": true
+  },
+  {
+    "name": "canvas",
+    "repo": "https://github.com/Automattic/node-canvas",
+    "description": "Canvas graphics API backed by Cairo",
+    "dependents": 1062,
+    "disable": true
+  },
+  {
+    "name": "redux-mock-store",
+    "repo": "https://github.com/arnaudbenard/redux-mock-store",
+    "description": "A mock store for testing your redux async action creators and middleware",
+    "dependents": 1020,
+    "disable": true
+  },
+  {
+    "name": "gulp-sequence",
+    "repo": "https://github.com/teambition/gulp-sequence",
+    "description": "Run a series of gulp tasks in order.",
+    "dependents": 1014,
+    "disable": true
+  },
+  {
+    "name": "node-gyp",
+    "repo": "https://github.com/nodejs/node-gyp",
+    "description": "Node.js native addon build tool",
+    "dependents": 1012,
+    "disable": true
+  },
+  {
+    "name": "chai-enzyme",
+    "repo": "https://github.com/producthunt/chai-enzyme",
+    "description": "Chai.js assertions for enzyme",
+    "dependents": 961,
+    "disable": true
+  },
+  {
+    "name": "markdown-it-anchor",
+    "repo": "https://github.com/valeriangalliat/markdown-it-anchor",
+    "description": "Header anchors for markdown-it.",
+    "dependents": 911,
+    "disable": true
+  },
+  {
+    "name": "safe-buffer",
+    "repo": "https://github.com/feross/safe-buffer",
+    "description": "Safer Node.js Buffer API",
+    "dependents": 897
+  },
+  {
+    "name": "levelup",
+    "repo": "https://github.com/Level/levelup",
+    "description": "Fast & simple storage - a Node.js-style LevelDB wrapper",
+    "dependents": 766
+  },
+  {
+    "name": "sax",
+    "repo": "https://github.com/isaacs/sax-js",
+    "description": "An evented streaming XML parser in JavaScript",
+    "dependents": 765,
+    "disable": true
+  },
+  {
+    "name": "level",
+    "repo": "https://github.com/Level/level",
+    "description": "Fast & simple storage - a Node.js-style LevelDB wrapper (a convenience package bundling LevelUP & LevelDOWN)",
+    "dependents": 744
+  },
+  {
+    "name": "flat",
+    "repo": "https://github.com/hughsk/flat",
+    "description": "Take a nested Javascript object and flatten it, or unflatten an object with delimited keys",
+    "dependents": 705,
+    "disable": true
+  },
+  {
+    "name": "@octokit/rest",
+    "repo": "https://github.com/octokit/rest.js",
+    "description": "GitHub REST API client for Node.js",
+    "dependents": 702
+  },
+  {
+    "name": "koa-compose",
+    "repo": "https://github.com/koajs/compose",
+    "description": "compose Koa middleware",
+    "dependents": 702,
+    "disable": true
+  },
+  {
+    "name": "rollup-plugin-serve",
+    "repo": "https://github.com/thgh/rollup-plugin-serve",
+    "description": "Serve your rolled up bundle",
+    "dependents": 696,
+    "disable": true
+  },
+  {
+    "name": "pino",
+    "repo": "https://github.com/pinojs/pino",
+    "description": "super fast, all natural json logger",
+    "dependents": 670
+  },
+  {
+    "name": "ignore-styles",
+    "repo": "https://github.com/bkonkle/ignore-styles",
+    "description": "Ignore imported style files when running in Node",
+    "dependents": 646,
+    "disable": true
+  },
+  {
+    "name": "cross-fetch",
+    "repo": "https://github.com/lquixada/cross-fetch",
+    "description": "Universal WHATWG Fetch API for Node, Browsers and React Native",
+    "dependents": 644,
+    "disable": true
+  },
+  {
+    "name": "blue-tape",
+    "repo": "https://github.com/spion/blue-tape",
+    "description": "Tape test runner with promise support",
+    "dependents": 632,
+    "disable": true
+  },
+  {
+    "name": "sinon-as-promised",
+    "repo": "https://github.com/bendrucker/sinon-as-promised",
+    "description": "Sugar methods for using sinon.js stubs with promises",
+    "dependents": 612
+  },
+  {
+    "name": "mocha-jsdom",
+    "repo": "https://github.com/rstacruz/mocha-jsdom",
+    "description": "Simple integration of jsdom into mocha tests",
+    "dependents": 607,
+    "disable": true
+  },
+  {
+    "name": "eslint-plugin-jasmine",
+    "repo": "https://github.com/tlvince/eslint-plugin-jasmine",
+    "description": "ESLint rules for Jasmine",
+    "dependents": 600,
+    "disable": true
+  },
+  {
+    "name": "yargs-parser",
+    "repo": "https://github.com/yargs/yargs-parser",
+    "description": "the mighty option parser used by yargs",
+    "dependents": 591,
+    "disable": true
+  },
+  {
+    "name": "mathjs",
+    "repo": "https://github.com/josdejong/mathjs",
+    "description": "Math.js is an extensive math library for JavaScript and Node.js. It features a flexible expression parser with support for symbolic computation, comes with a large set of built-in functions and constants, and offers an integrated solution to work with dif",
+    "dependents": 584,
+    "disable": true
+  },
+  {
+    "name": "create-hash",
+    "repo": "https://github.com/crypto-browserify/createHash",
+    "description": "create hashes for browserify",
+    "dependents": 557
+  },
+  {
+    "name": "mssql",
+    "repo": "https://github.com/tediousjs/node-mssql",
+    "description": "Microsoft SQL Server client for Node.js.",
+    "dependents": 545,
+    "disable": true
+  },
+  {
+    "name": "tar-fs",
+    "repo": "https://github.com/mafintosh/tar-fs",
+    "description": "filesystem bindings for tar-stream",
+    "dependents": 535,
+    "disable": true
+  },
+  {
+    "name": "leveldown",
+    "repo": "https://github.com/Level/leveldown",
+    "description": "A low-level Node.js LevelDB binding",
+    "dependents": 534
+  },
+  {
+    "name": "memdown",
+    "repo": "https://github.com/Level/memdown",
+    "description": "An drop-in replacement for LevelDOWN that works in memory only",
+    "dependents": 530
+  },
+  {
+    "name": "front-matter",
+    "repo": "https://github.com/jxson/front-matter",
+    "description": "Extract YAML front matter from a string",
+    "dependents": 522
+  },
+  {
+    "name": "electron-prebuilt",
+    "repo": "https://github.com/electron-userland/electron-prebuilt",
+    "description": "Install prebuilt electron binaries for the command-line using npm",
+    "dependents": 515,
+    "disable": true
+  },
+  {
+    "name": "fstream",
+    "repo": "https://github.com/npm/fstream",
+    "description": "Advanced file system stream things",
+    "dependents": 514,
+    "disable": true
+  },
+  {
+    "name": "fastify",
+    "repo": "https://github.com/fastify/fastify",
+    "description": "Fast and low overhead web framework, for Node.js",
+    "dependents": 501
+  },
+  {
+    "name": "secp256k1",
+    "repo": "https://github.com/cryptocoinjs/secp256k1-node",
+    "description": "This module provides native bindings to ecdsa secp256k1 functions",
+    "dependents": 483,
+    "disable": true
+  },
+  {
+    "name": "md5-file",
+    "repo": "https://github.com/roryrjb/md5-file",
+    "description": "return an md5sum of a given file",
+    "dependents": 482,
+    "disable": true
+  },
+  {
+    "name": "extract-zip",
+    "repo": "https://github.com/maxogden/extract-zip",
+    "description": "unzip a zip file into a directory using 100% javascript",
+    "dependents": 467,
+    "disable": true
+  },
+  {
+    "name": "assets-webpack-plugin",
+    "repo": "https://github.com/ztoben/assets-webpack-plugin",
+    "description": "Emits a json file with assets paths",
+    "dependents": 466
+  },
+  {
+    "name": "testdouble",
+    "repo": "https://github.com/testdouble/testdouble.js",
+    "description": "A minimal test double library for TDD with JavaScript",
+    "dependents": 466
+  },
+  {
+    "name": "randombytes",
+    "repo": "https://github.com/crypto-browserify/randombytes",
+    "description": "random bytes from browserify stand alone",
+    "dependents": 424,
+    "disable": true
+  },
+  {
+    "name": "microtime",
+    "repo": "https://github.com/wadey/node-microtime",
+    "description": "Get the current time in microseconds",
+    "dependents": 411
+  },
+  {
+    "name": "fixpack",
+    "repo": "https://github.com/henrikjoreteg/fixpack",
+    "description": "cli tool that cleans up package.json files.",
+    "dependents": 392,
+    "disable": true
+  },
+  {
+    "name": "browser-sync-webpack-plugin",
+    "repo": "https://github.com/Va1/browser-sync-webpack-plugin",
+    "description": "BrowserSync and Webpack integration",
+    "dependents": 375
+  },
+  {
+    "name": "camel-case",
+    "repo": "https://github.com/blakeembrey/camel-case",
+    "description": "Camel case a string",
+    "dependents": 373,
+    "disable": true
+  },
+  {
+    "name": "find-root",
+    "repo": "https://github.com/js-n/find-root",
+    "description": "find the closest package.json",
+    "dependents": 365,
+    "disable": true
+  },
+  {
+    "name": "create-hmac",
+    "repo": "https://github.com/crypto-browserify/createHmac",
+    "description": "node style hmacs in the browser",
+    "dependents": 362
+  },
+  {
+    "name": "koa-convert",
+    "repo": "https://github.com/gyson/koa-convert",
+    "description": "convert koa legacy generator-based middleware to promise-based middleware",
+    "dependents": 345,
+    "disable": true
+  },
+  {
+    "name": "sha.js",
+    "repo": "https://github.com/crypto-browserify/sha.js",
+    "description": "Streamable SHA hashes in pure javascript",
+    "dependents": 344
+  },
+  {
+    "name": "mongojs",
+    "repo": "https://github.com/mafintosh/mongojs",
+    "description": "Easy to use module that implements the mongo api",
+    "dependents": 338,
+    "disable": true
+  },
+  {
+    "name": "qrcode",
+    "repo": "https://github.com/soldair/node-qrcode",
+    "description": "QRCode / 2d Barcode api with both server side and client side support using canvas",
+    "dependents": 337,
+    "disable": true
+  },
+  {
+    "name": "portscanner",
+    "repo": "https://github.com/baalexander/node-portscanner",
+    "description": "Asynchronous port scanner for Node.js",
+    "dependents": 332,
+    "disable": true
+  },
+  {
+    "name": "tinyify",
+    "repo": "https://github.com/browserify/tinyify",
+    "description": "a browserify plugin that runs various optimizations, so you don't have to install them all manually.",
+    "dependents": 330
+  },
+  {
+    "name": "condition-circle",
+    "repo": "https://github.com/bahmutov/condition-circle",
+    "description": "Checks CircleCI environment before publishing successful build using semantic-release",
+    "dependents": 329,
+    "disable": true
+  },
+  {
+    "name": "react-tooltip",
+    "repo": "https://github.com/wwayne/react-tooltip",
+    "description": "react tooltip component",
+    "dependents": 326,
+    "disable": true
+  },
+  {
+    "name": "klaw",
+    "repo": "https://github.com/jprichardson/node-klaw",
+    "description": "File system walker with Readable stream interface.",
+    "dependents": 325,
+    "disable": true
+  },
+  {
+    "name": "klaw-sync",
+    "repo": "https://github.com/manidlou/node-klaw-sync",
+    "description": "Recursive, synchronous, and fast file system walker",
+    "dependents": 324,
+    "disable": true
+  },
+  {
+    "name": "pascal-case",
+    "repo": "https://github.com/blakeembrey/pascal-case",
+    "description": "Pascal case a string",
+    "dependents": 318,
+    "disable": true
+  },
+  {
+    "name": "nano",
+    "repo": "https://github.com/apache/couchdb-nano",
+    "description": "The official CouchDB client for Node.js",
+    "dependents": 313,
+    "disable": true
   }
 ]
