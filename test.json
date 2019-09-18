@@ -1376,7 +1376,8 @@
     "name": "@octokit/rest",
     "repo": "https://github.com/octokit/rest.js",
     "description": "GitHub REST API client for Node.js",
-    "dependents": 702
+    "dependents": 702,
+    "disable": true
   },
   {
     "name": "koa-compose",
