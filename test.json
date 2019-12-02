@@ -933,12 +933,6 @@
     "dependents": 3
   },
   {
-    "name": "reeal",
-    "repo": "https://github.com/pbrinkmeier/reeal",
-    "description": "simple event emitter",
-    "dependents": 3
-  },
-  {
     "name": "dom-stub",
     "repo": "https://github.com/npm-dom/dom-stub",
     "description": "A minimal dom node stub for testing purposes",
