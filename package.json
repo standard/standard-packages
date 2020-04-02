@@ -12,7 +12,7 @@
   },
   "devDependencies": {
     "JSONStream": "^1.0.6",
-    "chalk": "^2.3.0",
+    "chalk": "^4.0.0",
     "event-stream": "4.0.1",
     "github-url-to-object": "^4.0.2",
     "nano": "^8.1.0",
