@@ -28,8 +28,8 @@ packages.forEach(pkg => {
 To update the data in `all.json`, install [CouchDB](https://couchdb.apache.org), create an `npm_registry` database, and run:
 
 ```bash
-couchdb # start couchdb
-curl -X PUT http://127.0.0.1:5984/npm_registry # create database
+/Applications/Apache\ CouchDB.app/Contents/MacOS/Apache\ CouchDB # start couchdb (if prompted, create admin user with password "admin")
+curl -X PUT http://admin:admin@127.0.0.1:5984/npm_registry # create database
 npm run replicate && npm run update
 ```
 
