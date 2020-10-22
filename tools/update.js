@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 const chalk = require('chalk')
-const db = require('nano')('http://localhost:5984/npm_registry')
+const db = require('nano')('http://admin:admin@localhost:5984/npm_registry')
 const es = require('event-stream')
 const fs = require('fs')
 const gh = require('github-url-to-object')
