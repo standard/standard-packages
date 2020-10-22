@@ -70,7 +70,8 @@
     "name": "dependency-check",
     "repo": "https://github.com/dependency-check-team/dependency-check",
     "description": "checks which modules you have used in your code and then makes sure they are listed as dependencies in your package.json",
-    "dependents": 149
+    "dependents": 149,
+    "disable": true
   },
   {
     "name": "redbox-react",
@@ -116,12 +117,6 @@
     "dependents": 69
   },
   {
-    "name": "helmet",
-    "repo": "https://github.com/helmetjs/helmet",
-    "description": "help secure Express/Connect apps with various HTTP headers",
-    "dependents": 67
-  },
-  {
     "name": "david",
     "repo": "https://github.com/alanshaw/david",
     "description": "Node.js module that tells you when your project npm dependencies are out of date.",
@@ -156,12 +151,6 @@
     "repo": "https://github.com/feross/simple-get",
     "description": "Simplest way to make http get requests. Supports HTTPS, redirects, gzip/deflate, streams in < 100 lines.",
     "dependents": 33
-  },
-  {
-    "name": "eslint-config-semistandard",
-    "repo": "https://github.com/standard/eslint-config-semistandard",
-    "description": "eslint sharable config for semistandard",
-    "dependents": 31
   },
   {
     "name": "is-generator",
@@ -291,12 +280,6 @@
     "dependents": 14
   },
   {
-    "name": "humanize-duration",
-    "repo": "https://github.com/EvanHahn/HumanizeDuration.js",
-    "description": "Convert millisecond durations to English and many other languages.",
-    "dependents": 14
-  },
-  {
     "name": "multihashing",
     "repo": "https://github.com/multiformats/js-multihashing",
     "description": "multiple hash functions",
@@ -312,7 +295,8 @@
     "name": "electron-mocha",
     "repo": "https://github.com/jprichardson/electron-mocha",
     "description": "Mocha tests in Electron.",
-    "dependents": 14
+    "dependents": 14,
+    "disable": true
   },
   {
     "name": "curry2",
@@ -538,7 +522,8 @@
     "name": "aerospike",
     "repo": "https://github.com/aerospike/aerospike-client-nodejs",
     "description": "Aerospike Client Library",
-    "dependents": 7
+    "dependents": 7,
+    "disable": true
   },
   {
     "name": "simple-format",
@@ -786,7 +771,8 @@
     "name": "couchdb-push",
     "repo": "https://github.com/jo/couchdb-push",
     "description": "Deploy CouchDB documents from directory, JSON or module.",
-    "dependents": 4
+    "dependents": 4,
+    "disable": true
   },
   {
     "name": "aedes-packet",
@@ -834,13 +820,15 @@
     "name": "aedes-persistence",
     "repo": "https://github.com/mcollina/aedes-persistence",
     "description": "The spec for an Aedes persistence, with abstract tests and a fast in-memory implementation.",
-    "dependents": 4
+    "dependents": 4,
+    "disable": true
   },
   {
     "name": "browser-supports-log-styles",
     "repo": "https://github.com/gr2m/browser-supports-log-styles",
     "description": "returns true if browser supports console log styling",
-    "dependents": 4
+    "dependents": 4,
+    "disable": true
   },
   {
     "name": "assert-observ",
@@ -1391,7 +1379,8 @@
     "name": "pino",
     "repo": "https://github.com/pinojs/pino",
     "description": "super fast, all natural json logger",
-    "dependents": 670
+    "dependents": 670,
+    "disable": true
   },
   {
     "name": "ignore-styles",
@@ -1472,7 +1461,8 @@
     "name": "leveldown",
     "repo": "https://github.com/Level/leveldown",
     "description": "A low-level Node.js LevelDB binding",
-    "dependents": 534
+    "dependents": 534,
+    "disable": true
   },
   {
     "name": "memdown",
@@ -1531,13 +1521,15 @@
     "name": "assets-webpack-plugin",
     "repo": "https://github.com/ztoben/assets-webpack-plugin",
     "description": "Emits a json file with assets paths",
-    "dependents": 466
+    "dependents": 466,
+    "disable": true
   },
   {
     "name": "testdouble",
     "repo": "https://github.com/testdouble/testdouble.js",
     "description": "A minimal test double library for TDD with JavaScript",
-    "dependents": 466
+    "dependents": 466,
+    "disable": true
   },
   {
     "name": "randombytes",
