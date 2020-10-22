@@ -59,5 +59,19 @@
     "test": "standard && node -e \"require('./')\"",
     "test-full": "npm test && node test/full.js",
     "update": "node tools/update.js"
-  }
+  },
+  "funding": [
+    {
+      "type": "github",
+      "url": "https://github.com/sponsors/feross"
+    },
+    {
+      "type": "patreon",
+      "url": "https://www.patreon.com/feross"
+    },
+    {
+      "type": "consulting",
+      "url": "https://feross.org/support"
+    }
+  ]
 }
