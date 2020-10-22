@@ -21,6 +21,11 @@ const allFreqs = {}
 db.listAsStream({ include_docs: true })
   .pipe(json.parse('rows.*.doc'))
   .pipe(es.mapSync(function (data) {
+    // skip packages missing a "dist-tags" key
+    if (!data['dist-tags']) {
+      return
+    }
+
     // skip packages where the `latest` tag is not in `versions`
     if (!data.versions[data['dist-tags'].latest]) {
       return
