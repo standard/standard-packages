@@ -23,6 +23,7 @@ db.listAsStream({ include_docs: true })
   .pipe(es.mapSync(function (data) {
     // skip packages missing a "dist-tags" key
     if (!data['dist-tags']) {
+      console.log(`skipping ${data._id} ${data.name}`)
       return
     }
 
@@ -94,9 +95,9 @@ db.listAsStream({ include_docs: true })
     })
 
     // `standard` count should include `snazzy` and `eslint-config-standard` users
-    const standard = arr.filter(function (pkg) {
-      if (pkg.name === 'standard') return true
-    })[0]
+    const standard = arr.find(function (pkg) {
+      return pkg.name === 'standard'
+    })
     standard.dependents = arr.length
 
     arr = arr.sort(function (a, b) {
