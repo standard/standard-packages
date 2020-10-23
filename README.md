@@ -25,12 +25,37 @@ packages.forEach(pkg => {
 
 ## Contribute
 
-To update the data in `all.json`, install [CouchDB](https://couchdb.apache.org), create an `npm_registry` database, and run:
+To update the data in `all.json`, first install [CouchDB](https://couchdb.apache.org):
 
 ```bash
-/Applications/Apache\ CouchDB.app/Contents/MacOS/Apache\ CouchDB # start couchdb (if prompted, create admin user with password "admin")
+npm run install-deps
+```
+
+Add an admin password to the CouchDB config file:
+
+```bash
+vim /usr/local/etc/local.ini # add admin password to config file
+```
+
+For example, this sets the admin password to "admin":
+
+```ini
+[admins]
+  admin = admin
+```
+
+Then, start CouchDB, create an `npm_registry` database, and start the replication process:
+
+```bash
+couchdb
 curl -X PUT http://admin:admin@127.0.0.1:5984/npm_registry # create database
-npm run replicate && npm run update
+npm run replicate
+```
+
+Finally, update the package stats with:
+
+```bash
+npm run update
 ```
 
 :warning: `npm run replicate` will [replicate](https://docs.couchdb.org/en/stable/replication/intro.html) a 10 GB+ database
