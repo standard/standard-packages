@@ -18,7 +18,7 @@
     "nano": "^8.1.0",
     "pad-left": "^2.0.0",
     "run-series": "^1.1.4",
-    "simple-get": "^3.0.0",
+    "simple-get": "^4.0.0",
     "standard": "*"
   },
   "homepage": "https://standardjs.com",
