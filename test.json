@@ -1125,6 +1125,10 @@
     "repo": "https://github.com/feross/bitmidi.com"
   },
   {
+    "name": "speakeasyjs.com",
+    "repo": "https://github.com/feross/speakeasyjs.com"
+  },
+  {
     "name": "request",
     "repo": "https://github.com/request/request",
     "description": "Simplified HTTP request client.",
